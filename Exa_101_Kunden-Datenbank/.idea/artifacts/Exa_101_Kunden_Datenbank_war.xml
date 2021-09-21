@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Exa_101_Kunden-Datenbank:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Exa_101_Kunden-Datenbank</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="Exa_101_Kunden-Datenbank-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Exa_101_Kunden-Datenbank:war exploded" />
+    </root>
+  </artifact>
+</component>
