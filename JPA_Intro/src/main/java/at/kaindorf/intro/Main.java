@@ -1,6 +1,7 @@
 package at.kaindorf.intro;
 
 import at.kaindorf.intro.pojos.Address;
+import at.kaindorf.intro.pojos.SchoolClass;
 import at.kaindorf.intro.pojos.Student;
 
 import javax.persistence.EntityManager;
@@ -16,14 +17,21 @@ public class Main {
         EntityManager em = emf.createEntityManager();
         Student student = new Student("5DHIF",1L,"Nico", "Baumann", LocalDate.now());
         //Objekt kommt in den "Persistence context (noch nicht in der Datenbank)
-        em.persist(student);
+        //em.persist(student);
         Address address = new Address("Kaindorf", "Grazerstr", "220");
         student.setAddress(address);
+        address.setStudent(student);
 
         Student student2 = new Student("5DHIF",2L,"Adrian", "Berner", LocalDate.now().minusDays(1000));
-        em.persist(student2);
+        //em.persist(student2);
         Address address2 = new Address("Graz", "Herrengasse", "10");
         student2.setAddress(address2);
+        address2.setStudent(student2);
+
+        SchoolClass sc = new SchoolClass("5DHIF");
+        sc.addStudent(student);
+        sc.addStudent(student2);
+        em.persist(sc);
 
         //Mit transaction wird das Objekt in die Datenbank gespeichert.
         em.getTransaction().begin();

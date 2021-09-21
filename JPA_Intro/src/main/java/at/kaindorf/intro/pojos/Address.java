@@ -2,10 +2,7 @@ package at.kaindorf.intro.pojos;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Data
@@ -27,4 +24,9 @@ public class Address implements Serializable {
     @Column(length = 100, nullable = false)
     @NonNull
     private String number;
+
+    //Bei 1 zu 1 bei der Seite wo nicht der Eigentümer ist und one to many da wo nicht der FK ist
+    //Hier kommt der Name hin wie es in der Klasse heißt
+    @OneToOne(mappedBy = "address")
+    private Student student;
 }

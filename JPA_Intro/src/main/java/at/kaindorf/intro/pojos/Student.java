@@ -14,7 +14,7 @@ import java.util.UUID;
 @Entity(name = "student")
 @IdClass(StudentPK.class)
 //Entities sind nach dem Proxy Pattern aufgebaut
-//@Basic(fetch = FetchType.LAZY)
+//@Basic(fetch = FetchType.LAZY) Eager ladet alles, Lazy ladet nur das wenn es aufgerufen wird
 public class Student implements Serializable {
     //@Id --> Primary Key
  /* @Id
@@ -43,7 +43,12 @@ public class Student implements Serializable {
     //orphanRemoval --> Adresse wird gelöscht wenn kein Objekt die Adresse referenziert.
     //cascade = CascadeType.PERSIST --> Addresse Objekt wird mit dem Student Objekt mitgenommen
     @OneToOne(cascade = CascadeType.PERSIST, orphanRemoval = true)
+    @JoinColumn(name = "address")
     private Address address;
+
+    @ManyToOne
+    @JoinColumn(name = "schoolClass")
+    private SchoolClass schoolClass;
 
     public String getFullname() {
         return String.format("%s %s", lastname, firstname);
