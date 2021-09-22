@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
 
@@ -16,15 +17,13 @@ import java.io.Serializable;
 @Entity(name = "country")
 public class Country implements Serializable {
     @Id
-    @NonNull
+    @GeneratedValue
     @Column(name = "country_id")
     private Long countryId;
 
-    @Column(length = 50, nullable = false)
-    @NonNull
+    @Column(length = 50, name = "name")
     private String country_name;
 
-    @Column(length = 10, nullable = false)
-    @NonNull
+    @Column(length = 10, name = "code")
     private String country_code;
 }
