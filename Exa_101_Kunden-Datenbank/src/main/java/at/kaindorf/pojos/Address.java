@@ -1,17 +1,14 @@
 package at.kaindorf.pojos;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
-@RequiredArgsConstructor
+@AllArgsConstructor
 @NoArgsConstructor
 @Entity
 public class Address implements Serializable {
@@ -22,9 +19,18 @@ public class Address implements Serializable {
     private String street_name;
 
     @Column(nullable = false)
-    @NonNull
     private int street_number;
 
+    @Column(length = 50)
     private String postal_code;
+
+    @Column(length = 100)
     private String city;
+
+    @ManyToOne
+    @JoinColumn(name = "country")
+    private Country country;
+
+    @OneToMany(mappedBy = "address", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<Customer> customers = new ArrayList<>();
 }

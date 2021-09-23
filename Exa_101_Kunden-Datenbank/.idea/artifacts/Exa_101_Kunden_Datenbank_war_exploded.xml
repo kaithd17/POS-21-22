@@ -15,6 +15,13 @@
           <element id="module-output" name="Exa_101_Kunden-Datenbank" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.3" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.5" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.5" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-xjc:2.2.5" />
+          <element id="library" level="project" name="Maven: com.sun.activation:javax.activation:1.2.0" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.20" />
           <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.23.jre7" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:eclipselink:2.7.9" />
