@@ -10,6 +10,10 @@ import java.io.Serializable;
 @NoArgsConstructor
 @RequiredArgsConstructor
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Address.GetAll", query = "SELECT a FROM Address a WHERE a.street LIKE :street"),
+        @NamedQuery(name = "Address.GetByClassname", query = "SELECT a FROM Address a WHERE a.student.schoolClass.schoolClassname = :classname")
+})
 public class Address implements Serializable {
     @Id
     @Column(name = "addressId", nullable = false)
@@ -28,5 +32,6 @@ public class Address implements Serializable {
     //Bei 1 zu 1 bei der Seite wo nicht der Eigentümer ist und one to many da wo nicht der FK ist
     //Hier kommt der Name hin wie es in der Klasse heißt
     @OneToOne(mappedBy = "address")
+    @ToString.Exclude
     private Student student;
 }

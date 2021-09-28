@@ -10,7 +10,10 @@ import java.util.List;
 @Data
 @RequiredArgsConstructor
 @NoArgsConstructor
-@Entity(name = "school_class")
+@Entity
+@NamedQueries({
+        @NamedQuery(name = "SchoolClass.GetByStudentName", query = "SELECT s FROM SchoolClass s INNER JOIN s.students stu WHERE stu.lastname = :lastname")
+})
 public class SchoolClass implements Serializable {
     @Id
     @Column(length = 10, name = "school_classname")

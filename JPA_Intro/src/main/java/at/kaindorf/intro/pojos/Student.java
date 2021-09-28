@@ -11,10 +11,13 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @RequiredArgsConstructor
-@Entity(name = "student")
+@Entity
 @IdClass(StudentPK.class)
 //Entities sind nach dem Proxy Pattern aufgebaut
 //@Basic(fetch = FetchType.LAZY) Eager ladet alles, Lazy ladet nur das wenn es aufgerufen wird
+@NamedQueries({
+        @NamedQuery(name = "Student.CountByClassname", query = "SELECT COUNT(s) FROM Student s WHERE s.schoolClass.schoolClassname = '5DHIF'"),
+})
 public class Student implements Serializable {
     //@Id --> Primary Key
  /* @Id
@@ -48,6 +51,7 @@ public class Student implements Serializable {
 
     @ManyToOne
     @JoinColumn(name = "schoolClass")
+    @ToString.Exclude
     private SchoolClass schoolClass;
 
     public String getFullname() {

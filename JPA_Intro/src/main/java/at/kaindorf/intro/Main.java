@@ -4,10 +4,9 @@ import at.kaindorf.intro.pojos.Address;
 import at.kaindorf.intro.pojos.SchoolClass;
 import at.kaindorf.intro.pojos.Student;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.List;
 
 public class Main {
 
@@ -38,6 +37,26 @@ public class Main {
         em.getTransaction().commit();
         //em.detach(student); --> Hier wird das Objekt aus dem Persistence Context herausgenommen
         //em.remove(student); --> Hier wird das Objekt aus dem Persistence Context gelöscht
+
+        //JPQL-Queries:
+        TypedQuery<Student> typedQuery = em.createQuery("SELECT s FROM Student s", Student.class);
+        List<Student> students = typedQuery.getResultList();
+        students.stream().forEach(System.out::println);
+
+        TypedQuery<Address> typedQuery2 = em.createNamedQuery("Address.GetAll", Address.class);
+        typedQuery2.setParameter("street", "%str%");
+        List<Address> addresses = typedQuery2.getResultList();
+        addresses.stream().forEach(System.out::println);
+
+        //Mit joins
+        TypedQuery<Address> typedQuery3 = em.createNamedQuery("Address.GetByClassname", Address.class);
+        typedQuery3.setParameter("classname", "5DHIF");
+        List<Address> addresses2 = typedQuery3.getResultList();
+        addresses2.stream().forEach(System.out::println);
+
+        Query query = em.createNamedQuery("Student.CountByClassname");
+        Long number = (Long) query.getSingleResult();
+        System.out.println("Number of students " + number);
         em.close();
         emf.close();
     }
