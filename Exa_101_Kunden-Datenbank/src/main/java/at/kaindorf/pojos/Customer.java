@@ -1,5 +1,7 @@
 package at.kaindorf.pojos;
 
+import at.kaindorf.json.JSONDeserializer;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,6 +14,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@JsonDeserialize(using = JSONDeserializer.class)
 public class Customer implements Serializable {
     @Id
     private Long customer_id;
