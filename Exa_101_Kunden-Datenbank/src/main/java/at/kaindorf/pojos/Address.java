@@ -12,6 +12,9 @@ import java.util.List;
 @RequiredArgsConstructor
 @NoArgsConstructor
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Address.countAll", query = "SELECT COUNT(address) FROM Address address")
+})
 public class Address implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -34,7 +37,7 @@ public class Address implements Serializable {
     @NonNull
     private String city;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "country")
     @NonNull
     @ToString.Exclude
@@ -43,5 +46,6 @@ public class Address implements Serializable {
     @OneToMany(mappedBy = "address", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @NonNull
     @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private List<Customer> customers = new ArrayList<>();
 }

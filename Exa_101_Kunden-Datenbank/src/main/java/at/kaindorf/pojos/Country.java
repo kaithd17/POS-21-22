@@ -4,14 +4,18 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @Data
 @AllArgsConstructor
 @RequiredArgsConstructor
 @NoArgsConstructor
 @Entity(name = "country")
+@NamedQueries({
+        @NamedQuery(name = "Country.findByName", query = "SELECT c FROM country c WHERE UPPER(c.country_name) = UPPER(:name) "),
+        @NamedQuery(name= "Country.findAll", query = "SELECT c FROM country c"),
+        @NamedQuery(name = "Country.countAll", query = "SELECT COUNT(c) FROM country c")
+})
 public class Country implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -30,5 +34,6 @@ public class Country implements Serializable {
     @OneToMany(mappedBy = "country", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @NonNull
     @ToString.Exclude
-    private List<Address> addresses = new ArrayList<>();
+    @EqualsAndHashCode.Exclude
+    private Set<Address> addresses = new HashSet<>();
 }

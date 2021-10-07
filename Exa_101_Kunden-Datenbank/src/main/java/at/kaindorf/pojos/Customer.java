@@ -14,6 +14,11 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Entity
 @JsonDeserialize(using = JSONDeserializer.class)
+@NamedQueries({
+        @NamedQuery(name = "Customer.countAll", query = "SELECT COUNT(c) FROM Customer c"),
+        @NamedQuery(name = "Customer.findFromCountry", query = "SELECT c FROM Customer c WHERE c.address.country.country_code = (:code)"),
+        @NamedQuery(name = "Customer.findYears", query = "SELECT DISTINCT EXTRACT(YEAR from c.since) FROM Customer c")
+})
 public class Customer implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -43,7 +48,7 @@ public class Customer implements Serializable {
     @NonNull
     private LocalDate since;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "address")
     @NonNull
     @ToString.Exclude
