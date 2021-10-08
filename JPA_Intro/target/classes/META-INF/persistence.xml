@@ -8,6 +8,8 @@
         <class>at.kaindorf.intro.pojos.Student</class>
         <class>at.kaindorf.intro.pojos.Address</class>
         <class>at.kaindorf.intro.pojos.SchoolClass</class>
+        <class>at.kaindorf.intro.pojos.Team</class>
+        <class>at.kaindorf.intro.pojos.Player</class>
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/testdb"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
