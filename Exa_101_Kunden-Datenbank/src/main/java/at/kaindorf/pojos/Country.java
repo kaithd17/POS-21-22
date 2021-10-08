@@ -35,5 +35,5 @@ public class Country implements Serializable {
     @NonNull
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    private Set<Address> addresses = new HashSet<>();
+    private List<Address> addresses = new ArrayList<>();
 }

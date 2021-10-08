@@ -19,6 +19,7 @@ import java.time.LocalDate;
         @NamedQuery(name = "Customer.findFromCountry", query = "SELECT c FROM Customer c WHERE c.address.country.country_code = (:code)"),
         @NamedQuery(name = "Customer.findYears", query = "SELECT DISTINCT EXTRACT(YEAR from c.since) FROM Customer c")
 })
+@EqualsAndHashCode
 public class Customer implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

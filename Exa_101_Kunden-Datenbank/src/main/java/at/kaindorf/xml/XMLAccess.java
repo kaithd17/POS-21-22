@@ -9,14 +9,15 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class XMLAccess {
+    private static Set<Country> countrySet = new HashSet<>();
+    private static Set<Address> addressSet = new HashSet<>();
 
     public static Customer convertToCustomer(XMLCustomer xmlCustomer) {
-        Set<Country> countrySet = new HashSet<>();
-        Set<Address> addressSet = new HashSet<>();
 
         //Create real country object and add object to countrySet
         Country country = new Country(xmlCustomer.getCountry(), xmlCustomer.getCountry_code());
         countrySet.add(country);
+        Country realCountry = countrySet.stream().filter(country1 -> country1.equals(country)).findFirst().get();
 
         //Create real address object and add object to addressSet
         Address address = new Address(
@@ -24,11 +25,11 @@ public class XMLAccess {
                 xmlCustomer.getStreetnumber(),
                 xmlCustomer.getPostal_code(),
                 xmlCustomer.getCity(),
-                countrySet.stream().filter(country1 -> country1.equals(country)).findFirst().get());
+                realCountry);
         addressSet.add(address);
 
         //Add address to countryList
-        country.getAddresses().add(addressSet.stream().filter(address1 -> address1.equals(address)).findFirst().get());
+        realCountry.getAddresses().add(addressSet.stream().filter(address1 -> address1.equals(address)).findFirst().get());
 
         //Create Customer object
         Customer customer = new Customer(

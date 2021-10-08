@@ -5,6 +5,7 @@ import at.kaindorf.pojos.Country;
 import at.kaindorf.pojos.Customer;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
@@ -20,6 +21,8 @@ import java.util.TreeSet;
 public class JSONDeserializer extends StdDeserializer<Customer> {
 
     public static final DateTimeFormatter DTF = DateTimeFormatter.ofPattern("dd-MMM-yyyy", Locale.ENGLISH);
+    private Set<Country> countrySet = new HashSet<>();
+    private Set<Address> addressSet = new HashSet<>();
 
     public JSONDeserializer() {
         super(Customer.class);
@@ -28,8 +31,6 @@ public class JSONDeserializer extends StdDeserializer<Customer> {
     @Override
     public Customer deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
         JsonNode node = deserializationContext.readValue(jsonParser, JsonNode.class);
-        Set<Country> countrySet = new HashSet<>();
-        Set<Address> addressSet = new HashSet<>();
 
         Country country = new Country(
             node.get("country").asText(),
@@ -37,6 +38,7 @@ public class JSONDeserializer extends StdDeserializer<Customer> {
         );
         //Add country to countrySet
         countrySet.add(country);
+        Country realCountry = countrySet.stream().filter(country1 -> country1.equals(country)).findFirst().get();
 
         Address address = new Address(
                 node.get("streetname").asText(),
@@ -44,12 +46,12 @@ public class JSONDeserializer extends StdDeserializer<Customer> {
                 node.get("postal_code").asText(),
                 node.get("city").asText(),
                 //Find country object
-                countrySet.stream().filter(country1 -> country1.equals(country)).findFirst().get()
+                realCountry
         );
         //Add address to addressSet
         addressSet.add(address);
         //Add address to countryList
-        country.getAddresses().add(addressSet.stream().filter(address1 -> address1.equals(address)).findFirst().get());
+        realCountry.getAddresses().add(addressSet.stream().filter(address1 -> address1.equals(address)).findFirst().get());
 
         Customer customer = new Customer(
                 node.get("firstname").asText(),
