@@ -5,9 +5,7 @@ import at.kaindorf.xml.XMLAccess;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import javax.xml.bind.JAXB;
 import java.io.File;
 import java.io.IOException;
@@ -31,7 +29,7 @@ public class DataImport {
         emf.close();
     }
 
-    public static List<Customer> importJSON() {
+    public static void importJSON() {
         List<Customer> jsonCustomers = new ArrayList<>();
         try {
             jsonCustomers = new ObjectMapper().readValue(new File(JSON_PATH.toString()), new TypeReference<List<Customer>>() { });
@@ -44,10 +42,9 @@ public class DataImport {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return jsonCustomers;
     }
 
-    public static List<Customer> importXML() {
+    public static void importXML() {
         XMLCustomerList xmlCustomerList = JAXB.unmarshal(XML_PATH.toString(), XMLCustomerList.class);
         List<XMLCustomer> xmlCustomers = xmlCustomerList.getXmlCustomerList();
 
@@ -63,14 +60,9 @@ public class DataImport {
             em.persist(customer);
         });
         em.getTransaction().commit();
-        return customerList;
     }
 
-    public static void customerMenuList(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to the customer database: ");
-        System.out.println("[1] Import JSON");
-        System.out.println("[2] Import XML");
+    public static int customerMenuList(Scanner scanner){
         System.out.println("[1] Find Country By Name");
         System.out.println("[2] Find all countries");
         System.out.println("[3] Count all countries");
@@ -79,13 +71,69 @@ public class DataImport {
         System.out.println("[6] Count all customers");
         System.out.println("[7] Find customers from country");
         System.out.println("[8] Exit");
+        System.out.println("What do you want to do? ");
+        return Integer.parseInt(scanner.nextLine());
+    }
 
+    public static void importMenu(Scanner scanner){
+        boolean valid = false;
+        //Menu
+        System.out.println("Welcome to the customer database: ");
+        while(true){
+            try{
+                System.out.println("[1] Import JSON");
+                System.out.println("[2] Import XML");
+                System.out.print("Please import data: ");
+                int input = Integer.parseInt(scanner.nextLine());
+                switch (input){
+                    case 1:
+                        importJSON();
+                        valid = true;
+                        break;
+
+                    case 2:
+                        importXML();
+                        valid = true;
+                        break;
+
+                    default:
+                        System.out.println("invalid input");
+                }
+            }catch (NumberFormatException exception){
+                System.out.println("invalid input");
+            }
+
+            if (valid){
+                //Get amount of countries
+                Query countCountries = em.createNamedQuery("Country.countAll");
+                Long amountOfCountries = (Long) countCountries.getSingleResult();
+                System.out.println("Countries imported: " + amountOfCountries);
+
+                //Get amount of addresses
+                Query countAddresses = em.createNamedQuery("Address.countAll");
+                Long amountOfAddresses = (Long) countAddresses.getSingleResult();
+                System.out.println("Addresses imported: " + amountOfAddresses);
+
+                //Get amount of customers
+                Query countCustomers = em.createNamedQuery("Customer.countAll");
+                Long amountOfCustomers = (Long) countAddresses.getSingleResult();
+                System.out.println("Customers imported: " + amountOfCustomers);
+                return;
+            }
+
+        }
     }
 
     public static void main(String[] args) {
+        //open database connection
+        open();
+        //Scanner variable
+        Scanner scanner = new Scanner(System.in);
 
+        //Methods
+        importMenu(scanner);
 
-
-
+        //Close database connection
+        close();
     }
 }
