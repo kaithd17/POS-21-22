@@ -16,8 +16,8 @@ import java.time.LocalDate;
 @JsonDeserialize(using = JSONDeserializer.class)
 @NamedQueries({
         @NamedQuery(name = "Customer.countAll", query = "SELECT COUNT(c) FROM Customer c"),
-        @NamedQuery(name = "Customer.findFromCountry", query = "SELECT c FROM Customer c WHERE c.address.country.country_code = (:code)"),
-        @NamedQuery(name = "Customer.findYears", query = "SELECT DISTINCT EXTRACT(YEAR from c.since) FROM Customer c")
+        @NamedQuery(name = "Customer.findFromCountry", query = "SELECT c FROM Customer c WHERE c.address.country.country_code = (:name) OR c.address.country.country_name = (:name)"),
+        @NamedQuery(name = "Customer.findYears", query = "SELECT DISTINCT EXTRACT(YEAR FROM c.since) FROM Customer c ORDER BY EXTRACT(YEAR FROM c.since) ASC")
 })
 @EqualsAndHashCode
 public class Customer implements Serializable {
