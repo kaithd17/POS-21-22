@@ -33,8 +33,8 @@ public class JSONDeserializer extends StdDeserializer<Customer> {
         JsonNode node = deserializationContext.readValue(jsonParser, JsonNode.class);
 
         Country country = new Country(
-            node.get("country").asText(),
-            node.get("country_code").asText()
+                node.get("country").asText(),
+                node.get("country_code").asText()
         );
         //Add country to countrySet
         countrySet.add(country);
@@ -59,7 +59,7 @@ public class JSONDeserializer extends StdDeserializer<Customer> {
                 node.get("gender").asText().charAt(0),
                 node.get("active").asBoolean(),
                 node.get("email").asText(),
-                LocalDate.parse(node.get("since").asText(),DTF),
+                LocalDate.parse(node.get("since").asText(), DTF),
                 //Add address object
                 addressSet.stream().filter(address1 -> address1.equals(address)).findFirst().get()
         );
