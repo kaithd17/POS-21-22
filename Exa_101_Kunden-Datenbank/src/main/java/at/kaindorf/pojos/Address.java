@@ -48,4 +48,9 @@ public class Address implements Serializable {
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private List<Customer> customers = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return String.format("%s - %d; %s; %s", street_name, street_number, postal_code, city);
+    }
 }

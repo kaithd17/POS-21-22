@@ -19,12 +19,12 @@ public class DataImport {
     private static EntityManagerFactory emf;
     private static EntityManager em;
 
-    public static void open(){
+    public static void open() {
         emf = Persistence.createEntityManagerFactory("PU_Kunden_Datenbank");
         em = emf.createEntityManager();
     }
 
-    public static void close(){
+    public static void close() {
         em.close();
         emf.close();
     }
@@ -32,7 +32,8 @@ public class DataImport {
     public static void importJSON() {
         List<Customer> jsonCustomers = new ArrayList<>();
         try {
-            jsonCustomers = new ObjectMapper().readValue(new File(JSON_PATH.toString()), new TypeReference<List<Customer>>() { });
+            jsonCustomers = new ObjectMapper().readValue(new File(JSON_PATH.toString()), new TypeReference<List<Customer>>() {
+            });
             em.getTransaction().begin();
             //Get data and persist objects
             jsonCustomers.stream().forEach(customer -> {
@@ -62,9 +63,9 @@ public class DataImport {
         em.getTransaction().commit();
     }
 
-    public static void customerMenuList(Scanner scanner){
+    public static void customerMenuList(Scanner scanner) {
         int input = 0;
-        while(true){
+        while (true) {
             System.out.println("\n[1] Find Country By Name");
             System.out.println("[2] Find all countries");
             System.out.println("[3] Count all countries");
@@ -74,19 +75,19 @@ public class DataImport {
             System.out.println("[7] Find customers from country");
             System.out.println("[8] Exit");
             System.out.print("What do you want to do? ");
-            try{
+            try {
                 input = Integer.parseInt(scanner.nextLine());
-                switch (input){
+                switch (input) {
                     case 1:
                         System.out.print("Name of Country: ");
                         String countryName = scanner.nextLine();
                         TypedQuery<Country> typedQuery = em.createNamedQuery("Country.findByName", Country.class);
                         typedQuery.setParameter("name", countryName);
-                        try{
+                        try {
                             Country country = typedQuery.getSingleResult();
                             System.out.println("\nCountry:");
                             System.out.println(country);
-                        }catch (NoResultException ex){
+                        } catch (NoResultException ex) {
                             System.out.println("Could not find any Country!");
                         }
                         break;
@@ -94,7 +95,7 @@ public class DataImport {
                     case 2:
                         TypedQuery<Country> typedQuery2 = em.createNamedQuery("Country.findAll", Country.class);
                         List<Country> countries = typedQuery2.getResultList();
-                        System.out.println("\nCountries:");
+                        System.out.println("\nCountries (country_code - country_name):");
                         countries.forEach(System.out::println);
                         break;
 
@@ -114,7 +115,7 @@ public class DataImport {
                         TypedQuery<Number> customerTypedQuery = em.createNamedQuery("Customer.findYears", Number.class);
                         List<Number> years = customerTypedQuery.getResultList();
                         System.out.println("\nYears:");
-                        years.forEach(System.out::println);
+                        years.stream().forEach(number -> System.out.println(number.intValue()));
                         break;
 
                     case 6:
@@ -128,11 +129,15 @@ public class DataImport {
                         String countryName2 = scanner.nextLine();
                         TypedQuery<Customer> customerTypedQuery1 = em.createNamedQuery("Customer.findFromCountry", Customer.class);
                         customerTypedQuery1.setParameter("name", countryName2);
-                        try{
+                        try {
                             List<Customer> customers = customerTypedQuery1.getResultList();
-                            System.out.println("\nCustomers:");
-                            customers.forEach(System.out::println);
-                        }catch (NoResultException ex){
+                            if(customers.size() == 0) {
+                                System.out.println("Could not find any Customers!");
+                            } else {
+                                System.out.println("\nCustomers (firstname, lastname, gender, active, email, customer since):");
+                                customers.forEach(System.out::println);
+                            }
+                        } catch (NoResultException ex) {
                             System.out.println("Could not find any Customers!");
                         }
                         break;
@@ -140,26 +145,26 @@ public class DataImport {
                     case 8:
                         return;
                     default:
-                        System.out.println("Invalid Input");
+                        System.out.println("Invalid Input!");
                 }
-            }catch (NumberFormatException ex){
-                System.out.println("Invalid Input");
+            } catch (NumberFormatException ex) {
+                System.out.println("Invalid Input!");
             }
         }
     }
 
-    public static void importMenu(Scanner scanner){
+    public static void importMenu(Scanner scanner) {
         boolean valid = false;
         int input;
         //Menu
         System.out.println("\nWelcome to the customer database: ");
-        while(true){
-            try{
+        while (true) {
+            try {
                 System.out.println("[1] Import JSON");
                 System.out.println("[2] Import XML");
                 System.out.print("Please import data: ");
                 input = Integer.parseInt(scanner.nextLine());
-                switch (input){
+                switch (input) {
                     case 1:
                         importJSON();
                         valid = true;
@@ -171,13 +176,13 @@ public class DataImport {
                         break;
 
                     default:
-                        System.out.println("invalid input\n");
+                        System.out.println("Invalid Input!\n");
                 }
-            }catch (NumberFormatException exception){
-                System.out.println("invalid input\n");
+            } catch (NumberFormatException exception) {
+                System.out.println("Invalid Input!\n");
             }
 
-            if (valid){
+            if (valid) {
                 //Get amount of countries
                 Query countCountries = em.createNamedQuery("Country.countAll");
                 Long amountOfCountries = (Long) countCountries.getSingleResult();
@@ -201,6 +206,7 @@ public class DataImport {
     public static void main(String[] args) {
         //open database connection
         open();
+
         //Scanner variable
         Scanner scanner = new Scanner(System.in);
 

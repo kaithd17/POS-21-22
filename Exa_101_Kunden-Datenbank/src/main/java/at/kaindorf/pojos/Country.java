@@ -13,7 +13,7 @@ import java.util.*;
 @Entity(name = "country")
 @NamedQueries({
         @NamedQuery(name = "Country.findByName", query = "SELECT c FROM country c WHERE UPPER(c.country_name) = UPPER(:name) "),
-        @NamedQuery(name= "Country.findAll", query = "SELECT c FROM country c"),
+        @NamedQuery(name = "Country.findAll", query = "SELECT c FROM country c ORDER BY c.country_name asc "),
         @NamedQuery(name = "Country.countAll", query = "SELECT COUNT(c) FROM country c")
 })
 public class Country implements Serializable {
@@ -36,4 +36,9 @@ public class Country implements Serializable {
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private List<Address> addresses = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return String.format("%s - %s", country_code, country_name);
+    }
 }
