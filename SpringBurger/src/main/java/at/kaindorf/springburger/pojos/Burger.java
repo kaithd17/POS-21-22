@@ -12,5 +12,5 @@ import java.util.List;
 @NoArgsConstructor
 public class Burger {
     private String name;
-    private List<Ingredient> ingredientList = new ArrayList<>();
+    private List<String> ingredientList = new ArrayList<>();
 }
