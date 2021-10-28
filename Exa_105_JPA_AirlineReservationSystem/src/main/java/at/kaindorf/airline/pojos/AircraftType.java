@@ -1,13 +1,10 @@
 package at.kaindorf.airline.pojos;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -15,10 +12,17 @@ import java.io.Serializable;
 @Entity
 public class AircraftType implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "aircraft_type_id")
     private Long aircraftTypeId;
 
     @Column(name = "type_name", length = 50)
     private String typeName;
+
+    @Column(name = "seats")
     private int seats;
+
+    @OneToMany
+    @ToString.Exclude
+    private List<Aircraft> aircraftList;
 }

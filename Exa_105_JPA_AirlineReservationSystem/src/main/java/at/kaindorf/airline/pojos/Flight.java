@@ -4,11 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.sql.Time;
+import java.time.LocalTime;
 
 @Data
 @AllArgsConstructor
@@ -16,31 +14,28 @@ import java.sql.Time;
 @Entity
 public class Flight {
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long flightId;
 
-    @ManyToOne
-    @Column(name = "aircraft_id")
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "aircraft_id")
     private Aircraft aircraft;
 
-    @ManyToOne
-    @Column(name = "airline_id")
-    private Airline airlineId;
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Airline airline;
 
-    @ManyToOne
-    @Column(name = "airline_name")
-    private Airline airlineName;
 
-    @ManyToOne
-    @Column(name = "departure_airport")
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "departure_airport")
     private Airport departureAirport;
 
     @Column(name = "departure_time")
-    private Time departureTime;
+    private LocalTime departureTime;
 
-    @ManyToOne
-    @Column(name = "arrival_airport")
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "arrival_airport")
     private Airport arrivalAirport;
 
     @Column(name = "arrival_time")
-    private Time arrivalTime;
+    private LocalTime arrivalTime;
 }

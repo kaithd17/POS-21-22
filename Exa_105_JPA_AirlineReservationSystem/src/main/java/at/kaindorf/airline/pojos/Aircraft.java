@@ -15,6 +15,7 @@ import java.util.List;
 @Entity
 public class Aircraft implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "aircraft_id")
     private Long aircraftId;
 
@@ -27,7 +28,16 @@ public class Aircraft implements Serializable {
     @ToString.Exclude
     private AircraftType aircraftType;
 
-    @ManyToMany(mappedBy = "airportId")
+    @ManyToMany
+    @JoinTable(
+            name="aircraft_airport",
+            joinColumns ={@JoinColumn(name="aircraft_id")},
+            inverseJoinColumns ={@JoinColumn(name="airport_id")}
+    )
     @ToString.Exclude
     private List<Airport> airports;
+
+    @OneToMany(mappedBy = "aircraft", orphanRemoval = true)
+    @ToString.Exclude
+    private List<Flight> flightList;
 }

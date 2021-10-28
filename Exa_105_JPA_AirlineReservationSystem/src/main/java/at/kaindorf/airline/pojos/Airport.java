@@ -5,10 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
@@ -18,6 +15,7 @@ import java.util.List;
 @Entity
 public class Airport implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "airport_id")
     private Long airportId;
 
@@ -30,7 +28,15 @@ public class Airport implements Serializable {
     @Column(length = 60)
     private String name;
 
-    @ManyToMany(mappedBy = "aircraftId")
+    @ManyToMany(mappedBy = "airports")
     @ToString.Exclude
     private List<Aircraft> aircraftList;
+
+    @OneToMany
+    @ToString.Exclude
+    private List<Flight> arrivalFlights;
+
+    @OneToMany
+    @ToString.Exclude
+    private List<Flight> departureFlights;
 }
