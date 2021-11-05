@@ -5,17 +5,19 @@ import at.kaindorf.springburger.pojos.Ingredient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.validation.Errors;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.*;
 import java.util.stream.Collectors;
 
+//@Controller man benötigt eine Datei, welche zurückgeschickt wird
+//@RestController schickt json oder xml Daten zurück
 @Controller
 @Slf4j //Logged direkt auf die Spring-Konsole
 @RequestMapping("design")
+@SessionAttributes("designBurger")
 public class SpringBurgerController {
 
     private List<Ingredient> ingredients = Arrays.asList(
@@ -29,6 +31,7 @@ public class SpringBurgerController {
             new Ingredient("GOUD", "Gouda", Ingredient.Type.CHEESE)
     );
 
+    //Die Methode wird vor den get und postMapping Methoden aufgerufen
     @ModelAttribute
     public void addAttributes(Model model){
         //Model ist der Transporter zwischen Controller und Thymeleaf
@@ -46,9 +49,13 @@ public class SpringBurgerController {
     }
 
     @PostMapping
-    public String processBurger(@ModelAttribute("designBurger") Burger burger){
+    public String processBurger(@Valid @ModelAttribute("designBurger") Burger burger, Errors errors){
         log.info("Processing burger: " + burger.toString());
-        return "designForm";
+        if (errors.hasErrors()){
+            log.info(errors.getObjectName() + " " + errors.getAllErrors());
+            return "designForm";
+        }
+        return "redirect:/orders/current";
     }
 
     @GetMapping

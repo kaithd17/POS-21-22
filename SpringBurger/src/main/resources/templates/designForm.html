@@ -8,6 +8,7 @@
 
 <h1>Design your Spring Burger</h1>
 <form method="post" th:object="${designBurger}">
+    <span th:if="${#fields.hasErrors('ingredients')}" th:errors="*{ingredients}">Ingredient Error</span>
     <div th:each="key : ${ingredients.keySet()}">
         <h3>Choose your <span th:text="${key}">TYPE</span></h3>
         <div th:each="ing : ${ingredients.get(key)}">
@@ -16,6 +17,9 @@
         </div>
         <br/>
     </div>
+    <span>Give your burger a name:</span><br/>
+    <input type="text" th:field="*{name}"/>
+    <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name error</span>
     <button type="submit">Submit your burger</button>
 </form>
 
