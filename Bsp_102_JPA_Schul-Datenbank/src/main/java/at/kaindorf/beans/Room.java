@@ -12,7 +12,7 @@ import javax.persistence.*;
 @NamedQueries({
         @NamedQuery(name = "Room.findByName", query = "SELECT r FROM Room r WHERE r.name = (:name)"),
         @NamedQuery(name = "Room.findAll", query = "SELECT r FROM Room r"),
-        @NamedQuery(name = "Room.findByFloor", query = "SELECT r FROM Room r WHERE Room.floor = (:floor) "),
+        @NamedQuery(name = "Room.findByFloor", query = "SELECT r FROM Room r WHERE r.floor = (:floor) "),
         @NamedQuery(name = "Room.countAll", query = "SELECT COUNT(r) FROM Room r")
 })
 public class Room {
