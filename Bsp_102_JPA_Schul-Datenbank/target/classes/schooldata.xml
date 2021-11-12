@@ -179,4 +179,13 @@
         <Schüler>32</Schüler>
         <Raum>2.3.9</Raum>
     </Lehrer>
+    <Lehrer>
+        <Kürzel>TK</Kürzel>
+        <Titel>DI Dr</Titel>
+        <Familienname>Kainz</Familienname>
+        <Vorname>Thomas</Vorname>
+        <Klasse>3DHIF</Klasse>
+        <Schüler>32</Schüler>
+        <Raum>2.3.9</Raum>
+    </Lehrer>
 </Schule>

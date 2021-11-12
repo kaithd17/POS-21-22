@@ -13,6 +13,9 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Airport.getAllFlightsOfAirport", query = "SELECT a FROM Aircraft a JOIN a.flightList f WHERE f.arrivalAirport.name = (:airport)"),
+})
 public class Airport implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -32,11 +35,11 @@ public class Airport implements Serializable {
     @ToString.Exclude
     private List<Aircraft> aircraftList;
 
-    @OneToMany
+    @OneToMany(mappedBy = "arrivalAirport")
     @ToString.Exclude
     private List<Flight> arrivalFlights;
 
-    @OneToMany
+    @OneToMany(mappedBy = "departureAirport")
     @ToString.Exclude
     private List<Flight> departureFlights;
 }

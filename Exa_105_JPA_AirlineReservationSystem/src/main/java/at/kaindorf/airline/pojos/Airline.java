@@ -14,6 +14,9 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @IdClass(AirlinePK.class)
+@NamedQueries({
+        @NamedQuery(name = "Airline.getAllAircraftOfAirline", query = "SELECT a FROM Airline a JOIN a.aircraftList al WHERE al.airline.airlineName = (:airlineName)")
+})
 public class Airline implements Serializable {
     @Id
     @Column(name = "airline_id")
