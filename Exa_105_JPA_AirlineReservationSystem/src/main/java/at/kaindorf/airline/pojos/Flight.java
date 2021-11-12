@@ -24,7 +24,6 @@ public class Flight {
     @ManyToOne(cascade = CascadeType.ALL)
     private Airline airline;
 
-
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "departure_airport")
     private Airport departureAirport;

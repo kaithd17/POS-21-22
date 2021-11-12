@@ -8,5 +8,7 @@ public class Main {
     public static void main(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("PU_Airline_Database");
         EntityManager em = emf.createEntityManager();
+        em.getTransaction().begin();
+        em.getTransaction().commit();
     }
 }
