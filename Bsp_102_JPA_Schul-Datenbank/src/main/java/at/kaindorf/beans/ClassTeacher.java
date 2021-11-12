@@ -10,9 +10,9 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 @Entity
 @NamedQueries({
-        @NamedQuery(name = "ClassTeacher.findByName", query = "SELECT ct FROM ClassTeacher ct WHERE ClassTeacher.lastname = (:lastname) "),
-        @NamedQuery(name = "ClassTeacher.findByClassname", query = "SELECT ct FROM ClassTeacher ct WHERE ClassTeacher.classname.name = (:classname) "),
-        @NamedQuery(name = "ClassTeacher.findByGrade", query = "SELECT ct FROM ClassTeacher ct WHERE ClassTeacher.classname.grade = (:grade) "),
+        @NamedQuery(name = "ClassTeacher.findByName", query = "SELECT ct FROM ClassTeacher ct WHERE ct.lastname = (:lastname) "),
+        @NamedQuery(name = "ClassTeacher.findByClassname", query = "SELECT ct FROM ClassTeacher ct WHERE ct.classname.name = (:classname) "),
+        @NamedQuery(name = "ClassTeacher.findByGrade", query = "SELECT ct FROM ClassTeacher ct WHERE ct.classname.grade = (:grade) "),
         @NamedQuery(name = "ClassTeacher.countAll", query = "SELECT COUNT(ct) FROM ClassTeacher ct")
 })
 public class ClassTeacher {

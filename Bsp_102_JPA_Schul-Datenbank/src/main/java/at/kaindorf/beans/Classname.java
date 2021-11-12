@@ -15,12 +15,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 @NamedQueries({
     @NamedQuery(name = "Classname.findByName", query = "SELECT c FROM Classname c WHERE c.name = (:name)"),
     @NamedQuery(name = "Classname.findAll", query = "SELECT c FROM Classname c"),
-    @NamedQuery(name = "Classname.findByFloor", query = "SELECT c FROM Classname c WHERE Classname.room.floor = (:floor)"),
+    @NamedQuery(name = "Classname.findByFloor", query = "SELECT c FROM Classname c WHERE c.room.floor = (:floor)"),
     @NamedQuery(name = "Classname.countAll", query = "SELECT COUNT(c) FROM Classname c")
 })
 public class Classname {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @Column(name = "class_id")
     private int classId;
     @NonNull
     private String name;
