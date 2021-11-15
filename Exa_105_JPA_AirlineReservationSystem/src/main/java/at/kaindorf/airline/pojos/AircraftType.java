@@ -9,6 +9,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@RequiredArgsConstructor
 @Entity
 public class AircraftType implements Serializable {
     @Id
@@ -17,12 +18,10 @@ public class AircraftType implements Serializable {
     private Long aircraftTypeId;
 
     @Column(name = "type_name", length = 50)
+    @NonNull
     private String typeName;
 
     @Column(name = "seats")
+    @NonNull
     private int seats;
-
-    @OneToMany
-    @ToString.Exclude
-    private List<Aircraft> aircraftList;
 }

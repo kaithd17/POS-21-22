@@ -12,6 +12,9 @@ import java.time.LocalTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+/*@NamedQueries({
+        @NamedQuery(name = "Flight.getArrivalAirportByArrivalTime", query = "SELECT fa.name FROM Flight f JOIN f.arrivalAirport fa WHERE f.arrivalTime = (:arrivalTime)")
+})*/
 public class Flight {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

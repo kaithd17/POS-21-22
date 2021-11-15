@@ -1,17 +1,16 @@
 package at.kaindorf.airline.pojos;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@RequiredArgsConstructor
 @Entity
 public class Aircraft implements Serializable {
     @Id
@@ -19,13 +18,15 @@ public class Aircraft implements Serializable {
     @Column(name = "aircraft_id")
     private Long aircraftId;
 
-    @ManyToOne(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
+    @ManyToOne
     @ToString.Exclude
+    @NonNull
     private Airline airline;
 
-    @ManyToOne(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
+    @ManyToOne
     @JoinColumn(name = "aircraft_type_id")
     @ToString.Exclude
+    @NonNull
     private AircraftType aircraftType;
 
     @ManyToMany
@@ -35,9 +36,9 @@ public class Aircraft implements Serializable {
             inverseJoinColumns ={@JoinColumn(name="airport_id")}
     )
     @ToString.Exclude
-    private List<Airport> airports;
+    private List<Airport> airports = new ArrayList<>();
 
     @OneToMany(mappedBy = "aircraft", orphanRemoval = true)
     @ToString.Exclude
-    private List<Flight> flightList;
+    private List<Flight> flightList = new ArrayList<>();
 }
