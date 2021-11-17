@@ -45,21 +45,20 @@ public class DataImport {
         return aircraftTypeList;
     }
 
-    public static Set<Airline> getAirlines(Path path) {
-        Set<Airline> airlineSet = new HashSet<>();
+    public static List<Airline> getAirlines(Path path) {
+        List<Airline> airlineList = new ArrayList<>();
         Set<String> dataSet = readFile(path, 0);
 
         dataSet.forEach(s -> {
             String[] stringArray = s.split(",");
-            airlineSet.add(new Airline(Long.parseLong(stringArray[0]), stringArray[1]));
+            airlineList.add(new Airline(Long.parseLong(stringArray[0]), stringArray[1]));
         });
 
-        return airlineSet;
+        return airlineList;
     }
 
-    public static Set<Airport> getAirports(Path path) {
+    public static List<Airport> getAirports(Path path) {
         Set<String> dataSet = readFile(path, 1);
-        Set<Airport> airportSet = new HashSet<>();
         List<Airport> airportList = new ArrayList<>();
 
         dataSet.forEach(s -> {
@@ -70,34 +69,30 @@ public class DataImport {
         airportList.forEach(airport -> {
             if (airport.getCity().equals(""))
                 airport.setCity("unknown");
-            airportSet.add(airport);
         });
 
-        return airportSet;
+        return airportList;
     }
 
-    public static Set<Aircraft> createAircraftSet(Set<AircraftType> aircraftTypeSet, Set<Airline> airlineSet, Random random) {
-        Set<Aircraft> aircraftSet = new HashSet<>();
+    public static List<Aircraft> createAircraftSet(Set<AircraftType> aircraftTypeSet, List<Airline> airlineSet, Random random) {
+        List<Aircraft> aircraftList = new ArrayList<>();
         //convert set to list
         List<AircraftType> aircraftTypeList = aircraftTypeSet.stream().collect(Collectors.toList());
         airlineSet.forEach(airline -> {
             if (airline.getAirlineId() == (airlineSet.size() / 2))
                 return;
-            aircraftSet.add(new Aircraft(airline, aircraftTypeList.get(random.nextInt(aircraftTypeList.size()))));
+            aircraftList.add(new Aircraft(airline, aircraftTypeList.get(random.nextInt(aircraftTypeList.size()))));
         });
-        return aircraftSet;
+        return aircraftList;
     }
 
-    public static List<Flight> createFlights(Set<Aircraft> aircraftSet, Set<Airline> airlineSet, Set<Airport> airportSet, Random random) {
+    public static List<Flight> createFlights(List<Aircraft> aircraftList, List<Airline> airlineList, List<Airport> airportList, Random random) {
         List<Flight> flights = new ArrayList<>();
-        //Convert sets to lists
-        List<Aircraft> aircraftList = aircraftSet.stream().collect(Collectors.toList());
-        List<Airport> airportList = airportSet.stream().collect(Collectors.toList());
 
         //Create flights
         int counter = 0;
-        for (Airline airline : airlineSet) {
-            if (counter == 2500)
+        for (Airline airline : airlineList) {
+            if (counter == 2700)
                 break;
             LocalTime departureTime = LocalTime.now().minus(random.nextInt(12), ChronoUnit.HOURS).minus(random.nextInt(59), ChronoUnit.MINUTES);
             LocalTime arrivalTime = LocalTime.now().plus(random.nextInt(12), ChronoUnit.HOURS).plus(random.nextInt(59), ChronoUnit.MINUTES);
