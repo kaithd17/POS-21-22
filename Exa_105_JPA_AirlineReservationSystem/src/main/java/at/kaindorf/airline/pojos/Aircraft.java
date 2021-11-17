@@ -12,24 +12,27 @@ import java.util.List;
 @NoArgsConstructor
 @RequiredArgsConstructor
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Aircraft.getAllAircraftOfAirport", query = "SELECT a FROM Aircraft a JOIN a.airports ar WHERE ar.name = (:airport)"),
+        @NamedQuery(name = "Aircraft.getAllAircraftOfAirline", query = "SELECT a FROM Aircraft a WHERE a.airline.airlineName = (:airlineName)")
+})
 public class Aircraft implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "aircraft_id")
     private Long aircraftId;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @ToString.Exclude
     @NonNull
     private Airline airline;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "aircraft_type_id")
-    @ToString.Exclude
     @NonNull
     private AircraftType aircraftType;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
             name="aircraft_airport",
             joinColumns ={@JoinColumn(name="aircraft_id")},
@@ -38,7 +41,7 @@ public class Aircraft implements Serializable {
     @ToString.Exclude
     private List<Airport> airports = new ArrayList<>();
 
-    @OneToMany(mappedBy = "aircraft", orphanRemoval = true)
+    @OneToMany(mappedBy = "aircraft", orphanRemoval = true, cascade = CascadeType.ALL)
     @ToString.Exclude
     private List<Flight> flightList = new ArrayList<>();
 }

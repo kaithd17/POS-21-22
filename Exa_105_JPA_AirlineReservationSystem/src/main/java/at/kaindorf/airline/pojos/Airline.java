@@ -13,9 +13,9 @@ import java.util.List;
 @RequiredArgsConstructor
 @Entity
 @IdClass(AirlinePK.class)
-/*@NamedQueries({
-        @NamedQuery(name = "Airline.getAllAircraftOfAirline", query = "SELECT a FROM Airline a JOIN a.aircraftList al WHERE al.airline.airlineName = (:airlineName)")
-})*/
+@NamedQueries({
+        @NamedQuery(name = "Airline.getAirlineOfAircraftType", query = "SELECT a FROM Airline a JOIN a.aircraftList al WHERE al.aircraftType.typeName = (:name)")
+})
 public class Airline implements Serializable {
     @Id
     @Column(name = "airline_id")
@@ -23,15 +23,19 @@ public class Airline implements Serializable {
     private Long airlineId;
 
     @Id
-    @Column(name = "airline_name", length = 40)
+    @Column(name = "airline_name", length = 255)
     @NonNull
     private String airlineName;
 
     @OneToMany(mappedBy = "airline", orphanRemoval = true)
     @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private List<Flight> flights = new ArrayList<>();
 
     @OneToMany(mappedBy = "airline")
     @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private List<Aircraft> aircraftList = new ArrayList<>();
+
+
 }

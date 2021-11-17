@@ -12,9 +12,9 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @RequiredArgsConstructor
-/*@NamedQueries({
-        @NamedQuery(name = "Airport.getAllFlightsOfAirport", query = "SELECT a FROM Aircraft a JOIN a.flightList f WHERE f.arrivalAirport.name = (:airport)"),
-})*/
+@NamedQueries({
+        @NamedQuery(name = "Airport.getAllAirportsOfAirline", query = "SELECT a FROM Airport a JOIN a.aircraftList al WHERE al.airline.airlineName = (:airlineName)")
+})
 public class Airport implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -29,7 +29,7 @@ public class Airport implements Serializable {
     @NonNull
     private String city;
 
-    @Column(length = 60)
+    @Column(length = 100)
     @NonNull
     private String name;
 
