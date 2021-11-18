@@ -24,7 +24,7 @@ public class DBAccess {
         List<Airline> airlineList = DataImport.getAirlines(pathAirlines);
         List<Airport> airportList = DataImport.getAirports(pathAirports);
 
-        List<Aircraft> aircraftList = DataImport.createAircraftSet(aircraftTypeSet, airlineList, random);
+        List<Aircraft> aircraftList = DataImport.createAircraftList(aircraftTypeSet, airlineList, random);
 
         List<Flight> flights = DataImport.createFlights(aircraftList, airlineList, airportList, random);
         System.out.println(flights.size());

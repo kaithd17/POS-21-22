@@ -74,12 +74,13 @@ public class DataImport {
         return airportList;
     }
 
-    public static List<Aircraft> createAircraftSet(Set<AircraftType> aircraftTypeSet, List<Airline> airlineSet, Random random) {
+    public static List<Aircraft> createAircraftList(Set<AircraftType> aircraftTypeSet, List<Airline> airlineList, Random random) {
         List<Aircraft> aircraftList = new ArrayList<>();
         //convert set to list
         List<AircraftType> aircraftTypeList = aircraftTypeSet.stream().collect(Collectors.toList());
-        airlineSet.forEach(airline -> {
-            if (airline.getAirlineId() == (airlineSet.size() / 2))
+        airlineList.forEach(airline -> {
+            //To limit the objects
+            if (airline.getAirlineId() == (airlineList.size() / 2))
                 return;
             aircraftList.add(new Aircraft(airline, aircraftTypeList.get(random.nextInt(aircraftTypeList.size()))));
         });
@@ -105,7 +106,6 @@ public class DataImport {
                     arrivalTime));
             counter++;
         }
-
 
         bidirectional(flights, random, airportList);
         return flights;
