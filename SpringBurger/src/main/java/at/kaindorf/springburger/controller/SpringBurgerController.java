@@ -2,7 +2,10 @@ package at.kaindorf.springburger.controller;
 
 import at.kaindorf.springburger.pojos.Burger;
 import at.kaindorf.springburger.pojos.Ingredient;
+import at.kaindorf.springburger.repo.BurgerRepository;
+import at.kaindorf.springburger.repo.IngredientRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
@@ -20,27 +23,24 @@ import java.util.stream.Collectors;
 @SessionAttributes("designBurger")
 public class SpringBurgerController {
 
-    private List<Ingredient> ingredients = Arrays.asList(
-            new Ingredient("120B", "120g Ground Beef", Ingredient.Type.PATTY),
-            new Ingredient("160B", "160g Ground Beef", Ingredient.Type.PATTY),
-            new Ingredient("140B", "140g Turkey", Ingredient.Type.PATTY),
-            new Ingredient("TOMA", "Tomato", Ingredient.Type.VEGGIE),
-            new Ingredient("SALA", "Salad", Ingredient.Type.VEGGIE),
-            new Ingredient("ONIO", "Onions", Ingredient.Type.VEGGIE),
-            new Ingredient("CHED", "Cheddar", Ingredient.Type.CHEESE),
-            new Ingredient("GOUD", "Gouda", Ingredient.Type.CHEESE)
-    );
+    private List<Ingredient> ingredients;
+    @Autowired
+    private IngredientRepository ingredientRepository;
+    @Autowired
+    private BurgerRepository burgerRepository;
+
 
     //Die Methode wird vor den get und postMapping Methoden aufgerufen
     @ModelAttribute
     public void addAttributes(Model model){
+        ingredients = ingredientRepository.findAll();
         //Model ist der Transporter zwischen Controller und Thymeleaf
-        Map<String, List<Ingredient>> ingredients = new HashMap<>();
-        for(Ingredient.Type ingredient : Ingredient.Type.values()){
-            ingredients.put(ingredient.name().toLowerCase(Locale.ROOT), filterByType(ingredient));
+        Map<String, List<Ingredient>> ingredientsMap = new HashMap<>();
+        for(Ingredient.Type type : Ingredient.Type.values()){
+            ingredientsMap.put(type.name().toLowerCase(Locale.ROOT), filterByType(type));
         }
 
-        model.addAttribute("ingredients", ingredients);
+        model.addAttribute("ingredients", ingredientsMap);
         model.addAttribute("designBurger", new Burger());
     }
 
@@ -55,6 +55,7 @@ public class SpringBurgerController {
             log.info(errors.getObjectName() + " " + errors.getAllErrors());
             return "designForm";
         }
+        burgerRepository.save(burger);
         return "redirect:/orders/current";
     }
 
