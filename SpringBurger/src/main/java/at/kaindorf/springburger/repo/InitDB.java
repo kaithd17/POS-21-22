@@ -12,7 +12,7 @@ public class InitDB {
     @Autowired //automatisch instanziert
     private IngredientRepository ingredientRepository;
 
-    @PostConstruct //instant nach constructor aufgreufen
+    @PostConstruct //instant nach constructor aufgerufen
     public void initIngredients(){
         ingredientRepository.saveAll(Arrays.asList(
                 new Ingredient("120B", "120g Ground Beef", Ingredient.Type.PATTY),

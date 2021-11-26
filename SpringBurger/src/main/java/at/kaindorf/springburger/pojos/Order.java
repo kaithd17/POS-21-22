@@ -5,10 +5,7 @@ import lombok.Data;
 import lombok.Generated;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -31,4 +28,9 @@ public class Order implements Serializable {
 
     @OneToMany(mappedBy = "order")
     private List<Burger> burgerList = new ArrayList<>();
+
+    public void addBurger(Burger burger) {
+        burger.setOrder(this);
+        burgerList.add(burger);
+    }
 }

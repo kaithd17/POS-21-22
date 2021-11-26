@@ -11,4 +11,7 @@ public interface BurgerRepository extends JpaRepository<Burger, Long> {
 
     @Query("SELECT b FROM Burger b WHERE b.id = :name ORDER BY b.id")
     List<Burger> findNameOrderById(@Param("name") String name);
+
+    @Query("SELECT DISTINCT b FROM Burger b WHERE b.name = :name")
+    List<Burger> findDistinctByName(@Param("name") String name);
 }
