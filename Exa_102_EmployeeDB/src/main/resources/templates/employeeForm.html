@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+    <link rel="stylesheet" th:href="@{/css/form.css}">
+</head>
+<body>
+
+<form method="post" class="formContainer" th:action="@{/employee/createEmployee}" th:object="${newEmployee}">
+
+    <div class="formContent">
+        <div class="heading">
+            <h2>Create Employee</h2>
+        </div>
+        <div class="textFieldContainer">
+            <input type="text" placeholder="Firstname" th:field="*{firstname}"/>
+            <input type="text" placeholder="Lastname" th:field="*{lastname}"/>
+        </div>
+        <div class="textFieldContainer">
+            <select th:field="*{gender}">
+                <option th:value="M">M</option>
+                <option th:value="F">F</option>
+            </select>
+            <input type="date" placeholder="Birthdate" th:field="*{dateOfBirth}"/>
+        </div>
+        <div class="textFieldContainer">
+            <button type="submit">Create</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

@@ -18,8 +18,8 @@ public class GenderDeserializer extends StdDeserializer<Gender> {
     @Override
     public Gender deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JacksonException {
         if (jsonParser.readValueAs(String.class) == "F") {
-            return Gender.FEMALE;
+            return Gender.F;
         }
-        return Gender.MALE;
+        return Gender.M;
     }
 }

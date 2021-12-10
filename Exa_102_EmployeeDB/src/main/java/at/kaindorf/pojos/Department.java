@@ -19,14 +19,16 @@ public class Department {
     @Column(name = "dept_no", length = 4)
     private String deptNo;
     @JsonProperty("name")
+    @JoinColumn(name = "dept_name")
     private String deptName;
-    @OneToOne
-    @JoinColumn(name = "Dept_Manager")
+    @OneToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "emp_no")
     private Employee deptManager;
 
-    @OneToMany
+    @OneToMany(mappedBy = "department", cascade = CascadeType.PERSIST)
     private List<Employee> employees = new ArrayList<>();
 
+    //To add a new Employee
     public void addEmployee(Employee employee) {
         employee.setDepartment(this);
         employees.add(employee);
