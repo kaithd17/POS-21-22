@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>EmployeeDB</title>
     <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <script src="https://kit.fontawesome.com/8b1b2bee53.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -11,20 +12,25 @@
     <h2>EmployeeDB</h2>
 </div>
 
-<div class="menuContainer">
-    <div class="menu">
-        <form class="buttonContainer" method="post" th:action="@{/employee/getEmployees}" th:object="${selectedDepartment}">
-            <select class="buttonStyleLeft" th:field="*{deptName}">
-                <option th:each="department: ${departments}" th:text="${department}" th:value="${department}">DEPARTMENT</option>
-            </select>
-            <button class="buttonStyleRight">Submit</button>
-        </form>
-        <form class="buttonContainer" method="post" th:action="@{/employee/sortAddEmployee}">
-            <button class="buttonStyleLeft" name="buttonText" value="sort">Sort</button>
-            <button class="buttonStyleRight" name="buttonText" value="create">Create Employee</button>
-        </form>
+<form method="post" th:action="@{/employee/sortAddGetEmployees}" th:object="${selectedDepartment}">
+    <div class="menuContainer">
+        <div class="menu">
+            <div class="buttonContainer">
+                <select class="buttonStyleLeft" th:field="*{deptName}">
+                    <option th:each="department: ${departments}" th:text="${department}" th:value="${department}">
+                        DEPARTMENT
+                    </option>
+                </select>
+                <button class="buttonStyleRight" name="buttonText" value="submit">Submit</button>
+            </div>
+            <div class="buttonContainer">
+                <button class="buttonStyleLeft" name="buttonText" value="sort" th:text="${sortText}">Sort</button>
+                <button class="buttonStyleRight" name="buttonText" value="create">Create Employee</button>
+            </div>
+        </div>
     </div>
-</div>
+</form>
+
 
 <form method="post" th:action="@{/employee/removeEmployee}" th:object="${selectedEmployee}">
     <div class="menuContainer">
@@ -35,18 +41,17 @@
                 <span class="lastname">Lastname</span>
                 <span class="gender">Gender</span>
                 <span class="dateOfBirth">Birthdate</span>
-                <span class="remove">Remove?</span>
+                <span class="removeText">Remove?</span>
             </div>
             <div class="employeeList" th:each="employee: ${employees}">
-                <span class="empno" th:text="${employee.employeeNo}">EMP_NO</span>
-                <span class="firstname" th:text="${employee.firstname}">FIRSTNAME</span>
-                <span class="lastname" th:text="${employee.lastname}">LASTNAME</span>
-                <span class="gender" th:text="${employee.gender.name().charAt(0)}">GENDER</span>
-                <span class="dateOfBirth" th:text="${employee.dateOfBirth}">BIRTHDATE</span>
-                <input class="remove" type="checkbox" th:onclick="submit()" th:value="${employee.employeeNo}" th:field="*{employeeNo}"/>
+                <span th:class="${employee.employeeNo == managerEmpno ? 'empnoManager':'empno'}" th:text="${employee.employeeNo}">EMP_NO</span>
+                <span th:class="${employee.employeeNo == managerEmpno ? 'firstnameManager':'firstname'}" th:text="${employee.firstname}">FIRSTNAME</span>
+                <span th:class="${employee.employeeNo == managerEmpno ? 'lastnameManager':'lastname'}" th:text="${employee.lastname}">LASTNAME</span>
+                <span th:class="${employee.employeeNo == managerEmpno ? 'genderManager':'gender'}" th:text="${employee.gender.name().charAt(0)}">GENDER</span>
+                <span th:class="${employee.employeeNo == managerEmpno ? 'dateOfBirthManager':'dateOfBirth'}" th:text="${employee.dateOfBirth}">BIRTHDATE</span>
+                <input class="removeButton" type="checkbox" th:onclick="submit()" th:value="${employee.employeeNo}" th:field="*{employeeNo}"/>
             </div>
         </div>
-
     </div>
 </form>
 

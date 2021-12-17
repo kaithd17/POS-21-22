@@ -41,6 +41,7 @@ public class InitDB {
             });
             departmentRepository.saveAllAndFlush(departments);
 
+            //Saves employees with the right references
             departments.forEach(department -> {
                 employeeRepository.saveAndFlush(department.getDeptManager());
                 employeeRepository.saveAllAndFlush(department.getEmployees());

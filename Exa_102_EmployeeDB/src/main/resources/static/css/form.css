@@ -45,19 +45,50 @@ h2 {
 
 .textFieldContainer {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 1%;
 }
 
 input {
     width: 100%;
+    margin-top: 10%;
+    padding: 3.5%;
+    border: solid white;
+    border-radius: 10px;
+    border-bottom: black solid;
 }
 
 select {
-    width: 100%;
+    width: 111%;
+    margin-top: 10%;
+    padding: 3.5%;
+    border: solid white;
+    border-radius: 10px;
+    border-bottom: black solid;
 }
 
 button {
-    width: 100%;
+    width: 111%;
+    margin-top: 10%;
+    padding: 3.5%;
+    transition: 300ms;
+    background-color: black;
+    color: white;
+    border: solid 3.5px black;
+    border-radius: 10px;
+}
+
+select,
+button:hover {
+    transition: 300ms;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+select,
+input:focus {
+    outline: none !important;
 }

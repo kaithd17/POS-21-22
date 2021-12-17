@@ -31,6 +31,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 0.5%;
 }
 
 .menu {
@@ -73,7 +74,6 @@ button {
 }
 
 select,
-.remove,
 button:hover {
     transition: 300ms;
     background-color: white;
@@ -109,15 +109,13 @@ input {
 }
 
 .lastname {
-    width: 25%;
+    width: 22.5%;
     color: white;
-
 }
 
 .firstname {
-    width: 25%;
+    width: 22.5%;
     color: white;
-
 }
 
 .empno {
@@ -131,14 +129,43 @@ input {
 }
 
 .dateOfBirth {
-    width: 25%;
+    width: 20%;
     color: white;
 }
 
-.test {
+.lastnameManager {
+    width: 22.5%;
+    color: red;
+}
+
+.firstnameManager {
+    width: 22.5%;
+    color: red;
+}
+
+.empnoManager {
+    width: 10%;
+    color: red;
+}
+
+.genderManager {
+    width: 5%;
+    color: red;
+}
+
+.dateOfBirthManager {
+    width: 20%;
+    color: red;
+}
+
+.removeText {
     width: 10%;
     color: white;
     background-color: black;
     color: white;
-    border: solid 1.5px darkgray;
+}
+
+.removeButton {
+    width: 10%;
+    cursor: pointer;
 }

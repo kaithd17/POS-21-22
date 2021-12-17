@@ -28,9 +28,4 @@ public class Department {
     @OneToMany(mappedBy = "department", cascade = CascadeType.PERSIST)
     private List<Employee> employees = new ArrayList<>();
 
-    //To add a new Employee
-    public void addEmployee(Employee employee) {
-        employee.setDepartment(this);
-        employees.add(employee);
-    }
 }

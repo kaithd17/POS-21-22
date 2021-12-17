@@ -12,9 +12,9 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
     @Query("select e from Employee e where e.department.deptName = :name ORDER BY e.lastname, e.firstname")
     List<Employee> findEmployeesByDepartmentSorted(@Param("name") String name);
 
-    @Query("select e from Employee e where e.department.deptName = :name")
+    @Query("select e from Employee e where e.department.deptName = :name ORDER BY e.lastname DESC , e.firstname DESC ")
     List<Employee> findEmployeesByDepartment(@Param("name") String name);
 
-    @Query("SELECT MAX(e.employeeNo) FROM Employee e")
+    @Query("SELECT MAX(e.employeeNo) FROM Employee e WHERE e.department.deptManager.employeeNo <> e.employeeNo")
     int getLastEmpNo();
 }
