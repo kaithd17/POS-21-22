@@ -15,11 +15,11 @@
         </div>
         <div class="textFieldContainer">
             <input type="text" placeholder="Firstname" th:field="*{firstname}"/>
-            <span th:if="${#fields.hasErrors('firstname')}" th:errors="*{firstname}">firstname error</span>
+            <span class="error" th:errors="*{firstname}">firstname error</span>
             <input type="text" placeholder="Lastname" th:field="*{lastname}"/>
-            <span th:if="${#fields.hasErrors('lastname')}" th:errors="*{lastname}">lastname error</span>
+            <span class="error" th:errors="*{lastname}">lastname error</span>
             <input type="date" placeholder="Birthdate" th:field="*{dateOfBirth}"/>
-            <span th:if="${#fields.hasErrors('dateOfBirth')}" th:errors="*{dateOfBirth}">dateOfBirth error</span>
+            <span class="error" th:errors="*{dateOfBirth}">dateOfBirth error</span>
             <select th:field="*{gender}">
                 <option th:value="M">M</option>
                 <option th:value="F">F</option>

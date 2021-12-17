@@ -92,3 +92,7 @@ select,
 input:focus {
     outline: none !important;
 }
+
+.error {
+    color: red;
+}

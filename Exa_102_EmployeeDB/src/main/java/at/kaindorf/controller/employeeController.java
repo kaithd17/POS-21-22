@@ -113,11 +113,10 @@ public class employeeController {
     }
 
     @PostMapping("/createEmployee")
-    public String addEmployee(@Valid Employee newEmployee, Errors errors, @SessionAttribute Department selectedDepartment, Model model, @SessionAttribute Boolean sorted) {
+    public String addEmployee(@Valid @ModelAttribute("newEmployee") Employee newEmployee, Errors errors, @SessionAttribute Department selectedDepartment, Model model, @SessionAttribute Boolean sorted) {
         //TODO Spring-Validierungen
         if (errors.hasErrors()){
             log.info(errors.getObjectName() + " " + errors.getAllErrors());
-            System.out.println("lets go");
             return "employeeForm";
         }
         //To create a new empno
@@ -142,7 +141,7 @@ public class employeeController {
     }
 
     @GetMapping("/form")
-    public String showForm() {
+    public String showForm(Model model) {
         return "employeeForm";
     }
 

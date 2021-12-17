@@ -28,7 +28,6 @@ public class InitDB {
         try {
             List<Department> departments = mapper.readValue(path.toFile(), new TypeReference<List<Department>>() {
             });
-            System.out.println(departments.size());
             //Set departments
             departments.forEach(department -> {
                 employeeRepository.saveAndFlush(department.getDeptManager());
