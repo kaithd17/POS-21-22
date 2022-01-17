@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Selection</title>
+</head>
+<body>
+<h1>Customer selection</h1>
+<form method="post" th:action="@{/selection/getCustomers}" >
+    <label>Lastname:</label>
+    <input type="text" th:name="filterType" th:onchange="submit()"/>
+</form>
+
+</body>
+</html>

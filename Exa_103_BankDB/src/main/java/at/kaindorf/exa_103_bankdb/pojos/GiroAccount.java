@@ -21,5 +21,5 @@ public class GiroAccount extends Account{
     private Float debitInterest;
 
     @Column(name = "credit_interest")
-    private float creditInterest;
+    private Float creditInterest;
 }

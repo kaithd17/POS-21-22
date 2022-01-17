@@ -27,6 +27,7 @@ public class Customer {
     private LocalDate birthdate;
 
     @Column(name = "gender", length = 1)
+    @Enumerated(EnumType.STRING)
     private Gender gender;
 
     @Column(name = "customer_number")
