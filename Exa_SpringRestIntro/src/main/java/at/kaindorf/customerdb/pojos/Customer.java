@@ -15,7 +15,7 @@ import java.util.Locale;
 @NoArgsConstructor
 @Entity
 public class Customer implements Serializable {
-    public static final DateTimeFormatter DTF = DateTimeFormatter.ofPattern("dd-MMM-yyyy", Locale.ENGLISH);
+   // public static final DateTimeFormatter DTF = DateTimeFormatter.ofPattern("dd-MMM-yyyy", Locale.ENGLISH);
 
     @Id
     //@GeneratedValue(strategy = GenerationType.SEQUENCE)

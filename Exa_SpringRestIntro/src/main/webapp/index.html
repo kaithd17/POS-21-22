@@ -2,9 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CustomerDB</title>
+    <script src="customer.js"></script>
 </head>
 <body>
-
+<h2>Customer services</h2>
+<button onclick="getCustomer(customerId.value)">get</button>
+<button onclick="postCustomer()">post</button>
+<button onclick="putCustomer()">put</button>
+<button onclick="patchCustomer(customerId.value)">patch</button>
+<button onclick="deleteCustomer(customerId.value)">delete</button>
+<br/>
+<br/>
+<table>
+    <tr>
+        <td>customerId</td>
+        <td><input type="text" id="customerId" /></td>
+    </tr>
+    <tr>
+        <td>firstname</td>
+        <td><input type="text" id="firstname" /></td>
+    </tr>
+    <tr>
+        <td>lastname</td>
+        <td><input type="text" id="lastname" /></td>
+    </tr>
+    <tr>
+        <td>gender</td>
+        <td><input type="text" id="gender" /></td>
+    </tr>
+    <tr>
+        <td>active</td>
+        <td><input type="text" id="active" /></td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td><input type="text" id="email" /></td>
+    </tr>
+    <tr>
+        <td>since</td>
+        <td><input type="text" id="since" /></td>
+    </tr>
+</table>
+<br/>
+<br/>
+<div id="info"></div>
 </body>
 </html>

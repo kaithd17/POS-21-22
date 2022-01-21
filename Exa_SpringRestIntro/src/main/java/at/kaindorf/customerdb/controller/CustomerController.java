@@ -7,11 +7,14 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.ReflectionUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import java.lang.reflect.Field;
 import java.net.URI;
 import java.util.Optional;
 
@@ -35,8 +38,9 @@ public class CustomerController {
     }
 
     @GetMapping("/all")
-    public ResponseEntity<Iterable<Customer>> getAllCustomers(@RequestParam("page") int pageNo, @RequestParam("size") int pageSize) {
+    public ResponseEntity<Iterable<Customer>> getAllCustomers(@RequestParam(value = "page", defaultValue = "0") int pageNo, @RequestParam(value = "size", defaultValue = "5") int pageSize) {
         Pageable page = PageRequest.of(pageNo, pageSize, Sort.by("lastname").descending());
+        //Entweder bekommt man ein Optional oder ein NotFound
         return ResponseEntity.of(Optional.of(customerRepository.findAll(page)));
     }
 
@@ -52,5 +56,43 @@ public class CustomerController {
         } catch (Exception ex) {
             return ResponseEntity.badRequest().build();
         }
+    }
+
+    @PutMapping
+    public ResponseEntity<Customer> updateCustomer(@RequestBody Customer customer) {
+        if(customerRepository.existsById(customer.getCustomerId())) {
+            customerRepository.save(customer);
+            return ResponseEntity.ok().build();
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+    }
+
+    @PatchMapping("/{id}")
+    public ResponseEntity<Customer> patchCustomer(@PathVariable("id") Long id, @RequestBody Customer patchCustomer) {
+        if(customerRepository.existsById(id)) {
+            Customer customer = customerRepository.findById(id).get();
+            //Auf alle Felder der Class zugreifen
+            for (Field field : Customer.class.getDeclaredFields()) {
+                field.setAccessible(true);
+                Object value = ReflectionUtils.getField(field, patchCustomer);
+                System.out.println(value);
+                if (value != null) {
+                    ReflectionUtils.setField(field, customer, value);
+                }
+            }
+            System.out.println(customer);
+            customerRepository.save(customer);
+            return ResponseEntity.ok().build();
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Customer> deleteCustomer(@PathVariable("id") Long id) {
+        if(customerRepository.existsById(id)) {
+            customerRepository.deleteById(id);
+            return ResponseEntity.ok().build();
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
     }
 }
