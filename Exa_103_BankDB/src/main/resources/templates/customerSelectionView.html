@@ -6,9 +6,18 @@
 </head>
 <body>
 <h1>Customer selection</h1>
-<form method="post" th:action="@{/selection/getCustomers}" >
+<form method="post" th:action="@{/selection/getCustomers}">
     <label>Lastname:</label>
     <input type="text" th:name="filterType" th:onchange="submit()"/>
+    <br/>
+</form>
+<form method="post" th:action="@{/selection/showCustomerOverview}">
+    <table>
+        <tr th:each="customer: ${customerList}">
+            <td><input type="radio" th:onchange="submit()" th:name="customerId" th:value="${customer.customerId}"/></td>
+            <td><span th:text="${customer.lastname} + ', ' + ${customer.firstname}">CUSTOMER NAME</span></td>
+        </tr>
+    </table>
 </form>
 
 </body>

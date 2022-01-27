@@ -12,6 +12,9 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@NamedQueries({
+        @NamedQuery(name = "Customer.getCustomer", query = "SELECT c FROM Customer c WHERE c.customerId = :customerId")
+})
 public class Customer {
     @Id
     @Column(name = "customer_id")

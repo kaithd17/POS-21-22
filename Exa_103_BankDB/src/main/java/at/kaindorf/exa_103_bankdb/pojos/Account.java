@@ -14,7 +14,10 @@ import java.util.List;
 @Data
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "account_type", discriminatorType = DiscriminatorType.STRING)
-public class Account {
+@NamedQueries({
+        @NamedQuery(name = "Account.getBalance", query = "SELECT SUM(a.balance) FROM Account a JOIN a.customerList acl WHERE acl.customerId = :customerId")
+})
+public abstract class Account {
     @Id
     @Column(name = "account_id")
     private Long accountId;

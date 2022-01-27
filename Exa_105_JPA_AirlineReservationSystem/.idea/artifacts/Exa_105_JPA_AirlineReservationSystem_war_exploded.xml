@@ -6,7 +6,6 @@
         <exploded>true</exploded>
         <module>Exa_105_JPA_AirlineReservationSystem</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">

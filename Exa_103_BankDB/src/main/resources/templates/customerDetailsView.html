@@ -1,10 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Overview</title>
 </head>
 <body>
-
+<h1>Customer overview</h1>
+<table th:object="${customer}">
+    <tr>
+        <td>Customer:</td>
+        <td><span
+                th:text="${customer.getLastname() + ', ' + customer.getFirstname() + ' (' + customer.getGender() + ') ' + customer.getBirthdate()}">CUSTOMER</span>
+        </td>
+    </tr>
+    <tr>
+        <td>Address:</td>
+        <td><span
+                th:text="${customer.getAddress().getStreetname() + ' ' + customer.getAddress().getStreetNumber() + ', ' + customer.getAddress().getZipCode() + ' ' + customer.getAddress().getCity()}">CUSTOMER</span>
+        </td>
+    </tr>
+</table>
+<p>Giro Accounts: </p>
+<form method="post" th:action="@{/overview/changeSavingAccount}">
+    <table th:border="1">
+        <thead>
+        <td>number</td>
+        <td>balance</td>
+        <td>overdraft-limit</td>
+        <td>debit</td>
+        <td>credit</td>
+        <td>amount</td>
+        <td>update</td>
+        </thead>
+        <tr th:each="giro : ${giroAccounts}">
+            <td><span th:text="${giro.accountNumber}">ACCOUNTNUMBER</span></td>
+            <td><span th:text="${giro.getBalance}">BALANCE</span></td>
+            <td><span th:text="${giro.getOverdraft}">OVERDRAFT</span></td>
+            <td><span th:text="${giro.getDebitInterest + '%'}">DEBIT</span></td>
+            <td><span th:text="${giro.creditInterest + '%'}">CREDIT</span></td>
+            <td><input type="number" th:name="giroAmount"/></td>
+            <td>
+                <button th:name="buttonText" th:onclick="submit()" th:value="'+'">+</button>
+                <button th:name="buttonText" th:onclick="submit()" th:value="'-'">-</button>
+            </td>
+        </tr>
+    </table>
+<p>Saving-Accounts:</p>
+    <table th:border="1">
+        <thead>
+        <td>number</td>
+        <td>balance</td>
+        <td>interest</td>
+        <td>amount</td>
+        <td>update</td>
+        </thead>
+        <tr th:each="saving : ${savingsAccounts}">
+            <td><span th:text="${saving.accountNumber}">ACCOUNTNUMBER</span></td>
+            <td><span th:text="${saving.getBalance}">BALANCE</span></td>
+            <td><span th:text="${saving.getInterest + '%'}">INTEREST</span></td>
+            <td><input type="number" th:name="savingAmount"/></td>
+            <td>
+                <button th:name="buttonText" th:onclick="submit()" th:value="${saving.accountId}" >+</button>
+                <button th:name="buttonText" th:onclick="submit()" th:value="${-saving.accountId}" >-</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<p th:text="'Total balance of all accounts: € ' + ${totalBalance}">TEXT</p>
 </body>
 </html>

@@ -4,16 +4,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
+import javax.persistence.*;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@DiscriminatorValue("Giro")
-public class GiroAccount extends Account{
+@DiscriminatorValue("GIRO")
+@NamedQueries({
+        @NamedQuery(name = "GiroAccount.getGiroAccounts", query = "SELECT g FROM GiroAccount g JOIN g.customerList cl WHERE cl.customerId = :customerId")
+})
+public class GiroAccount extends Account {
     @Column(name = "overdraft")
     private Double overdraft;
 
