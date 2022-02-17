@@ -13,4 +13,7 @@ public interface ExamRepository extends JpaRepository<Exam, Long> {
 
     @Query("select e from Exam e where e.student = :student")
     List<Exam> findAllByStudent(@Param("student") Student student);
+
+    @Query("SELECT MAX(examId) FROM Exam")
+    Long getMaxExamId();
 }
