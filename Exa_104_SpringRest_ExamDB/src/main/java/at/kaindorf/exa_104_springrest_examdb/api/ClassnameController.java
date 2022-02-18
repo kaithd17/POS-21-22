@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/classname")
@@ -20,7 +22,7 @@ public class ClassnameController {
 
     @GetMapping
     public ResponseEntity<List<Classname>> getAllClassnames() {
-        List<Classname> classnames = classnameRepository.findAll();
+        List<Classname> classnames = classnameRepository.findAll().stream().sorted(Comparator.comparing(Classname::getClassname)).collect(Collectors.toList());
         return ResponseEntity.ok(classnames);
     }
 }

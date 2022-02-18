@@ -46,7 +46,7 @@ public class ExamController {
                 Long examId = examRepository.getMaxExamId() + 1;
                 Exam exam = new Exam(examId, examRequest.getDateOfExam(), examRequest.getDuration(), student, subject);
                 examRepository.save(exam);
-                return ResponseEntity.ok().build();
+                return ResponseEntity.ok(exam);
             }
             return ResponseEntity.badRequest().build();
         } catch (Exception ex) {
