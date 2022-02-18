@@ -12,15 +12,78 @@
 
         </select>
     </div>
-    <table id="studentTable">
-        <thead>
-            <th>ID</th>
-            <th>Firstname</th>
-            <th>Lastname</th>
-        </thead>
-        <thbody>
+    <div id="classSelector">
 
-        </thbody>
-    </table>
+    </div>
+
+    <div>
+        <table border="1" id="studentTable">
+            <thead>
+
+            </thead>
+            <thbody>
+
+            </thbody>
+        </table>
+    </div>
+
+    <div id="examContainer" hidden>
+        <h3 id="nameOfStudent"></h3>
+        <table border="1" id="examTable">
+            <thead>
+
+            </thead>
+            <thbody>
+
+            </thbody>
+        </table>
+    </div>
+
+
+    <div id="examForm" hidden>
+        <h3 id="studentName"></h3>
+        <table border="1" id="createTable">
+            <thbody>
+                <tr>
+                    <td>Date of Exam: </td>
+                    <td><input type="date" id="dateOfExam"/></td>
+                </tr>
+                <tr>
+                    <td>Duration: </td>
+                    <td><input type="number" min="10" max="50" id="duration"/></td>
+                </tr>
+                <tr>
+                    <td>Subject: </td>
+                    <td><select id="selectBoxSubject"></select></td>
+                </tr>
+                <tr>
+                    <td><button id="createExamButton">Create Exam</button></td>
+                </tr>
+            </thbody>
+        </table>
+    </div>
+
+    <div id="examChangeForm" hidden>
+        <h3 id="changeExamText"></h3>
+        <table border="1" id="changeTable">
+            <thbody>
+                <tr>
+                    <td>Date of Exam: </td>
+                    <td><input type="date" id="dateOfExam2"/></td>
+                </tr>
+                <tr>
+                    <td>Duration: </td>
+                    <td><input type="number" min="10" max="50" id="duration2"/></td>
+                </tr>
+                <tr>
+                    <td>Subject: </td>
+                    <td><select id="selectBoxSubject2"></select></td>
+                </tr>
+                <tr>
+                    <td><button id="changeButton">Change Exam</button></td>
+                </tr>
+            </thbody>
+        </table>
+    </div>
 </body>
 </html>

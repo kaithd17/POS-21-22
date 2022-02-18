@@ -26,9 +26,15 @@ public class StudentController {
 
     @GetMapping("/getStudents")
     public ResponseEntity<Page<Student>> getStudentsFromClass (@RequestParam(value = "page", defaultValue = "0") int pageNo, @RequestParam("classname") String classname) {
-        Pageable page = PageRequest.of(pageNo, 10, Sort.by("lastname").descending());
+        Pageable page = PageRequest.of(pageNo, 10, Sort.by("lastname").ascending());
         Page<Student> students = studentRepository.findStudentByClassName(classname, page);
         System.out.println(students.getContent());
         return ResponseEntity.of(Optional.of(students));
+    }
+
+    @GetMapping("/getStudent")
+    public ResponseEntity<Student> getStudent(@RequestParam("studentId") Long studentId) {
+        Student student = studentRepository.findById(studentId).get();
+        return ResponseEntity.ok(student);
     }
 }

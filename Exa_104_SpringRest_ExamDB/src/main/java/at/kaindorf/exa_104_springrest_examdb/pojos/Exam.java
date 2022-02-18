@@ -1,7 +1,6 @@
 package at.kaindorf.exa_104_springrest_examdb.pojos;
 
 import lombok.*;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -23,14 +22,12 @@ public class Exam {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "student", nullable = false)
-    @JsonIgnore
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private Student student;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "subject", nullable = false)
-    @JsonIgnore
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private Subject subject;

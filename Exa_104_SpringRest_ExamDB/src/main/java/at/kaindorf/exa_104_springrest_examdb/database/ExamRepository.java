@@ -16,4 +16,7 @@ public interface ExamRepository extends JpaRepository<Exam, Long> {
 
     @Query("SELECT MAX(examId) FROM Exam")
     Long getMaxExamId();
+
+    @Query("select e from Exam e where e.examId = :examId")
+    Exam findExamByExamId(@Param("examId") Long examId);
 }
