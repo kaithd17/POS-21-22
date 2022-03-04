@@ -1,0 +1,7001 @@
+[ {
+  "dateTime" : "2022-02-28T06:00:05",
+  "temperature" : -3.99,
+  "pressure" : 938.0,
+  "humidity" : 87.0,
+  "windSpeed" : 86,
+  "windDirection" : 55
+}, {
+  "dateTime" : "2022-02-28T06:00:06",
+  "temperature" : -3.99,
+  "pressure" : 1049.0,
+  "humidity" : 32.0,
+  "windSpeed" : 4,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:00:09",
+  "temperature" : -3.98,
+  "pressure" : 1037.0,
+  "humidity" : 65.0,
+  "windSpeed" : 85,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:00:13",
+  "temperature" : -3.97,
+  "pressure" : 1032.0,
+  "humidity" : 34.0,
+  "windSpeed" : 43,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:00:14",
+  "temperature" : -3.97,
+  "pressure" : 1010.0,
+  "humidity" : 59.0,
+  "windSpeed" : 22,
+  "windDirection" : 69
+}, {
+  "dateTime" : "2022-02-28T06:00:18",
+  "temperature" : -3.97,
+  "pressure" : 941.0,
+  "humidity" : 51.0,
+  "windSpeed" : 38,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:00:19",
+  "temperature" : -3.96,
+  "pressure" : 1016.0,
+  "humidity" : 83.0,
+  "windSpeed" : 70,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:00:21",
+  "temperature" : -3.95,
+  "pressure" : 1037.0,
+  "humidity" : 84.0,
+  "windSpeed" : 24,
+  "windDirection" : 18
+}, {
+  "dateTime" : "2022-02-28T06:00:26",
+  "temperature" : -3.94,
+  "pressure" : 950.0,
+  "humidity" : 48.0,
+  "windSpeed" : 18,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:00:27",
+  "temperature" : -3.94,
+  "pressure" : 1073.0,
+  "humidity" : 11.0,
+  "windSpeed" : 69,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:00:32",
+  "temperature" : -3.94,
+  "pressure" : 932.0,
+  "humidity" : 75.0,
+  "windSpeed" : 53,
+  "windDirection" : 73
+}, {
+  "dateTime" : "2022-02-28T06:00:34",
+  "temperature" : -3.93,
+  "pressure" : 987.0,
+  "humidity" : 54.0,
+  "windSpeed" : 23,
+  "windDirection" : 86
+}, {
+  "dateTime" : "2022-02-28T06:00:38",
+  "temperature" : -3.93,
+  "pressure" : 1084.0,
+  "humidity" : 23.0,
+  "windSpeed" : 97,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:00:40",
+  "temperature" : -3.92,
+  "pressure" : 1083.0,
+  "humidity" : 36.0,
+  "windSpeed" : 41,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:00:41",
+  "temperature" : -3.91,
+  "pressure" : 1062.0,
+  "humidity" : 14.0,
+  "windSpeed" : 66,
+  "windDirection" : 0
+}, {
+  "dateTime" : "2022-02-28T06:00:44",
+  "temperature" : -3.91,
+  "pressure" : 949.0,
+  "humidity" : 75.0,
+  "windSpeed" : 49,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:00:48",
+  "temperature" : -3.9,
+  "pressure" : 1078.0,
+  "humidity" : 17.0,
+  "windSpeed" : 68,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:00:50",
+  "temperature" : -3.9,
+  "pressure" : 995.0,
+  "humidity" : 48.0,
+  "windSpeed" : 6,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:00:55",
+  "temperature" : -3.9,
+  "pressure" : 1065.0,
+  "humidity" : 20.0,
+  "windSpeed" : 84,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:00:58",
+  "temperature" : -3.89,
+  "pressure" : 949.0,
+  "humidity" : 88.0,
+  "windSpeed" : 77,
+  "windDirection" : 16
+}, {
+  "dateTime" : "2022-02-28T06:01:02",
+  "temperature" : -3.89,
+  "pressure" : 960.0,
+  "humidity" : 89.0,
+  "windSpeed" : 27,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:01:05",
+  "temperature" : -3.88,
+  "pressure" : 1008.0,
+  "humidity" : 18.0,
+  "windSpeed" : 63,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:01:06",
+  "temperature" : -3.87,
+  "pressure" : 930.0,
+  "humidity" : 60.0,
+  "windSpeed" : 77,
+  "windDirection" : 44
+}, {
+  "dateTime" : "2022-02-28T06:01:11",
+  "temperature" : -3.87,
+  "pressure" : 1005.0,
+  "humidity" : 56.0,
+  "windSpeed" : 60,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:01:16",
+  "temperature" : -3.86,
+  "pressure" : 920.0,
+  "humidity" : 16.0,
+  "windSpeed" : 42,
+  "windDirection" : 85
+}, {
+  "dateTime" : "2022-02-28T06:01:19",
+  "temperature" : -3.86,
+  "pressure" : 929.0,
+  "humidity" : 70.0,
+  "windSpeed" : 89,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:01:21",
+  "temperature" : -3.86,
+  "pressure" : 965.0,
+  "humidity" : 30.0,
+  "windSpeed" : 39,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:01:23",
+  "temperature" : -3.85,
+  "pressure" : 1038.0,
+  "humidity" : 28.0,
+  "windSpeed" : 83,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:01:26",
+  "temperature" : -3.84,
+  "pressure" : 988.0,
+  "humidity" : 13.0,
+  "windSpeed" : 4,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:01:31",
+  "temperature" : -3.83,
+  "pressure" : 1050.0,
+  "humidity" : 33.0,
+  "windSpeed" : 77,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:01:32",
+  "temperature" : -3.83,
+  "pressure" : 998.0,
+  "humidity" : 83.0,
+  "windSpeed" : 87,
+  "windDirection" : 60
+}, {
+  "dateTime" : "2022-02-28T06:01:35",
+  "temperature" : -3.82,
+  "pressure" : 1049.0,
+  "humidity" : 51.0,
+  "windSpeed" : 76,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:01:39",
+  "temperature" : -3.82,
+  "pressure" : 917.0,
+  "humidity" : 21.0,
+  "windSpeed" : 75,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:01:40",
+  "temperature" : -3.81,
+  "pressure" : 1014.0,
+  "humidity" : 62.0,
+  "windSpeed" : 44,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:01:42",
+  "temperature" : -3.8,
+  "pressure" : 910.0,
+  "humidity" : 37.0,
+  "windSpeed" : 44,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:01:44",
+  "temperature" : -3.8,
+  "pressure" : 1054.0,
+  "humidity" : 14.0,
+  "windSpeed" : 99,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:01:47",
+  "temperature" : -3.8,
+  "pressure" : 963.0,
+  "humidity" : 28.0,
+  "windSpeed" : 9,
+  "windDirection" : 0
+}, {
+  "dateTime" : "2022-02-28T06:01:51",
+  "temperature" : -3.79,
+  "pressure" : 955.0,
+  "humidity" : 82.0,
+  "windSpeed" : 61,
+  "windDirection" : 24
+}, {
+  "dateTime" : "2022-02-28T06:01:54",
+  "temperature" : -3.78,
+  "pressure" : 952.0,
+  "humidity" : 15.0,
+  "windSpeed" : 92,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:01:59",
+  "temperature" : -3.77,
+  "pressure" : 903.0,
+  "humidity" : 53.0,
+  "windSpeed" : 62,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:02:01",
+  "temperature" : -3.77,
+  "pressure" : 1019.0,
+  "humidity" : 68.0,
+  "windSpeed" : 38,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:02:05",
+  "temperature" : -3.77,
+  "pressure" : 1009.0,
+  "humidity" : 83.0,
+  "windSpeed" : 58,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:02:08",
+  "temperature" : -3.76,
+  "pressure" : 1051.0,
+  "humidity" : 34.0,
+  "windSpeed" : 41,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:02:09",
+  "temperature" : -3.76,
+  "pressure" : 965.0,
+  "humidity" : 59.0,
+  "windSpeed" : 7,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:02:12",
+  "temperature" : -3.75,
+  "pressure" : 992.0,
+  "humidity" : 50.0,
+  "windSpeed" : 12,
+  "windDirection" : 89
+}, {
+  "dateTime" : "2022-02-28T06:02:15",
+  "temperature" : -3.75,
+  "pressure" : 1026.0,
+  "humidity" : 63.0,
+  "windSpeed" : 33,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:02:18",
+  "temperature" : -3.75,
+  "pressure" : 909.0,
+  "humidity" : 73.0,
+  "windSpeed" : 48,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:02:21",
+  "temperature" : -3.74,
+  "pressure" : 993.0,
+  "humidity" : 60.0,
+  "windSpeed" : 19,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:02:24",
+  "temperature" : -3.74,
+  "pressure" : 916.0,
+  "humidity" : 52.0,
+  "windSpeed" : 53,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:02:26",
+  "temperature" : -3.74,
+  "pressure" : 1030.0,
+  "humidity" : 71.0,
+  "windSpeed" : 36,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:02:31",
+  "temperature" : -3.73,
+  "pressure" : 1020.0,
+  "humidity" : 79.0,
+  "windSpeed" : 41,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:02:32",
+  "temperature" : -3.73,
+  "pressure" : 1085.0,
+  "humidity" : 23.0,
+  "windSpeed" : 46,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:02:35",
+  "temperature" : -3.72,
+  "pressure" : 1096.0,
+  "humidity" : 54.0,
+  "windSpeed" : 87,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:02:39",
+  "temperature" : -3.71,
+  "pressure" : 1079.0,
+  "humidity" : 58.0,
+  "windSpeed" : 87,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:02:40",
+  "temperature" : -3.71,
+  "pressure" : 1035.0,
+  "humidity" : 37.0,
+  "windSpeed" : 59,
+  "windDirection" : 44
+}, {
+  "dateTime" : "2022-02-28T06:02:43",
+  "temperature" : -3.71,
+  "pressure" : 906.0,
+  "humidity" : 74.0,
+  "windSpeed" : 32,
+  "windDirection" : 71
+}, {
+  "dateTime" : "2022-02-28T06:02:44",
+  "temperature" : -3.7,
+  "pressure" : 974.0,
+  "humidity" : 23.0,
+  "windSpeed" : 12,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:02:48",
+  "temperature" : -3.69,
+  "pressure" : 1029.0,
+  "humidity" : 81.0,
+  "windSpeed" : 84,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:02:50",
+  "temperature" : -3.68,
+  "pressure" : 937.0,
+  "humidity" : 86.0,
+  "windSpeed" : 60,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:02:52",
+  "temperature" : -3.68,
+  "pressure" : 1069.0,
+  "humidity" : 78.0,
+  "windSpeed" : 60,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:02:55",
+  "temperature" : -3.67,
+  "pressure" : 960.0,
+  "humidity" : 53.0,
+  "windSpeed" : 48,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:02:57",
+  "temperature" : -3.66,
+  "pressure" : 962.0,
+  "humidity" : 83.0,
+  "windSpeed" : 9,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:03:02",
+  "temperature" : -3.66,
+  "pressure" : 1040.0,
+  "humidity" : 45.0,
+  "windSpeed" : 94,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:03:05",
+  "temperature" : -3.66,
+  "pressure" : 1078.0,
+  "humidity" : 69.0,
+  "windSpeed" : 27,
+  "windDirection" : 18
+}, {
+  "dateTime" : "2022-02-28T06:03:06",
+  "temperature" : -3.66,
+  "pressure" : 922.0,
+  "humidity" : 65.0,
+  "windSpeed" : 5,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:03:07",
+  "temperature" : -3.65,
+  "pressure" : 1024.0,
+  "humidity" : 26.0,
+  "windSpeed" : 83,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:03:08",
+  "temperature" : -3.65,
+  "pressure" : 954.0,
+  "humidity" : 55.0,
+  "windSpeed" : 58,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:03:12",
+  "temperature" : -3.64,
+  "pressure" : 955.0,
+  "humidity" : 84.0,
+  "windSpeed" : 69,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:03:16",
+  "temperature" : -3.64,
+  "pressure" : 1046.0,
+  "humidity" : 14.0,
+  "windSpeed" : 85,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:03:18",
+  "temperature" : -3.63,
+  "pressure" : 1038.0,
+  "humidity" : 58.0,
+  "windSpeed" : 42,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:03:19",
+  "temperature" : -3.63,
+  "pressure" : 974.0,
+  "humidity" : 43.0,
+  "windSpeed" : 83,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:03:21",
+  "temperature" : -3.62,
+  "pressure" : 921.0,
+  "humidity" : 87.0,
+  "windSpeed" : 42,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:03:23",
+  "temperature" : -3.62,
+  "pressure" : 1058.0,
+  "humidity" : 71.0,
+  "windSpeed" : 81,
+  "windDirection" : 43
+}, {
+  "dateTime" : "2022-02-28T06:03:24",
+  "temperature" : -3.61,
+  "pressure" : 1012.0,
+  "humidity" : 44.0,
+  "windSpeed" : 54,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:03:26",
+  "temperature" : -3.61,
+  "pressure" : 993.0,
+  "humidity" : 50.0,
+  "windSpeed" : 83,
+  "windDirection" : 49
+}, {
+  "dateTime" : "2022-02-28T06:03:27",
+  "temperature" : -3.6,
+  "pressure" : 1091.0,
+  "humidity" : 35.0,
+  "windSpeed" : 50,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:03:28",
+  "temperature" : -3.59,
+  "pressure" : 1085.0,
+  "humidity" : 19.0,
+  "windSpeed" : 17,
+  "windDirection" : 16
+}, {
+  "dateTime" : "2022-02-28T06:03:30",
+  "temperature" : -3.58,
+  "pressure" : 1015.0,
+  "humidity" : 29.0,
+  "windSpeed" : 14,
+  "windDirection" : 16
+}, {
+  "dateTime" : "2022-02-28T06:03:31",
+  "temperature" : -3.58,
+  "pressure" : 1029.0,
+  "humidity" : 70.0,
+  "windSpeed" : 88,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:03:32",
+  "temperature" : -3.57,
+  "pressure" : 1089.0,
+  "humidity" : 87.0,
+  "windSpeed" : 56,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:03:34",
+  "temperature" : -3.57,
+  "pressure" : 948.0,
+  "humidity" : 21.0,
+  "windSpeed" : 5,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:03:37",
+  "temperature" : -3.57,
+  "pressure" : 1030.0,
+  "humidity" : 16.0,
+  "windSpeed" : 51,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:03:38",
+  "temperature" : -3.57,
+  "pressure" : 995.0,
+  "humidity" : 36.0,
+  "windSpeed" : 43,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:03:40",
+  "temperature" : -3.56,
+  "pressure" : 942.0,
+  "humidity" : 24.0,
+  "windSpeed" : 69,
+  "windDirection" : 83
+}, {
+  "dateTime" : "2022-02-28T06:03:45",
+  "temperature" : -3.56,
+  "pressure" : 1026.0,
+  "humidity" : 14.0,
+  "windSpeed" : 68,
+  "windDirection" : 0
+}, {
+  "dateTime" : "2022-02-28T06:03:47",
+  "temperature" : -3.55,
+  "pressure" : 911.0,
+  "humidity" : 25.0,
+  "windSpeed" : 77,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:03:48",
+  "temperature" : -3.55,
+  "pressure" : 1038.0,
+  "humidity" : 24.0,
+  "windSpeed" : 56,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:03:50",
+  "temperature" : -3.55,
+  "pressure" : 956.0,
+  "humidity" : 61.0,
+  "windSpeed" : 1,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:03:55",
+  "temperature" : -3.54,
+  "pressure" : 1023.0,
+  "humidity" : 65.0,
+  "windSpeed" : 75,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:03:58",
+  "temperature" : -3.53,
+  "pressure" : 1088.0,
+  "humidity" : 45.0,
+  "windSpeed" : 64,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:04:02",
+  "temperature" : -3.52,
+  "pressure" : 1072.0,
+  "humidity" : 87.0,
+  "windSpeed" : 27,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:04:03",
+  "temperature" : -3.51,
+  "pressure" : 939.0,
+  "humidity" : 23.0,
+  "windSpeed" : 88,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:04:04",
+  "temperature" : -3.51,
+  "pressure" : 1067.0,
+  "humidity" : 23.0,
+  "windSpeed" : 34,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:04:05",
+  "temperature" : -3.51,
+  "pressure" : 952.0,
+  "humidity" : 48.0,
+  "windSpeed" : 32,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:04:06",
+  "temperature" : -3.51,
+  "pressure" : 1019.0,
+  "humidity" : 53.0,
+  "windSpeed" : 11,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:04:07",
+  "temperature" : -3.51,
+  "pressure" : 983.0,
+  "humidity" : 27.0,
+  "windSpeed" : 1,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:04:10",
+  "temperature" : -3.5,
+  "pressure" : 1066.0,
+  "humidity" : 85.0,
+  "windSpeed" : 61,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:04:11",
+  "temperature" : -3.5,
+  "pressure" : 1016.0,
+  "humidity" : 36.0,
+  "windSpeed" : 20,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:04:16",
+  "temperature" : -3.5,
+  "pressure" : 908.0,
+  "humidity" : 89.0,
+  "windSpeed" : 93,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:04:17",
+  "temperature" : -3.5,
+  "pressure" : 921.0,
+  "humidity" : 24.0,
+  "windSpeed" : 81,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:04:22",
+  "temperature" : -3.49,
+  "pressure" : 1085.0,
+  "humidity" : 86.0,
+  "windSpeed" : 88,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:04:25",
+  "temperature" : -3.48,
+  "pressure" : 1000.0,
+  "humidity" : 68.0,
+  "windSpeed" : 69,
+  "windDirection" : 43
+}, {
+  "dateTime" : "2022-02-28T06:04:26",
+  "temperature" : -3.48,
+  "pressure" : 1026.0,
+  "humidity" : 28.0,
+  "windSpeed" : 49,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:04:30",
+  "temperature" : -3.48,
+  "pressure" : 986.0,
+  "humidity" : 59.0,
+  "windSpeed" : 60,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:04:34",
+  "temperature" : -3.47,
+  "pressure" : 949.0,
+  "humidity" : 49.0,
+  "windSpeed" : 58,
+  "windDirection" : 83
+}, {
+  "dateTime" : "2022-02-28T06:04:38",
+  "temperature" : -3.47,
+  "pressure" : 991.0,
+  "humidity" : 46.0,
+  "windSpeed" : 19,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:04:41",
+  "temperature" : -3.46,
+  "pressure" : 1013.0,
+  "humidity" : 15.0,
+  "windSpeed" : 23,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:04:44",
+  "temperature" : -3.45,
+  "pressure" : 1005.0,
+  "humidity" : 50.0,
+  "windSpeed" : 62,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:04:48",
+  "temperature" : -3.45,
+  "pressure" : 1093.0,
+  "humidity" : 89.0,
+  "windSpeed" : 20,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:04:53",
+  "temperature" : -3.45,
+  "pressure" : 1022.0,
+  "humidity" : 82.0,
+  "windSpeed" : 78,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:04:54",
+  "temperature" : -3.45,
+  "pressure" : 990.0,
+  "humidity" : 15.0,
+  "windSpeed" : 90,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:04:56",
+  "temperature" : -3.45,
+  "pressure" : 1097.0,
+  "humidity" : 48.0,
+  "windSpeed" : 87,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:04:58",
+  "temperature" : -3.44,
+  "pressure" : 1002.0,
+  "humidity" : 84.0,
+  "windSpeed" : 38,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:05:03",
+  "temperature" : -3.43,
+  "pressure" : 1003.0,
+  "humidity" : 17.0,
+  "windSpeed" : 65,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:05:06",
+  "temperature" : -3.42,
+  "pressure" : 1072.0,
+  "humidity" : 51.0,
+  "windSpeed" : 36,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:05:11",
+  "temperature" : -3.42,
+  "pressure" : 980.0,
+  "humidity" : 47.0,
+  "windSpeed" : 22,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:05:16",
+  "temperature" : -3.42,
+  "pressure" : 942.0,
+  "humidity" : 79.0,
+  "windSpeed" : 16,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:05:18",
+  "temperature" : -3.41,
+  "pressure" : 1053.0,
+  "humidity" : 22.0,
+  "windSpeed" : 65,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:05:23",
+  "temperature" : -3.4,
+  "pressure" : 953.0,
+  "humidity" : 68.0,
+  "windSpeed" : 7,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:05:27",
+  "temperature" : -3.4,
+  "pressure" : 999.0,
+  "humidity" : 58.0,
+  "windSpeed" : 44,
+  "windDirection" : 65
+}, {
+  "dateTime" : "2022-02-28T06:05:30",
+  "temperature" : -3.39,
+  "pressure" : 1009.0,
+  "humidity" : 46.0,
+  "windSpeed" : 81,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:05:31",
+  "temperature" : -3.39,
+  "pressure" : 998.0,
+  "humidity" : 14.0,
+  "windSpeed" : 15,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:05:32",
+  "temperature" : -3.38,
+  "pressure" : 1063.0,
+  "humidity" : 83.0,
+  "windSpeed" : 59,
+  "windDirection" : 65
+}, {
+  "dateTime" : "2022-02-28T06:05:33",
+  "temperature" : -3.37,
+  "pressure" : 920.0,
+  "humidity" : 29.0,
+  "windSpeed" : 85,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:05:36",
+  "temperature" : -3.37,
+  "pressure" : 901.0,
+  "humidity" : 30.0,
+  "windSpeed" : 82,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:05:40",
+  "temperature" : -3.37,
+  "pressure" : 1060.0,
+  "humidity" : 88.0,
+  "windSpeed" : 80,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:05:41",
+  "temperature" : -3.36,
+  "pressure" : 1069.0,
+  "humidity" : 85.0,
+  "windSpeed" : 98,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:05:42",
+  "temperature" : -3.35,
+  "pressure" : 966.0,
+  "humidity" : 45.0,
+  "windSpeed" : 57,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:05:45",
+  "temperature" : -3.35,
+  "pressure" : 1033.0,
+  "humidity" : 25.0,
+  "windSpeed" : 55,
+  "windDirection" : 66
+}, {
+  "dateTime" : "2022-02-28T06:05:48",
+  "temperature" : -3.35,
+  "pressure" : 1022.0,
+  "humidity" : 88.0,
+  "windSpeed" : 95,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:05:51",
+  "temperature" : -3.34,
+  "pressure" : 1048.0,
+  "humidity" : 77.0,
+  "windSpeed" : 27,
+  "windDirection" : 73
+}, {
+  "dateTime" : "2022-02-28T06:05:53",
+  "temperature" : -3.34,
+  "pressure" : 1054.0,
+  "humidity" : 29.0,
+  "windSpeed" : 23,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:05:57",
+  "temperature" : -3.33,
+  "pressure" : 1022.0,
+  "humidity" : 28.0,
+  "windSpeed" : 88,
+  "windDirection" : 58
+}, {
+  "dateTime" : "2022-02-28T06:05:59",
+  "temperature" : -3.32,
+  "pressure" : 1005.0,
+  "humidity" : 72.0,
+  "windSpeed" : 22,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:06:01",
+  "temperature" : -3.32,
+  "pressure" : 1072.0,
+  "humidity" : 28.0,
+  "windSpeed" : 89,
+  "windDirection" : 60
+}, {
+  "dateTime" : "2022-02-28T06:06:06",
+  "temperature" : -3.32,
+  "pressure" : 1072.0,
+  "humidity" : 42.0,
+  "windSpeed" : 89,
+  "windDirection" : 70
+}, {
+  "dateTime" : "2022-02-28T06:06:08",
+  "temperature" : -3.31,
+  "pressure" : 993.0,
+  "humidity" : 42.0,
+  "windSpeed" : 17,
+  "windDirection" : 70
+}, {
+  "dateTime" : "2022-02-28T06:06:09",
+  "temperature" : -3.31,
+  "pressure" : 1044.0,
+  "humidity" : 71.0,
+  "windSpeed" : 74,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:06:11",
+  "temperature" : -3.31,
+  "pressure" : 1050.0,
+  "humidity" : 74.0,
+  "windSpeed" : 69,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:06:16",
+  "temperature" : -3.31,
+  "pressure" : 1041.0,
+  "humidity" : 16.0,
+  "windSpeed" : 33,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:06:20",
+  "temperature" : -3.3,
+  "pressure" : 918.0,
+  "humidity" : 24.0,
+  "windSpeed" : 65,
+  "windDirection" : 10
+}, {
+  "dateTime" : "2022-02-28T06:06:22",
+  "temperature" : -3.29,
+  "pressure" : 953.0,
+  "humidity" : 21.0,
+  "windSpeed" : 75,
+  "windDirection" : 44
+}, {
+  "dateTime" : "2022-02-28T06:06:27",
+  "temperature" : -3.28,
+  "pressure" : 923.0,
+  "humidity" : 22.0,
+  "windSpeed" : 34,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:06:32",
+  "temperature" : -3.28,
+  "pressure" : 925.0,
+  "humidity" : 59.0,
+  "windSpeed" : 15,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:06:35",
+  "temperature" : -3.28,
+  "pressure" : 1041.0,
+  "humidity" : 67.0,
+  "windSpeed" : 69,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:06:36",
+  "temperature" : -3.27,
+  "pressure" : 918.0,
+  "humidity" : 52.0,
+  "windSpeed" : 1,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:06:40",
+  "temperature" : -3.27,
+  "pressure" : 1029.0,
+  "humidity" : 80.0,
+  "windSpeed" : 34,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:06:44",
+  "temperature" : -3.26,
+  "pressure" : 968.0,
+  "humidity" : 20.0,
+  "windSpeed" : 73,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:06:49",
+  "temperature" : -3.26,
+  "pressure" : 988.0,
+  "humidity" : 26.0,
+  "windSpeed" : 85,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:06:52",
+  "temperature" : -3.26,
+  "pressure" : 938.0,
+  "humidity" : 41.0,
+  "windSpeed" : 96,
+  "windDirection" : 24
+}, {
+  "dateTime" : "2022-02-28T06:06:57",
+  "temperature" : -3.25,
+  "pressure" : 1002.0,
+  "humidity" : 53.0,
+  "windSpeed" : 95,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:07:01",
+  "temperature" : -3.24,
+  "pressure" : 1016.0,
+  "humidity" : 18.0,
+  "windSpeed" : 33,
+  "windDirection" : 69
+}, {
+  "dateTime" : "2022-02-28T06:07:03",
+  "temperature" : -3.24,
+  "pressure" : 931.0,
+  "humidity" : 62.0,
+  "windSpeed" : 41,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:07:05",
+  "temperature" : -3.23,
+  "pressure" : 1014.0,
+  "humidity" : 64.0,
+  "windSpeed" : 99,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:07:09",
+  "temperature" : -3.23,
+  "pressure" : 1009.0,
+  "humidity" : 35.0,
+  "windSpeed" : 14,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:07:11",
+  "temperature" : -3.22,
+  "pressure" : 947.0,
+  "humidity" : 51.0,
+  "windSpeed" : 77,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:07:14",
+  "temperature" : -3.21,
+  "pressure" : 1098.0,
+  "humidity" : 50.0,
+  "windSpeed" : 28,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:07:18",
+  "temperature" : -3.2,
+  "pressure" : 958.0,
+  "humidity" : 14.0,
+  "windSpeed" : 83,
+  "windDirection" : 88
+}, {
+  "dateTime" : "2022-02-28T06:07:21",
+  "temperature" : -3.2,
+  "pressure" : 1005.0,
+  "humidity" : 71.0,
+  "windSpeed" : 15,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:07:24",
+  "temperature" : -3.19,
+  "pressure" : 1065.0,
+  "humidity" : 45.0,
+  "windSpeed" : 62,
+  "windDirection" : 52
+}, {
+  "dateTime" : "2022-02-28T06:07:27",
+  "temperature" : -3.19,
+  "pressure" : 926.0,
+  "humidity" : 75.0,
+  "windSpeed" : 68,
+  "windDirection" : 12
+}, {
+  "dateTime" : "2022-02-28T06:07:28",
+  "temperature" : -3.19,
+  "pressure" : 1079.0,
+  "humidity" : 34.0,
+  "windSpeed" : 84,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:07:31",
+  "temperature" : -3.18,
+  "pressure" : 970.0,
+  "humidity" : 49.0,
+  "windSpeed" : 82,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:07:35",
+  "temperature" : -3.18,
+  "pressure" : 1099.0,
+  "humidity" : 25.0,
+  "windSpeed" : 55,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:07:39",
+  "temperature" : -3.17,
+  "pressure" : 1037.0,
+  "humidity" : 60.0,
+  "windSpeed" : 83,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:07:43",
+  "temperature" : -3.17,
+  "pressure" : 1084.0,
+  "humidity" : 37.0,
+  "windSpeed" : 77,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:07:44",
+  "temperature" : -3.16,
+  "pressure" : 1080.0,
+  "humidity" : 50.0,
+  "windSpeed" : 70,
+  "windDirection" : 60
+}, {
+  "dateTime" : "2022-02-28T06:07:48",
+  "temperature" : -3.16,
+  "pressure" : 1052.0,
+  "humidity" : 42.0,
+  "windSpeed" : 15,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:07:49",
+  "temperature" : -3.15,
+  "pressure" : 1000.0,
+  "humidity" : 18.0,
+  "windSpeed" : 90,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:07:52",
+  "temperature" : -3.15,
+  "pressure" : 927.0,
+  "humidity" : 73.0,
+  "windSpeed" : 40,
+  "windDirection" : 60
+}, {
+  "dateTime" : "2022-02-28T06:07:54",
+  "temperature" : -3.14,
+  "pressure" : 904.0,
+  "humidity" : 72.0,
+  "windSpeed" : 41,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:07:56",
+  "temperature" : -3.13,
+  "pressure" : 993.0,
+  "humidity" : 73.0,
+  "windSpeed" : 33,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:07:57",
+  "temperature" : -3.12,
+  "pressure" : 962.0,
+  "humidity" : 43.0,
+  "windSpeed" : 44,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:07:59",
+  "temperature" : -3.12,
+  "pressure" : 950.0,
+  "humidity" : 38.0,
+  "windSpeed" : 11,
+  "windDirection" : 79
+}, {
+  "dateTime" : "2022-02-28T06:08:00",
+  "temperature" : -3.12,
+  "pressure" : 1025.0,
+  "humidity" : 64.0,
+  "windSpeed" : 69,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:08:02",
+  "temperature" : -3.11,
+  "pressure" : 984.0,
+  "humidity" : 40.0,
+  "windSpeed" : 86,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:08:07",
+  "temperature" : -3.11,
+  "pressure" : 937.0,
+  "humidity" : 24.0,
+  "windSpeed" : 11,
+  "windDirection" : 89
+}, {
+  "dateTime" : "2022-02-28T06:08:10",
+  "temperature" : -3.1,
+  "pressure" : 980.0,
+  "humidity" : 87.0,
+  "windSpeed" : 51,
+  "windDirection" : 28
+}, {
+  "dateTime" : "2022-02-28T06:08:15",
+  "temperature" : -3.09,
+  "pressure" : 996.0,
+  "humidity" : 29.0,
+  "windSpeed" : 86,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:08:17",
+  "temperature" : -3.09,
+  "pressure" : 993.0,
+  "humidity" : 54.0,
+  "windSpeed" : 86,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:08:19",
+  "temperature" : -3.08,
+  "pressure" : 1096.0,
+  "humidity" : 71.0,
+  "windSpeed" : 33,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:08:20",
+  "temperature" : -3.07,
+  "pressure" : 902.0,
+  "humidity" : 41.0,
+  "windSpeed" : 88,
+  "windDirection" : 85
+}, {
+  "dateTime" : "2022-02-28T06:08:22",
+  "temperature" : -3.06,
+  "pressure" : 1011.0,
+  "humidity" : 20.0,
+  "windSpeed" : 30,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:08:25",
+  "temperature" : -3.06,
+  "pressure" : 952.0,
+  "humidity" : 83.0,
+  "windSpeed" : 45,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:08:28",
+  "temperature" : -3.06,
+  "pressure" : 961.0,
+  "humidity" : 55.0,
+  "windSpeed" : 27,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:08:32",
+  "temperature" : -3.06,
+  "pressure" : 992.0,
+  "humidity" : 67.0,
+  "windSpeed" : 5,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:08:36",
+  "temperature" : -3.05,
+  "pressure" : 992.0,
+  "humidity" : 80.0,
+  "windSpeed" : 43,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:08:41",
+  "temperature" : -3.05,
+  "pressure" : 924.0,
+  "humidity" : 20.0,
+  "windSpeed" : 42,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:08:45",
+  "temperature" : -3.04,
+  "pressure" : 970.0,
+  "humidity" : 44.0,
+  "windSpeed" : 76,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:08:48",
+  "temperature" : -3.04,
+  "pressure" : 1066.0,
+  "humidity" : 46.0,
+  "windSpeed" : 40,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:08:53",
+  "temperature" : -3.03,
+  "pressure" : 1074.0,
+  "humidity" : 51.0,
+  "windSpeed" : 14,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:08:57",
+  "temperature" : -3.03,
+  "pressure" : 1018.0,
+  "humidity" : 73.0,
+  "windSpeed" : 98,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:08:59",
+  "temperature" : -3.02,
+  "pressure" : 1041.0,
+  "humidity" : 31.0,
+  "windSpeed" : 58,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:09:04",
+  "temperature" : -3.02,
+  "pressure" : 1073.0,
+  "humidity" : 62.0,
+  "windSpeed" : 3,
+  "windDirection" : 42
+}, {
+  "dateTime" : "2022-02-28T06:09:07",
+  "temperature" : -3.01,
+  "pressure" : 962.0,
+  "humidity" : 49.0,
+  "windSpeed" : 91,
+  "windDirection" : 44
+}, {
+  "dateTime" : "2022-02-28T06:09:09",
+  "temperature" : -3.0,
+  "pressure" : 977.0,
+  "humidity" : 89.0,
+  "windSpeed" : 53,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:09:11",
+  "temperature" : -3.0,
+  "pressure" : 1082.0,
+  "humidity" : 41.0,
+  "windSpeed" : 3,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:09:15",
+  "temperature" : -3.0,
+  "pressure" : 1020.0,
+  "humidity" : 71.0,
+  "windSpeed" : 6,
+  "windDirection" : 80
+}, {
+  "dateTime" : "2022-02-28T06:09:20",
+  "temperature" : -2.99,
+  "pressure" : 933.0,
+  "humidity" : 79.0,
+  "windSpeed" : 14,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:09:24",
+  "temperature" : -2.98,
+  "pressure" : 962.0,
+  "humidity" : 69.0,
+  "windSpeed" : 7,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:09:28",
+  "temperature" : -2.98,
+  "pressure" : 1035.0,
+  "humidity" : 39.0,
+  "windSpeed" : 48,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:09:33",
+  "temperature" : -2.97,
+  "pressure" : 988.0,
+  "humidity" : 14.0,
+  "windSpeed" : 83,
+  "windDirection" : 43
+}, {
+  "dateTime" : "2022-02-28T06:09:35",
+  "temperature" : -2.96,
+  "pressure" : 963.0,
+  "humidity" : 27.0,
+  "windSpeed" : 75,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:09:39",
+  "temperature" : -2.96,
+  "pressure" : 1095.0,
+  "humidity" : 80.0,
+  "windSpeed" : 64,
+  "windDirection" : 18
+}, {
+  "dateTime" : "2022-02-28T06:09:43",
+  "temperature" : -2.96,
+  "pressure" : 1019.0,
+  "humidity" : 55.0,
+  "windSpeed" : 85,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:09:47",
+  "temperature" : -2.95,
+  "pressure" : 1015.0,
+  "humidity" : 78.0,
+  "windSpeed" : 53,
+  "windDirection" : 28
+}, {
+  "dateTime" : "2022-02-28T06:09:51",
+  "temperature" : -2.95,
+  "pressure" : 1016.0,
+  "humidity" : 15.0,
+  "windSpeed" : 65,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:09:52",
+  "temperature" : -2.94,
+  "pressure" : 990.0,
+  "humidity" : 30.0,
+  "windSpeed" : 27,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:09:56",
+  "temperature" : -2.94,
+  "pressure" : 901.0,
+  "humidity" : 63.0,
+  "windSpeed" : 26,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:10:01",
+  "temperature" : -2.93,
+  "pressure" : 1095.0,
+  "humidity" : 60.0,
+  "windSpeed" : 19,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:10:06",
+  "temperature" : -2.93,
+  "pressure" : 915.0,
+  "humidity" : 36.0,
+  "windSpeed" : 65,
+  "windDirection" : 16
+}, {
+  "dateTime" : "2022-02-28T06:10:10",
+  "temperature" : -2.93,
+  "pressure" : 945.0,
+  "humidity" : 53.0,
+  "windSpeed" : 9,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:10:15",
+  "temperature" : -2.92,
+  "pressure" : 986.0,
+  "humidity" : 46.0,
+  "windSpeed" : 22,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:10:20",
+  "temperature" : -2.92,
+  "pressure" : 985.0,
+  "humidity" : 68.0,
+  "windSpeed" : 74,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:10:25",
+  "temperature" : -2.92,
+  "pressure" : 1006.0,
+  "humidity" : 46.0,
+  "windSpeed" : 11,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:10:27",
+  "temperature" : -2.92,
+  "pressure" : 1023.0,
+  "humidity" : 38.0,
+  "windSpeed" : 46,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:10:32",
+  "temperature" : -2.91,
+  "pressure" : 1004.0,
+  "humidity" : 25.0,
+  "windSpeed" : 18,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:10:37",
+  "temperature" : -2.9,
+  "pressure" : 1096.0,
+  "humidity" : 27.0,
+  "windSpeed" : 98,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:10:41",
+  "temperature" : -2.9,
+  "pressure" : 962.0,
+  "humidity" : 18.0,
+  "windSpeed" : 30,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:10:43",
+  "temperature" : -2.89,
+  "pressure" : 991.0,
+  "humidity" : 36.0,
+  "windSpeed" : 61,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:10:48",
+  "temperature" : -2.88,
+  "pressure" : 931.0,
+  "humidity" : 20.0,
+  "windSpeed" : 50,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:10:52",
+  "temperature" : -2.88,
+  "pressure" : 908.0,
+  "humidity" : 64.0,
+  "windSpeed" : 38,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:10:55",
+  "temperature" : -2.87,
+  "pressure" : 942.0,
+  "humidity" : 28.0,
+  "windSpeed" : 48,
+  "windDirection" : 89
+}, {
+  "dateTime" : "2022-02-28T06:10:59",
+  "temperature" : -2.87,
+  "pressure" : 970.0,
+  "humidity" : 85.0,
+  "windSpeed" : 52,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:11:03",
+  "temperature" : -2.86,
+  "pressure" : 947.0,
+  "humidity" : 81.0,
+  "windSpeed" : 58,
+  "windDirection" : 6
+}, {
+  "dateTime" : "2022-02-28T06:11:08",
+  "temperature" : -2.85,
+  "pressure" : 1037.0,
+  "humidity" : 60.0,
+  "windSpeed" : 51,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:11:10",
+  "temperature" : -2.85,
+  "pressure" : 1064.0,
+  "humidity" : 31.0,
+  "windSpeed" : 83,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:11:13",
+  "temperature" : -2.84,
+  "pressure" : 944.0,
+  "humidity" : 43.0,
+  "windSpeed" : 5,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:11:15",
+  "temperature" : -2.84,
+  "pressure" : 1077.0,
+  "humidity" : 75.0,
+  "windSpeed" : 58,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:11:18",
+  "temperature" : -2.83,
+  "pressure" : 941.0,
+  "humidity" : 27.0,
+  "windSpeed" : 22,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:11:19",
+  "temperature" : -2.82,
+  "pressure" : 961.0,
+  "humidity" : 69.0,
+  "windSpeed" : 56,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:11:20",
+  "temperature" : -2.82,
+  "pressure" : 951.0,
+  "humidity" : 43.0,
+  "windSpeed" : 1,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:11:24",
+  "temperature" : -2.82,
+  "pressure" : 1040.0,
+  "humidity" : 81.0,
+  "windSpeed" : 5,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:11:27",
+  "temperature" : -2.81,
+  "pressure" : 956.0,
+  "humidity" : 68.0,
+  "windSpeed" : 28,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:11:32",
+  "temperature" : -2.8,
+  "pressure" : 949.0,
+  "humidity" : 59.0,
+  "windSpeed" : 26,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:11:34",
+  "temperature" : -2.8,
+  "pressure" : 1096.0,
+  "humidity" : 20.0,
+  "windSpeed" : 0,
+  "windDirection" : 24
+}, {
+  "dateTime" : "2022-02-28T06:11:35",
+  "temperature" : -2.79,
+  "pressure" : 1023.0,
+  "humidity" : 72.0,
+  "windSpeed" : 20,
+  "windDirection" : 0
+}, {
+  "dateTime" : "2022-02-28T06:11:37",
+  "temperature" : -2.79,
+  "pressure" : 958.0,
+  "humidity" : 19.0,
+  "windSpeed" : 20,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:11:39",
+  "temperature" : -2.78,
+  "pressure" : 935.0,
+  "humidity" : 68.0,
+  "windSpeed" : 63,
+  "windDirection" : 18
+}, {
+  "dateTime" : "2022-02-28T06:11:42",
+  "temperature" : -2.78,
+  "pressure" : 958.0,
+  "humidity" : 67.0,
+  "windSpeed" : 50,
+  "windDirection" : 88
+}, {
+  "dateTime" : "2022-02-28T06:11:47",
+  "temperature" : -2.77,
+  "pressure" : 939.0,
+  "humidity" : 84.0,
+  "windSpeed" : 27,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:11:49",
+  "temperature" : -2.77,
+  "pressure" : 936.0,
+  "humidity" : 33.0,
+  "windSpeed" : 17,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:11:53",
+  "temperature" : -2.76,
+  "pressure" : 1079.0,
+  "humidity" : 41.0,
+  "windSpeed" : 21,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:11:55",
+  "temperature" : -2.76,
+  "pressure" : 954.0,
+  "humidity" : 78.0,
+  "windSpeed" : 86,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:11:58",
+  "temperature" : -2.75,
+  "pressure" : 990.0,
+  "humidity" : 20.0,
+  "windSpeed" : 22,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:11:59",
+  "temperature" : -2.74,
+  "pressure" : 1003.0,
+  "humidity" : 63.0,
+  "windSpeed" : 62,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:12:04",
+  "temperature" : -2.73,
+  "pressure" : 964.0,
+  "humidity" : 31.0,
+  "windSpeed" : 65,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:12:09",
+  "temperature" : -2.73,
+  "pressure" : 1068.0,
+  "humidity" : 76.0,
+  "windSpeed" : 53,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:12:13",
+  "temperature" : -2.72,
+  "pressure" : 1042.0,
+  "humidity" : 72.0,
+  "windSpeed" : 16,
+  "windDirection" : 69
+}, {
+  "dateTime" : "2022-02-28T06:12:18",
+  "temperature" : -2.72,
+  "pressure" : 911.0,
+  "humidity" : 72.0,
+  "windSpeed" : 16,
+  "windDirection" : 0
+}, {
+  "dateTime" : "2022-02-28T06:12:21",
+  "temperature" : -2.72,
+  "pressure" : 999.0,
+  "humidity" : 61.0,
+  "windSpeed" : 55,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:12:22",
+  "temperature" : -2.71,
+  "pressure" : 972.0,
+  "humidity" : 35.0,
+  "windSpeed" : 23,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:12:27",
+  "temperature" : -2.7,
+  "pressure" : 915.0,
+  "humidity" : 27.0,
+  "windSpeed" : 42,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:12:28",
+  "temperature" : -2.69,
+  "pressure" : 980.0,
+  "humidity" : 17.0,
+  "windSpeed" : 99,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:12:32",
+  "temperature" : -2.68,
+  "pressure" : 980.0,
+  "humidity" : 20.0,
+  "windSpeed" : 59,
+  "windDirection" : 12
+}, {
+  "dateTime" : "2022-02-28T06:12:37",
+  "temperature" : -2.68,
+  "pressure" : 953.0,
+  "humidity" : 59.0,
+  "windSpeed" : 76,
+  "windDirection" : 88
+}, {
+  "dateTime" : "2022-02-28T06:12:42",
+  "temperature" : -2.68,
+  "pressure" : 916.0,
+  "humidity" : 29.0,
+  "windSpeed" : 20,
+  "windDirection" : 49
+}, {
+  "dateTime" : "2022-02-28T06:12:44",
+  "temperature" : -2.68,
+  "pressure" : 1060.0,
+  "humidity" : 48.0,
+  "windSpeed" : 26,
+  "windDirection" : 58
+}, {
+  "dateTime" : "2022-02-28T06:12:49",
+  "temperature" : -2.67,
+  "pressure" : 964.0,
+  "humidity" : 34.0,
+  "windSpeed" : 40,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:12:52",
+  "temperature" : -2.66,
+  "pressure" : 984.0,
+  "humidity" : 59.0,
+  "windSpeed" : 71,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:12:54",
+  "temperature" : -2.65,
+  "pressure" : 946.0,
+  "humidity" : 85.0,
+  "windSpeed" : 90,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:12:58",
+  "temperature" : -2.65,
+  "pressure" : 1095.0,
+  "humidity" : 38.0,
+  "windSpeed" : 83,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:13:02",
+  "temperature" : -2.65,
+  "pressure" : 951.0,
+  "humidity" : 15.0,
+  "windSpeed" : 31,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:13:07",
+  "temperature" : -2.64,
+  "pressure" : 957.0,
+  "humidity" : 71.0,
+  "windSpeed" : 57,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:13:08",
+  "temperature" : -2.63,
+  "pressure" : 1064.0,
+  "humidity" : 64.0,
+  "windSpeed" : 0,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:13:11",
+  "temperature" : -2.62,
+  "pressure" : 1063.0,
+  "humidity" : 69.0,
+  "windSpeed" : 92,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:13:15",
+  "temperature" : -2.62,
+  "pressure" : 1075.0,
+  "humidity" : 72.0,
+  "windSpeed" : 60,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:13:17",
+  "temperature" : -2.62,
+  "pressure" : 1036.0,
+  "humidity" : 51.0,
+  "windSpeed" : 2,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:13:22",
+  "temperature" : -2.61,
+  "pressure" : 1020.0,
+  "humidity" : 59.0,
+  "windSpeed" : 61,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:13:23",
+  "temperature" : -2.61,
+  "pressure" : 1003.0,
+  "humidity" : 38.0,
+  "windSpeed" : 42,
+  "windDirection" : 80
+}, {
+  "dateTime" : "2022-02-28T06:13:26",
+  "temperature" : -2.61,
+  "pressure" : 957.0,
+  "humidity" : 47.0,
+  "windSpeed" : 75,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:13:27",
+  "temperature" : -2.6,
+  "pressure" : 1044.0,
+  "humidity" : 18.0,
+  "windSpeed" : 54,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:13:30",
+  "temperature" : -2.6,
+  "pressure" : 1052.0,
+  "humidity" : 25.0,
+  "windSpeed" : 78,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:13:34",
+  "temperature" : -2.6,
+  "pressure" : 996.0,
+  "humidity" : 48.0,
+  "windSpeed" : 28,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:13:35",
+  "temperature" : -2.59,
+  "pressure" : 1004.0,
+  "humidity" : 44.0,
+  "windSpeed" : 84,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:13:36",
+  "temperature" : -2.59,
+  "pressure" : 1050.0,
+  "humidity" : 89.0,
+  "windSpeed" : 1,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:13:38",
+  "temperature" : -2.58,
+  "pressure" : 1024.0,
+  "humidity" : 49.0,
+  "windSpeed" : 7,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:13:42",
+  "temperature" : -2.58,
+  "pressure" : 1032.0,
+  "humidity" : 16.0,
+  "windSpeed" : 28,
+  "windDirection" : 10
+}, {
+  "dateTime" : "2022-02-28T06:13:47",
+  "temperature" : -2.58,
+  "pressure" : 1071.0,
+  "humidity" : 30.0,
+  "windSpeed" : 6,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:13:50",
+  "temperature" : -2.58,
+  "pressure" : 1027.0,
+  "humidity" : 41.0,
+  "windSpeed" : 34,
+  "windDirection" : 42
+}, {
+  "dateTime" : "2022-02-28T06:13:52",
+  "temperature" : -2.57,
+  "pressure" : 962.0,
+  "humidity" : 88.0,
+  "windSpeed" : 24,
+  "windDirection" : 60
+}, {
+  "dateTime" : "2022-02-28T06:13:57",
+  "temperature" : -2.56,
+  "pressure" : 923.0,
+  "humidity" : 66.0,
+  "windSpeed" : 76,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:13:58",
+  "temperature" : -2.56,
+  "pressure" : 1078.0,
+  "humidity" : 41.0,
+  "windSpeed" : 86,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:14:03",
+  "temperature" : -2.55,
+  "pressure" : 975.0,
+  "humidity" : 61.0,
+  "windSpeed" : 66,
+  "windDirection" : 0
+}, {
+  "dateTime" : "2022-02-28T06:14:06",
+  "temperature" : -2.54,
+  "pressure" : 984.0,
+  "humidity" : 15.0,
+  "windSpeed" : 8,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:14:11",
+  "temperature" : -2.54,
+  "pressure" : 1055.0,
+  "humidity" : 73.0,
+  "windSpeed" : 21,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:14:16",
+  "temperature" : -2.53,
+  "pressure" : 997.0,
+  "humidity" : 74.0,
+  "windSpeed" : 40,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:14:20",
+  "temperature" : -2.53,
+  "pressure" : 1098.0,
+  "humidity" : 42.0,
+  "windSpeed" : 25,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:14:25",
+  "temperature" : -2.52,
+  "pressure" : 1025.0,
+  "humidity" : 37.0,
+  "windSpeed" : 29,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:14:28",
+  "temperature" : -2.51,
+  "pressure" : 1024.0,
+  "humidity" : 38.0,
+  "windSpeed" : 55,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:14:32",
+  "temperature" : -2.51,
+  "pressure" : 975.0,
+  "humidity" : 28.0,
+  "windSpeed" : 52,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:14:37",
+  "temperature" : -2.5,
+  "pressure" : 911.0,
+  "humidity" : 37.0,
+  "windSpeed" : 23,
+  "windDirection" : 83
+}, {
+  "dateTime" : "2022-02-28T06:14:39",
+  "temperature" : -2.49,
+  "pressure" : 935.0,
+  "humidity" : 57.0,
+  "windSpeed" : 69,
+  "windDirection" : 69
+}, {
+  "dateTime" : "2022-02-28T06:14:44",
+  "temperature" : -2.48,
+  "pressure" : 1086.0,
+  "humidity" : 76.0,
+  "windSpeed" : 46,
+  "windDirection" : 43
+}, {
+  "dateTime" : "2022-02-28T06:14:46",
+  "temperature" : -2.47,
+  "pressure" : 1049.0,
+  "humidity" : 36.0,
+  "windSpeed" : 93,
+  "windDirection" : 19
+}, {
+  "dateTime" : "2022-02-28T06:14:47",
+  "temperature" : -2.47,
+  "pressure" : 1059.0,
+  "humidity" : 44.0,
+  "windSpeed" : 8,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:14:50",
+  "temperature" : -2.46,
+  "pressure" : 919.0,
+  "humidity" : 28.0,
+  "windSpeed" : 17,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:14:54",
+  "temperature" : -2.45,
+  "pressure" : 1072.0,
+  "humidity" : 37.0,
+  "windSpeed" : 1,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:14:59",
+  "temperature" : -2.45,
+  "pressure" : 1050.0,
+  "humidity" : 38.0,
+  "windSpeed" : 8,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:15:03",
+  "temperature" : -2.44,
+  "pressure" : 1034.0,
+  "humidity" : 28.0,
+  "windSpeed" : 3,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:15:08",
+  "temperature" : -2.43,
+  "pressure" : 940.0,
+  "humidity" : 12.0,
+  "windSpeed" : 76,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:15:10",
+  "temperature" : -2.43,
+  "pressure" : 1038.0,
+  "humidity" : 15.0,
+  "windSpeed" : 53,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:15:14",
+  "temperature" : -2.43,
+  "pressure" : 1032.0,
+  "humidity" : 80.0,
+  "windSpeed" : 89,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:15:17",
+  "temperature" : -2.42,
+  "pressure" : 952.0,
+  "humidity" : 83.0,
+  "windSpeed" : 25,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:15:19",
+  "temperature" : -2.41,
+  "pressure" : 1010.0,
+  "humidity" : 16.0,
+  "windSpeed" : 88,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:15:23",
+  "temperature" : -2.41,
+  "pressure" : 1017.0,
+  "humidity" : 71.0,
+  "windSpeed" : 46,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:15:24",
+  "temperature" : -2.41,
+  "pressure" : 909.0,
+  "humidity" : 55.0,
+  "windSpeed" : 56,
+  "windDirection" : 16
+}, {
+  "dateTime" : "2022-02-28T06:15:25",
+  "temperature" : -2.4,
+  "pressure" : 959.0,
+  "humidity" : 70.0,
+  "windSpeed" : 82,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:15:28",
+  "temperature" : -2.4,
+  "pressure" : 1032.0,
+  "humidity" : 88.0,
+  "windSpeed" : 59,
+  "windDirection" : 67
+}, {
+  "dateTime" : "2022-02-28T06:15:33",
+  "temperature" : -2.39,
+  "pressure" : 1004.0,
+  "humidity" : 16.0,
+  "windSpeed" : 16,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:15:34",
+  "temperature" : -2.39,
+  "pressure" : 1004.0,
+  "humidity" : 66.0,
+  "windSpeed" : 33,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:15:36",
+  "temperature" : -2.39,
+  "pressure" : 1095.0,
+  "humidity" : 85.0,
+  "windSpeed" : 97,
+  "windDirection" : 24
+}, {
+  "dateTime" : "2022-02-28T06:15:39",
+  "temperature" : -2.39,
+  "pressure" : 932.0,
+  "humidity" : 73.0,
+  "windSpeed" : 10,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:15:44",
+  "temperature" : -2.38,
+  "pressure" : 957.0,
+  "humidity" : 15.0,
+  "windSpeed" : 19,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:15:48",
+  "temperature" : -2.37,
+  "pressure" : 974.0,
+  "humidity" : 83.0,
+  "windSpeed" : 31,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:15:49",
+  "temperature" : -2.37,
+  "pressure" : 992.0,
+  "humidity" : 59.0,
+  "windSpeed" : 36,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:15:54",
+  "temperature" : -2.37,
+  "pressure" : 1092.0,
+  "humidity" : 41.0,
+  "windSpeed" : 77,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:15:58",
+  "temperature" : -2.36,
+  "pressure" : 965.0,
+  "humidity" : 11.0,
+  "windSpeed" : 38,
+  "windDirection" : 24
+}, {
+  "dateTime" : "2022-02-28T06:15:59",
+  "temperature" : -2.36,
+  "pressure" : 911.0,
+  "humidity" : 38.0,
+  "windSpeed" : 79,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:16:01",
+  "temperature" : -2.36,
+  "pressure" : 969.0,
+  "humidity" : 76.0,
+  "windSpeed" : 25,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:16:06",
+  "temperature" : -2.36,
+  "pressure" : 1072.0,
+  "humidity" : 57.0,
+  "windSpeed" : 87,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:16:08",
+  "temperature" : -2.35,
+  "pressure" : 1014.0,
+  "humidity" : 18.0,
+  "windSpeed" : 6,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:16:12",
+  "temperature" : -2.34,
+  "pressure" : 1041.0,
+  "humidity" : 12.0,
+  "windSpeed" : 53,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:16:14",
+  "temperature" : -2.34,
+  "pressure" : 903.0,
+  "humidity" : 77.0,
+  "windSpeed" : 5,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:16:18",
+  "temperature" : -2.33,
+  "pressure" : 1082.0,
+  "humidity" : 87.0,
+  "windSpeed" : 45,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:16:20",
+  "temperature" : -2.32,
+  "pressure" : 962.0,
+  "humidity" : 84.0,
+  "windSpeed" : 7,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:16:25",
+  "temperature" : -2.32,
+  "pressure" : 1035.0,
+  "humidity" : 60.0,
+  "windSpeed" : 45,
+  "windDirection" : 88
+}, {
+  "dateTime" : "2022-02-28T06:16:29",
+  "temperature" : -2.32,
+  "pressure" : 936.0,
+  "humidity" : 34.0,
+  "windSpeed" : 8,
+  "windDirection" : 42
+}, {
+  "dateTime" : "2022-02-28T06:16:32",
+  "temperature" : -2.32,
+  "pressure" : 1088.0,
+  "humidity" : 83.0,
+  "windSpeed" : 23,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:16:34",
+  "temperature" : -2.31,
+  "pressure" : 909.0,
+  "humidity" : 68.0,
+  "windSpeed" : 29,
+  "windDirection" : 18
+}, {
+  "dateTime" : "2022-02-28T06:16:36",
+  "temperature" : -2.31,
+  "pressure" : 1058.0,
+  "humidity" : 37.0,
+  "windSpeed" : 18,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:16:37",
+  "temperature" : -2.31,
+  "pressure" : 950.0,
+  "humidity" : 14.0,
+  "windSpeed" : 69,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:16:41",
+  "temperature" : -2.3,
+  "pressure" : 1025.0,
+  "humidity" : 54.0,
+  "windSpeed" : 65,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:16:44",
+  "temperature" : -2.3,
+  "pressure" : 1051.0,
+  "humidity" : 85.0,
+  "windSpeed" : 95,
+  "windDirection" : 12
+}, {
+  "dateTime" : "2022-02-28T06:16:46",
+  "temperature" : -2.3,
+  "pressure" : 978.0,
+  "humidity" : 39.0,
+  "windSpeed" : 57,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:16:48",
+  "temperature" : -2.3,
+  "pressure" : 1083.0,
+  "humidity" : 22.0,
+  "windSpeed" : 30,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:16:50",
+  "temperature" : -2.3,
+  "pressure" : 1006.0,
+  "humidity" : 70.0,
+  "windSpeed" : 19,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:16:51",
+  "temperature" : -2.3,
+  "pressure" : 1088.0,
+  "humidity" : 84.0,
+  "windSpeed" : 26,
+  "windDirection" : 55
+}, {
+  "dateTime" : "2022-02-28T06:16:54",
+  "temperature" : -2.29,
+  "pressure" : 1088.0,
+  "humidity" : 65.0,
+  "windSpeed" : 74,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:16:59",
+  "temperature" : -2.28,
+  "pressure" : 1097.0,
+  "humidity" : 23.0,
+  "windSpeed" : 45,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:17:01",
+  "temperature" : -2.28,
+  "pressure" : 1058.0,
+  "humidity" : 71.0,
+  "windSpeed" : 64,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:17:05",
+  "temperature" : -2.27,
+  "pressure" : 1049.0,
+  "humidity" : 15.0,
+  "windSpeed" : 42,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:17:10",
+  "temperature" : -2.26,
+  "pressure" : 1043.0,
+  "humidity" : 87.0,
+  "windSpeed" : 73,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:17:14",
+  "temperature" : -2.26,
+  "pressure" : 1034.0,
+  "humidity" : 64.0,
+  "windSpeed" : 59,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:17:18",
+  "temperature" : -2.26,
+  "pressure" : 1013.0,
+  "humidity" : 85.0,
+  "windSpeed" : 6,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:17:23",
+  "temperature" : -2.25,
+  "pressure" : 997.0,
+  "humidity" : 33.0,
+  "windSpeed" : 15,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:17:28",
+  "temperature" : -2.25,
+  "pressure" : 1075.0,
+  "humidity" : 16.0,
+  "windSpeed" : 38,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:17:32",
+  "temperature" : -2.25,
+  "pressure" : 1097.0,
+  "humidity" : 18.0,
+  "windSpeed" : 27,
+  "windDirection" : 69
+}, {
+  "dateTime" : "2022-02-28T06:17:34",
+  "temperature" : -2.24,
+  "pressure" : 993.0,
+  "humidity" : 50.0,
+  "windSpeed" : 91,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:17:36",
+  "temperature" : -2.23,
+  "pressure" : 955.0,
+  "humidity" : 67.0,
+  "windSpeed" : 12,
+  "windDirection" : 58
+}, {
+  "dateTime" : "2022-02-28T06:17:39",
+  "temperature" : -2.23,
+  "pressure" : 912.0,
+  "humidity" : 52.0,
+  "windSpeed" : 12,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:17:40",
+  "temperature" : -2.22,
+  "pressure" : 986.0,
+  "humidity" : 12.0,
+  "windSpeed" : 55,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:17:44",
+  "temperature" : -2.22,
+  "pressure" : 964.0,
+  "humidity" : 23.0,
+  "windSpeed" : 23,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:17:48",
+  "temperature" : -2.21,
+  "pressure" : 981.0,
+  "humidity" : 20.0,
+  "windSpeed" : 87,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:17:51",
+  "temperature" : -2.2,
+  "pressure" : 921.0,
+  "humidity" : 50.0,
+  "windSpeed" : 84,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:17:56",
+  "temperature" : -2.2,
+  "pressure" : 1038.0,
+  "humidity" : 86.0,
+  "windSpeed" : 69,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:17:57",
+  "temperature" : -2.19,
+  "pressure" : 1041.0,
+  "humidity" : 80.0,
+  "windSpeed" : 4,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:18:01",
+  "temperature" : -2.18,
+  "pressure" : 975.0,
+  "humidity" : 46.0,
+  "windSpeed" : 10,
+  "windDirection" : 70
+}, {
+  "dateTime" : "2022-02-28T06:18:04",
+  "temperature" : -2.17,
+  "pressure" : 1043.0,
+  "humidity" : 82.0,
+  "windSpeed" : 58,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:18:06",
+  "temperature" : -2.17,
+  "pressure" : 928.0,
+  "humidity" : 86.0,
+  "windSpeed" : 86,
+  "windDirection" : 12
+}, {
+  "dateTime" : "2022-02-28T06:18:11",
+  "temperature" : -2.16,
+  "pressure" : 995.0,
+  "humidity" : 37.0,
+  "windSpeed" : 76,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:18:14",
+  "temperature" : -2.15,
+  "pressure" : 1052.0,
+  "humidity" : 17.0,
+  "windSpeed" : 46,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:18:19",
+  "temperature" : -2.14,
+  "pressure" : 1092.0,
+  "humidity" : 18.0,
+  "windSpeed" : 50,
+  "windDirection" : 18
+}, {
+  "dateTime" : "2022-02-28T06:18:23",
+  "temperature" : -2.14,
+  "pressure" : 920.0,
+  "humidity" : 45.0,
+  "windSpeed" : 94,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:18:28",
+  "temperature" : -2.13,
+  "pressure" : 1029.0,
+  "humidity" : 13.0,
+  "windSpeed" : 28,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:18:33",
+  "temperature" : -2.13,
+  "pressure" : 978.0,
+  "humidity" : 88.0,
+  "windSpeed" : 71,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:18:34",
+  "temperature" : -2.13,
+  "pressure" : 989.0,
+  "humidity" : 25.0,
+  "windSpeed" : 8,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:18:36",
+  "temperature" : -2.12,
+  "pressure" : 1019.0,
+  "humidity" : 75.0,
+  "windSpeed" : 72,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:18:39",
+  "temperature" : -2.12,
+  "pressure" : 1000.0,
+  "humidity" : 25.0,
+  "windSpeed" : 80,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:18:44",
+  "temperature" : -2.11,
+  "pressure" : 1066.0,
+  "humidity" : 17.0,
+  "windSpeed" : 88,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:18:48",
+  "temperature" : -2.11,
+  "pressure" : 1055.0,
+  "humidity" : 24.0,
+  "windSpeed" : 99,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:18:52",
+  "temperature" : -2.1,
+  "pressure" : 904.0,
+  "humidity" : 38.0,
+  "windSpeed" : 98,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:18:55",
+  "temperature" : -2.1,
+  "pressure" : 982.0,
+  "humidity" : 80.0,
+  "windSpeed" : 60,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:18:57",
+  "temperature" : -2.09,
+  "pressure" : 1037.0,
+  "humidity" : 44.0,
+  "windSpeed" : 90,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:19:02",
+  "temperature" : -2.09,
+  "pressure" : 1024.0,
+  "humidity" : 86.0,
+  "windSpeed" : 44,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:19:04",
+  "temperature" : -2.08,
+  "pressure" : 1063.0,
+  "humidity" : 85.0,
+  "windSpeed" : 74,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:19:05",
+  "temperature" : -2.08,
+  "pressure" : 1095.0,
+  "humidity" : 34.0,
+  "windSpeed" : 55,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:19:07",
+  "temperature" : -2.08,
+  "pressure" : 935.0,
+  "humidity" : 51.0,
+  "windSpeed" : 53,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:19:12",
+  "temperature" : -2.07,
+  "pressure" : 1086.0,
+  "humidity" : 56.0,
+  "windSpeed" : 95,
+  "windDirection" : 12
+}, {
+  "dateTime" : "2022-02-28T06:19:16",
+  "temperature" : -2.07,
+  "pressure" : 1036.0,
+  "humidity" : 48.0,
+  "windSpeed" : 97,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:19:21",
+  "temperature" : -2.06,
+  "pressure" : 1003.0,
+  "humidity" : 32.0,
+  "windSpeed" : 67,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:19:24",
+  "temperature" : -2.06,
+  "pressure" : 983.0,
+  "humidity" : 30.0,
+  "windSpeed" : 93,
+  "windDirection" : 6
+}, {
+  "dateTime" : "2022-02-28T06:19:27",
+  "temperature" : -2.05,
+  "pressure" : 1046.0,
+  "humidity" : 48.0,
+  "windSpeed" : 19,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:19:28",
+  "temperature" : -2.05,
+  "pressure" : 1040.0,
+  "humidity" : 38.0,
+  "windSpeed" : 51,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:19:31",
+  "temperature" : -2.04,
+  "pressure" : 909.0,
+  "humidity" : 17.0,
+  "windSpeed" : 42,
+  "windDirection" : 89
+}, {
+  "dateTime" : "2022-02-28T06:19:35",
+  "temperature" : -2.04,
+  "pressure" : 927.0,
+  "humidity" : 64.0,
+  "windSpeed" : 42,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:19:38",
+  "temperature" : -2.03,
+  "pressure" : 1075.0,
+  "humidity" : 62.0,
+  "windSpeed" : 90,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:19:42",
+  "temperature" : -2.02,
+  "pressure" : 915.0,
+  "humidity" : 72.0,
+  "windSpeed" : 91,
+  "windDirection" : 83
+}, {
+  "dateTime" : "2022-02-28T06:19:46",
+  "temperature" : -2.02,
+  "pressure" : 1094.0,
+  "humidity" : 34.0,
+  "windSpeed" : 56,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:19:50",
+  "temperature" : -2.01,
+  "pressure" : 986.0,
+  "humidity" : 41.0,
+  "windSpeed" : 95,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:19:53",
+  "temperature" : -2.01,
+  "pressure" : 987.0,
+  "humidity" : 17.0,
+  "windSpeed" : 54,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:19:58",
+  "temperature" : -2.0,
+  "pressure" : 1070.0,
+  "humidity" : 15.0,
+  "windSpeed" : 42,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:20:01",
+  "temperature" : -1.99,
+  "pressure" : 923.0,
+  "humidity" : 15.0,
+  "windSpeed" : 15,
+  "windDirection" : 45
+}, {
+  "dateTime" : "2022-02-28T06:20:06",
+  "temperature" : -1.99,
+  "pressure" : 1094.0,
+  "humidity" : 75.0,
+  "windSpeed" : 29,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:20:11",
+  "temperature" : -1.98,
+  "pressure" : 955.0,
+  "humidity" : 14.0,
+  "windSpeed" : 32,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:20:16",
+  "temperature" : -1.97,
+  "pressure" : 1068.0,
+  "humidity" : 42.0,
+  "windSpeed" : 0,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:20:17",
+  "temperature" : -1.96,
+  "pressure" : 1062.0,
+  "humidity" : 74.0,
+  "windSpeed" : 53,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:20:18",
+  "temperature" : -1.96,
+  "pressure" : 1044.0,
+  "humidity" : 23.0,
+  "windSpeed" : 84,
+  "windDirection" : 76
+}, {
+  "dateTime" : "2022-02-28T06:20:19",
+  "temperature" : -1.95,
+  "pressure" : 950.0,
+  "humidity" : 24.0,
+  "windSpeed" : 84,
+  "windDirection" : 19
+}, {
+  "dateTime" : "2022-02-28T06:20:22",
+  "temperature" : -1.95,
+  "pressure" : 971.0,
+  "humidity" : 50.0,
+  "windSpeed" : 93,
+  "windDirection" : 80
+}, {
+  "dateTime" : "2022-02-28T06:20:26",
+  "temperature" : -1.95,
+  "pressure" : 913.0,
+  "humidity" : 34.0,
+  "windSpeed" : 80,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:20:30",
+  "temperature" : -1.95,
+  "pressure" : 1033.0,
+  "humidity" : 76.0,
+  "windSpeed" : 64,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:20:35",
+  "temperature" : -1.95,
+  "pressure" : 1068.0,
+  "humidity" : 81.0,
+  "windSpeed" : 17,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:20:38",
+  "temperature" : -1.95,
+  "pressure" : 1072.0,
+  "humidity" : 42.0,
+  "windSpeed" : 93,
+  "windDirection" : 49
+}, {
+  "dateTime" : "2022-02-28T06:20:39",
+  "temperature" : -1.94,
+  "pressure" : 1064.0,
+  "humidity" : 32.0,
+  "windSpeed" : 97,
+  "windDirection" : 71
+}, {
+  "dateTime" : "2022-02-28T06:20:42",
+  "temperature" : -1.94,
+  "pressure" : 1007.0,
+  "humidity" : 53.0,
+  "windSpeed" : 12,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:20:43",
+  "temperature" : -1.93,
+  "pressure" : 905.0,
+  "humidity" : 80.0,
+  "windSpeed" : 41,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:20:44",
+  "temperature" : -1.93,
+  "pressure" : 943.0,
+  "humidity" : 15.0,
+  "windSpeed" : 47,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:20:47",
+  "temperature" : -1.92,
+  "pressure" : 961.0,
+  "humidity" : 19.0,
+  "windSpeed" : 59,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:20:48",
+  "temperature" : -1.92,
+  "pressure" : 979.0,
+  "humidity" : 16.0,
+  "windSpeed" : 58,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:20:51",
+  "temperature" : -1.91,
+  "pressure" : 904.0,
+  "humidity" : 39.0,
+  "windSpeed" : 78,
+  "windDirection" : 44
+}, {
+  "dateTime" : "2022-02-28T06:20:56",
+  "temperature" : -1.9,
+  "pressure" : 975.0,
+  "humidity" : 64.0,
+  "windSpeed" : 96,
+  "windDirection" : 42
+}, {
+  "dateTime" : "2022-02-28T06:20:58",
+  "temperature" : -1.89,
+  "pressure" : 1082.0,
+  "humidity" : 72.0,
+  "windSpeed" : 33,
+  "windDirection" : 76
+}, {
+  "dateTime" : "2022-02-28T06:21:00",
+  "temperature" : -1.89,
+  "pressure" : 1023.0,
+  "humidity" : 84.0,
+  "windSpeed" : 60,
+  "windDirection" : 12
+}, {
+  "dateTime" : "2022-02-28T06:21:01",
+  "temperature" : -1.88,
+  "pressure" : 910.0,
+  "humidity" : 23.0,
+  "windSpeed" : 29,
+  "windDirection" : 55
+}, {
+  "dateTime" : "2022-02-28T06:21:05",
+  "temperature" : -1.87,
+  "pressure" : 1067.0,
+  "humidity" : 14.0,
+  "windSpeed" : 68,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:21:10",
+  "temperature" : -1.87,
+  "pressure" : 1064.0,
+  "humidity" : 51.0,
+  "windSpeed" : 70,
+  "windDirection" : 83
+}, {
+  "dateTime" : "2022-02-28T06:21:11",
+  "temperature" : -1.87,
+  "pressure" : 1009.0,
+  "humidity" : 50.0,
+  "windSpeed" : 55,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:21:12",
+  "temperature" : -1.86,
+  "pressure" : 1057.0,
+  "humidity" : 60.0,
+  "windSpeed" : 17,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:21:14",
+  "temperature" : -1.86,
+  "pressure" : 1043.0,
+  "humidity" : 84.0,
+  "windSpeed" : 63,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:21:19",
+  "temperature" : -1.86,
+  "pressure" : 987.0,
+  "humidity" : 46.0,
+  "windSpeed" : 47,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:21:21",
+  "temperature" : -1.85,
+  "pressure" : 1040.0,
+  "humidity" : 19.0,
+  "windSpeed" : 42,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:21:25",
+  "temperature" : -1.84,
+  "pressure" : 1073.0,
+  "humidity" : 15.0,
+  "windSpeed" : 68,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:21:26",
+  "temperature" : -1.84,
+  "pressure" : 1089.0,
+  "humidity" : 47.0,
+  "windSpeed" : 53,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:21:28",
+  "temperature" : -1.83,
+  "pressure" : 1070.0,
+  "humidity" : 86.0,
+  "windSpeed" : 20,
+  "windDirection" : 85
+}, {
+  "dateTime" : "2022-02-28T06:21:31",
+  "temperature" : -1.83,
+  "pressure" : 973.0,
+  "humidity" : 14.0,
+  "windSpeed" : 7,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:21:32",
+  "temperature" : -1.82,
+  "pressure" : 1059.0,
+  "humidity" : 15.0,
+  "windSpeed" : 52,
+  "windDirection" : 58
+}, {
+  "dateTime" : "2022-02-28T06:21:34",
+  "temperature" : -1.82,
+  "pressure" : 1094.0,
+  "humidity" : 46.0,
+  "windSpeed" : 41,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:21:38",
+  "temperature" : -1.81,
+  "pressure" : 958.0,
+  "humidity" : 62.0,
+  "windSpeed" : 28,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:21:42",
+  "temperature" : -1.8,
+  "pressure" : 917.0,
+  "humidity" : 40.0,
+  "windSpeed" : 48,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:21:44",
+  "temperature" : -1.8,
+  "pressure" : 946.0,
+  "humidity" : 37.0,
+  "windSpeed" : 10,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:21:48",
+  "temperature" : -1.8,
+  "pressure" : 971.0,
+  "humidity" : 83.0,
+  "windSpeed" : 64,
+  "windDirection" : 43
+}, {
+  "dateTime" : "2022-02-28T06:21:50",
+  "temperature" : -1.8,
+  "pressure" : 1001.0,
+  "humidity" : 33.0,
+  "windSpeed" : 77,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:21:52",
+  "temperature" : -1.79,
+  "pressure" : 958.0,
+  "humidity" : 45.0,
+  "windSpeed" : 50,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:21:54",
+  "temperature" : -1.79,
+  "pressure" : 1015.0,
+  "humidity" : 64.0,
+  "windSpeed" : 94,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:21:59",
+  "temperature" : -1.78,
+  "pressure" : 938.0,
+  "humidity" : 29.0,
+  "windSpeed" : 70,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:22:02",
+  "temperature" : -1.77,
+  "pressure" : 952.0,
+  "humidity" : 57.0,
+  "windSpeed" : 77,
+  "windDirection" : 71
+}, {
+  "dateTime" : "2022-02-28T06:22:05",
+  "temperature" : -1.77,
+  "pressure" : 1038.0,
+  "humidity" : 53.0,
+  "windSpeed" : 84,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:22:07",
+  "temperature" : -1.77,
+  "pressure" : 920.0,
+  "humidity" : 51.0,
+  "windSpeed" : 47,
+  "windDirection" : 33
+}, {
+  "dateTime" : "2022-02-28T06:22:11",
+  "temperature" : -1.77,
+  "pressure" : 994.0,
+  "humidity" : 14.0,
+  "windSpeed" : 34,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:22:13",
+  "temperature" : -1.76,
+  "pressure" : 979.0,
+  "humidity" : 51.0,
+  "windSpeed" : 37,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:22:15",
+  "temperature" : -1.76,
+  "pressure" : 998.0,
+  "humidity" : 72.0,
+  "windSpeed" : 68,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:22:16",
+  "temperature" : -1.76,
+  "pressure" : 1067.0,
+  "humidity" : 61.0,
+  "windSpeed" : 7,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:22:19",
+  "temperature" : -1.75,
+  "pressure" : 916.0,
+  "humidity" : 69.0,
+  "windSpeed" : 38,
+  "windDirection" : 69
+}, {
+  "dateTime" : "2022-02-28T06:22:22",
+  "temperature" : -1.75,
+  "pressure" : 1046.0,
+  "humidity" : 53.0,
+  "windSpeed" : 89,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:22:24",
+  "temperature" : -1.74,
+  "pressure" : 969.0,
+  "humidity" : 52.0,
+  "windSpeed" : 72,
+  "windDirection" : 44
+}, {
+  "dateTime" : "2022-02-28T06:22:28",
+  "temperature" : -1.74,
+  "pressure" : 973.0,
+  "humidity" : 11.0,
+  "windSpeed" : 60,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:22:30",
+  "temperature" : -1.74,
+  "pressure" : 964.0,
+  "humidity" : 36.0,
+  "windSpeed" : 16,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:22:35",
+  "temperature" : -1.73,
+  "pressure" : 1051.0,
+  "humidity" : 61.0,
+  "windSpeed" : 56,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:22:36",
+  "temperature" : -1.72,
+  "pressure" : 984.0,
+  "humidity" : 54.0,
+  "windSpeed" : 97,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:22:38",
+  "temperature" : -1.72,
+  "pressure" : 1037.0,
+  "humidity" : 84.0,
+  "windSpeed" : 59,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:22:42",
+  "temperature" : -1.71,
+  "pressure" : 1094.0,
+  "humidity" : 66.0,
+  "windSpeed" : 37,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:22:47",
+  "temperature" : -1.71,
+  "pressure" : 962.0,
+  "humidity" : 68.0,
+  "windSpeed" : 47,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:22:48",
+  "temperature" : -1.7,
+  "pressure" : 915.0,
+  "humidity" : 19.0,
+  "windSpeed" : 79,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:22:52",
+  "temperature" : -1.7,
+  "pressure" : 1000.0,
+  "humidity" : 65.0,
+  "windSpeed" : 39,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:22:53",
+  "temperature" : -1.69,
+  "pressure" : 965.0,
+  "humidity" : 64.0,
+  "windSpeed" : 61,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:22:54",
+  "temperature" : -1.69,
+  "pressure" : 975.0,
+  "humidity" : 12.0,
+  "windSpeed" : 7,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:22:58",
+  "temperature" : -1.68,
+  "pressure" : 1066.0,
+  "humidity" : 74.0,
+  "windSpeed" : 2,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:23:02",
+  "temperature" : -1.68,
+  "pressure" : 920.0,
+  "humidity" : 85.0,
+  "windSpeed" : 70,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:23:07",
+  "temperature" : -1.68,
+  "pressure" : 1078.0,
+  "humidity" : 15.0,
+  "windSpeed" : 43,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:23:11",
+  "temperature" : -1.67,
+  "pressure" : 1023.0,
+  "humidity" : 61.0,
+  "windSpeed" : 25,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:23:13",
+  "temperature" : -1.66,
+  "pressure" : 1020.0,
+  "humidity" : 61.0,
+  "windSpeed" : 37,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:23:15",
+  "temperature" : -1.66,
+  "pressure" : 1045.0,
+  "humidity" : 48.0,
+  "windSpeed" : 70,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:23:17",
+  "temperature" : -1.65,
+  "pressure" : 965.0,
+  "humidity" : 54.0,
+  "windSpeed" : 49,
+  "windDirection" : 49
+}, {
+  "dateTime" : "2022-02-28T06:23:18",
+  "temperature" : -1.64,
+  "pressure" : 995.0,
+  "humidity" : 62.0,
+  "windSpeed" : 80,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:23:21",
+  "temperature" : -1.64,
+  "pressure" : 1074.0,
+  "humidity" : 61.0,
+  "windSpeed" : 58,
+  "windDirection" : 43
+}, {
+  "dateTime" : "2022-02-28T06:23:25",
+  "temperature" : -1.63,
+  "pressure" : 1000.0,
+  "humidity" : 19.0,
+  "windSpeed" : 20,
+  "windDirection" : 44
+}, {
+  "dateTime" : "2022-02-28T06:23:28",
+  "temperature" : -1.62,
+  "pressure" : 1007.0,
+  "humidity" : 38.0,
+  "windSpeed" : 65,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:23:33",
+  "temperature" : -1.61,
+  "pressure" : 1058.0,
+  "humidity" : 64.0,
+  "windSpeed" : 55,
+  "windDirection" : 5
+}, {
+  "dateTime" : "2022-02-28T06:23:36",
+  "temperature" : -1.61,
+  "pressure" : 912.0,
+  "humidity" : 30.0,
+  "windSpeed" : 47,
+  "windDirection" : 76
+}, {
+  "dateTime" : "2022-02-28T06:23:39",
+  "temperature" : -1.61,
+  "pressure" : 1023.0,
+  "humidity" : 80.0,
+  "windSpeed" : 80,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:23:42",
+  "temperature" : -1.6,
+  "pressure" : 995.0,
+  "humidity" : 66.0,
+  "windSpeed" : 36,
+  "windDirection" : 76
+}, {
+  "dateTime" : "2022-02-28T06:23:46",
+  "temperature" : -1.59,
+  "pressure" : 990.0,
+  "humidity" : 22.0,
+  "windSpeed" : 65,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:23:47",
+  "temperature" : -1.58,
+  "pressure" : 1078.0,
+  "humidity" : 39.0,
+  "windSpeed" : 60,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:23:50",
+  "temperature" : -1.58,
+  "pressure" : 959.0,
+  "humidity" : 86.0,
+  "windSpeed" : 37,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:23:52",
+  "temperature" : -1.58,
+  "pressure" : 947.0,
+  "humidity" : 15.0,
+  "windSpeed" : 85,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:23:57",
+  "temperature" : -1.57,
+  "pressure" : 995.0,
+  "humidity" : 23.0,
+  "windSpeed" : 3,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:24:02",
+  "temperature" : -1.57,
+  "pressure" : 947.0,
+  "humidity" : 46.0,
+  "windSpeed" : 75,
+  "windDirection" : 86
+}, {
+  "dateTime" : "2022-02-28T06:24:07",
+  "temperature" : -1.56,
+  "pressure" : 1055.0,
+  "humidity" : 37.0,
+  "windSpeed" : 33,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:24:12",
+  "temperature" : -1.56,
+  "pressure" : 949.0,
+  "humidity" : 24.0,
+  "windSpeed" : 66,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:24:14",
+  "temperature" : -1.55,
+  "pressure" : 997.0,
+  "humidity" : 11.0,
+  "windSpeed" : 80,
+  "windDirection" : 73
+}, {
+  "dateTime" : "2022-02-28T06:24:17",
+  "temperature" : -1.55,
+  "pressure" : 1080.0,
+  "humidity" : 68.0,
+  "windSpeed" : 30,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:24:20",
+  "temperature" : -1.55,
+  "pressure" : 977.0,
+  "humidity" : 14.0,
+  "windSpeed" : 70,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:24:23",
+  "temperature" : -1.54,
+  "pressure" : 1048.0,
+  "humidity" : 26.0,
+  "windSpeed" : 37,
+  "windDirection" : 88
+}, {
+  "dateTime" : "2022-02-28T06:24:26",
+  "temperature" : -1.54,
+  "pressure" : 975.0,
+  "humidity" : 68.0,
+  "windSpeed" : 14,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:24:29",
+  "temperature" : -1.54,
+  "pressure" : 957.0,
+  "humidity" : 67.0,
+  "windSpeed" : 26,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:24:32",
+  "temperature" : -1.53,
+  "pressure" : 984.0,
+  "humidity" : 12.0,
+  "windSpeed" : 73,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:24:34",
+  "temperature" : -1.53,
+  "pressure" : 1007.0,
+  "humidity" : 16.0,
+  "windSpeed" : 87,
+  "windDirection" : 80
+}, {
+  "dateTime" : "2022-02-28T06:24:35",
+  "temperature" : -1.53,
+  "pressure" : 1058.0,
+  "humidity" : 15.0,
+  "windSpeed" : 27,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:24:37",
+  "temperature" : -1.52,
+  "pressure" : 1047.0,
+  "humidity" : 43.0,
+  "windSpeed" : 43,
+  "windDirection" : 67
+}, {
+  "dateTime" : "2022-02-28T06:24:40",
+  "temperature" : -1.52,
+  "pressure" : 1002.0,
+  "humidity" : 28.0,
+  "windSpeed" : 6,
+  "windDirection" : 70
+}, {
+  "dateTime" : "2022-02-28T06:24:42",
+  "temperature" : -1.52,
+  "pressure" : 1036.0,
+  "humidity" : 38.0,
+  "windSpeed" : 20,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:24:46",
+  "temperature" : -1.51,
+  "pressure" : 917.0,
+  "humidity" : 46.0,
+  "windSpeed" : 68,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:24:51",
+  "temperature" : -1.5,
+  "pressure" : 993.0,
+  "humidity" : 13.0,
+  "windSpeed" : 77,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:24:56",
+  "temperature" : -1.5,
+  "pressure" : 902.0,
+  "humidity" : 49.0,
+  "windSpeed" : 28,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:24:57",
+  "temperature" : -1.49,
+  "pressure" : 1007.0,
+  "humidity" : 50.0,
+  "windSpeed" : 39,
+  "windDirection" : 65
+}, {
+  "dateTime" : "2022-02-28T06:25:01",
+  "temperature" : -1.48,
+  "pressure" : 1055.0,
+  "humidity" : 25.0,
+  "windSpeed" : 93,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:25:05",
+  "temperature" : -1.48,
+  "pressure" : 917.0,
+  "humidity" : 40.0,
+  "windSpeed" : 7,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:25:07",
+  "temperature" : -1.47,
+  "pressure" : 962.0,
+  "humidity" : 48.0,
+  "windSpeed" : 20,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:25:08",
+  "temperature" : -1.46,
+  "pressure" : 1097.0,
+  "humidity" : 37.0,
+  "windSpeed" : 50,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:25:10",
+  "temperature" : -1.46,
+  "pressure" : 1030.0,
+  "humidity" : 65.0,
+  "windSpeed" : 98,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:25:15",
+  "temperature" : -1.46,
+  "pressure" : 1047.0,
+  "humidity" : 89.0,
+  "windSpeed" : 63,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:25:20",
+  "temperature" : -1.46,
+  "pressure" : 915.0,
+  "humidity" : 36.0,
+  "windSpeed" : 35,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:25:24",
+  "temperature" : -1.45,
+  "pressure" : 1061.0,
+  "humidity" : 13.0,
+  "windSpeed" : 51,
+  "windDirection" : 10
+}, {
+  "dateTime" : "2022-02-28T06:25:29",
+  "temperature" : -1.45,
+  "pressure" : 924.0,
+  "humidity" : 68.0,
+  "windSpeed" : 30,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:25:31",
+  "temperature" : -1.44,
+  "pressure" : 1004.0,
+  "humidity" : 31.0,
+  "windSpeed" : 27,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:25:35",
+  "temperature" : -1.44,
+  "pressure" : 1080.0,
+  "humidity" : 26.0,
+  "windSpeed" : 66,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:25:37",
+  "temperature" : -1.43,
+  "pressure" : 1080.0,
+  "humidity" : 87.0,
+  "windSpeed" : 7,
+  "windDirection" : 33
+}, {
+  "dateTime" : "2022-02-28T06:25:40",
+  "temperature" : -1.42,
+  "pressure" : 927.0,
+  "humidity" : 63.0,
+  "windSpeed" : 7,
+  "windDirection" : 86
+}, {
+  "dateTime" : "2022-02-28T06:25:44",
+  "temperature" : -1.42,
+  "pressure" : 1093.0,
+  "humidity" : 43.0,
+  "windSpeed" : 91,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:25:47",
+  "temperature" : -1.42,
+  "pressure" : 951.0,
+  "humidity" : 37.0,
+  "windSpeed" : 64,
+  "windDirection" : 70
+}, {
+  "dateTime" : "2022-02-28T06:25:50",
+  "temperature" : -1.41,
+  "pressure" : 960.0,
+  "humidity" : 74.0,
+  "windSpeed" : 97,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:25:53",
+  "temperature" : -1.4,
+  "pressure" : 1090.0,
+  "humidity" : 38.0,
+  "windSpeed" : 91,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:25:58",
+  "temperature" : -1.39,
+  "pressure" : 1034.0,
+  "humidity" : 68.0,
+  "windSpeed" : 1,
+  "windDirection" : 19
+}, {
+  "dateTime" : "2022-02-28T06:26:03",
+  "temperature" : -1.38,
+  "pressure" : 997.0,
+  "humidity" : 74.0,
+  "windSpeed" : 99,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:26:07",
+  "temperature" : -1.38,
+  "pressure" : 1091.0,
+  "humidity" : 24.0,
+  "windSpeed" : 3,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:26:09",
+  "temperature" : -1.38,
+  "pressure" : 906.0,
+  "humidity" : 55.0,
+  "windSpeed" : 79,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:26:12",
+  "temperature" : -1.38,
+  "pressure" : 1012.0,
+  "humidity" : 44.0,
+  "windSpeed" : 51,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:26:17",
+  "temperature" : -1.38,
+  "pressure" : 1038.0,
+  "humidity" : 72.0,
+  "windSpeed" : 77,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:26:19",
+  "temperature" : -1.38,
+  "pressure" : 1032.0,
+  "humidity" : 82.0,
+  "windSpeed" : 71,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:26:24",
+  "temperature" : -1.37,
+  "pressure" : 994.0,
+  "humidity" : 41.0,
+  "windSpeed" : 70,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:26:26",
+  "temperature" : -1.37,
+  "pressure" : 990.0,
+  "humidity" : 11.0,
+  "windSpeed" : 59,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:26:31",
+  "temperature" : -1.36,
+  "pressure" : 926.0,
+  "humidity" : 15.0,
+  "windSpeed" : 44,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:26:35",
+  "temperature" : -1.35,
+  "pressure" : 932.0,
+  "humidity" : 64.0,
+  "windSpeed" : 58,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:26:40",
+  "temperature" : -1.35,
+  "pressure" : 1084.0,
+  "humidity" : 64.0,
+  "windSpeed" : 17,
+  "windDirection" : 85
+}, {
+  "dateTime" : "2022-02-28T06:26:42",
+  "temperature" : -1.34,
+  "pressure" : 984.0,
+  "humidity" : 48.0,
+  "windSpeed" : 3,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:26:44",
+  "temperature" : -1.33,
+  "pressure" : 1000.0,
+  "humidity" : 24.0,
+  "windSpeed" : 16,
+  "windDirection" : 80
+}, {
+  "dateTime" : "2022-02-28T06:26:46",
+  "temperature" : -1.32,
+  "pressure" : 1058.0,
+  "humidity" : 81.0,
+  "windSpeed" : 16,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:26:50",
+  "temperature" : -1.32,
+  "pressure" : 1038.0,
+  "humidity" : 58.0,
+  "windSpeed" : 25,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:26:53",
+  "temperature" : -1.32,
+  "pressure" : 1046.0,
+  "humidity" : 15.0,
+  "windSpeed" : 87,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:26:57",
+  "temperature" : -1.31,
+  "pressure" : 1011.0,
+  "humidity" : 19.0,
+  "windSpeed" : 39,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:27:00",
+  "temperature" : -1.31,
+  "pressure" : 1030.0,
+  "humidity" : 18.0,
+  "windSpeed" : 93,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:27:03",
+  "temperature" : -1.3,
+  "pressure" : 964.0,
+  "humidity" : 68.0,
+  "windSpeed" : 72,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:27:06",
+  "temperature" : -1.3,
+  "pressure" : 1085.0,
+  "humidity" : 87.0,
+  "windSpeed" : 17,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:27:11",
+  "temperature" : -1.3,
+  "pressure" : 1000.0,
+  "humidity" : 89.0,
+  "windSpeed" : 95,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:27:14",
+  "temperature" : -1.29,
+  "pressure" : 960.0,
+  "humidity" : 38.0,
+  "windSpeed" : 76,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:27:19",
+  "temperature" : -1.29,
+  "pressure" : 912.0,
+  "humidity" : 75.0,
+  "windSpeed" : 38,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:27:23",
+  "temperature" : -1.28,
+  "pressure" : 928.0,
+  "humidity" : 86.0,
+  "windSpeed" : 91,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:27:25",
+  "temperature" : -1.28,
+  "pressure" : 923.0,
+  "humidity" : 56.0,
+  "windSpeed" : 81,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:27:29",
+  "temperature" : -1.27,
+  "pressure" : 1033.0,
+  "humidity" : 82.0,
+  "windSpeed" : 74,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:27:33",
+  "temperature" : -1.26,
+  "pressure" : 1072.0,
+  "humidity" : 67.0,
+  "windSpeed" : 9,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:27:34",
+  "temperature" : -1.26,
+  "pressure" : 1099.0,
+  "humidity" : 87.0,
+  "windSpeed" : 30,
+  "windDirection" : 16
+}, {
+  "dateTime" : "2022-02-28T06:27:38",
+  "temperature" : -1.26,
+  "pressure" : 936.0,
+  "humidity" : 65.0,
+  "windSpeed" : 65,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:27:41",
+  "temperature" : -1.26,
+  "pressure" : 1056.0,
+  "humidity" : 42.0,
+  "windSpeed" : 3,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:27:43",
+  "temperature" : -1.25,
+  "pressure" : 917.0,
+  "humidity" : 54.0,
+  "windSpeed" : 11,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:27:47",
+  "temperature" : -1.25,
+  "pressure" : 1015.0,
+  "humidity" : 14.0,
+  "windSpeed" : 46,
+  "windDirection" : 71
+}, {
+  "dateTime" : "2022-02-28T06:27:49",
+  "temperature" : -1.25,
+  "pressure" : 1012.0,
+  "humidity" : 56.0,
+  "windSpeed" : 55,
+  "windDirection" : 49
+}, {
+  "dateTime" : "2022-02-28T06:27:53",
+  "temperature" : -1.25,
+  "pressure" : 907.0,
+  "humidity" : 72.0,
+  "windSpeed" : 91,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:27:56",
+  "temperature" : -1.24,
+  "pressure" : 1085.0,
+  "humidity" : 67.0,
+  "windSpeed" : 61,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:28:01",
+  "temperature" : -1.23,
+  "pressure" : 902.0,
+  "humidity" : 46.0,
+  "windSpeed" : 63,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:28:02",
+  "temperature" : -1.23,
+  "pressure" : 1078.0,
+  "humidity" : 42.0,
+  "windSpeed" : 66,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:28:05",
+  "temperature" : -1.22,
+  "pressure" : 1076.0,
+  "humidity" : 51.0,
+  "windSpeed" : 29,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:28:08",
+  "temperature" : -1.22,
+  "pressure" : 921.0,
+  "humidity" : 16.0,
+  "windSpeed" : 63,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:28:13",
+  "temperature" : -1.22,
+  "pressure" : 1010.0,
+  "humidity" : 48.0,
+  "windSpeed" : 28,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:28:15",
+  "temperature" : -1.21,
+  "pressure" : 903.0,
+  "humidity" : 51.0,
+  "windSpeed" : 36,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:28:20",
+  "temperature" : -1.2,
+  "pressure" : 982.0,
+  "humidity" : 61.0,
+  "windSpeed" : 79,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:28:22",
+  "temperature" : -1.2,
+  "pressure" : 1064.0,
+  "humidity" : 69.0,
+  "windSpeed" : 81,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:28:27",
+  "temperature" : -1.19,
+  "pressure" : 913.0,
+  "humidity" : 33.0,
+  "windSpeed" : 6,
+  "windDirection" : 58
+}, {
+  "dateTime" : "2022-02-28T06:28:29",
+  "temperature" : -1.19,
+  "pressure" : 903.0,
+  "humidity" : 70.0,
+  "windSpeed" : 87,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:28:32",
+  "temperature" : -1.19,
+  "pressure" : 962.0,
+  "humidity" : 82.0,
+  "windSpeed" : 95,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:28:36",
+  "temperature" : -1.18,
+  "pressure" : 920.0,
+  "humidity" : 41.0,
+  "windSpeed" : 78,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:28:37",
+  "temperature" : -1.18,
+  "pressure" : 1071.0,
+  "humidity" : 12.0,
+  "windSpeed" : 97,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:28:38",
+  "temperature" : -1.17,
+  "pressure" : 982.0,
+  "humidity" : 28.0,
+  "windSpeed" : 51,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:28:40",
+  "temperature" : -1.16,
+  "pressure" : 996.0,
+  "humidity" : 13.0,
+  "windSpeed" : 50,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:28:43",
+  "temperature" : -1.16,
+  "pressure" : 952.0,
+  "humidity" : 34.0,
+  "windSpeed" : 51,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:28:47",
+  "temperature" : -1.15,
+  "pressure" : 1052.0,
+  "humidity" : 22.0,
+  "windSpeed" : 57,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:28:51",
+  "temperature" : -1.15,
+  "pressure" : 1073.0,
+  "humidity" : 68.0,
+  "windSpeed" : 78,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:28:54",
+  "temperature" : -1.15,
+  "pressure" : 1017.0,
+  "humidity" : 56.0,
+  "windSpeed" : 7,
+  "windDirection" : 28
+}, {
+  "dateTime" : "2022-02-28T06:28:59",
+  "temperature" : -1.14,
+  "pressure" : 1014.0,
+  "humidity" : 77.0,
+  "windSpeed" : 48,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:29:03",
+  "temperature" : -1.14,
+  "pressure" : 1066.0,
+  "humidity" : 82.0,
+  "windSpeed" : 53,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:29:04",
+  "temperature" : -1.14,
+  "pressure" : 995.0,
+  "humidity" : 79.0,
+  "windSpeed" : 10,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:29:08",
+  "temperature" : -1.13,
+  "pressure" : 1044.0,
+  "humidity" : 36.0,
+  "windSpeed" : 12,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:29:10",
+  "temperature" : -1.13,
+  "pressure" : 1020.0,
+  "humidity" : 64.0,
+  "windSpeed" : 25,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:29:11",
+  "temperature" : -1.12,
+  "pressure" : 1015.0,
+  "humidity" : 55.0,
+  "windSpeed" : 79,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:29:16",
+  "temperature" : -1.12,
+  "pressure" : 902.0,
+  "humidity" : 69.0,
+  "windSpeed" : 92,
+  "windDirection" : 83
+}, {
+  "dateTime" : "2022-02-28T06:29:19",
+  "temperature" : -1.11,
+  "pressure" : 1021.0,
+  "humidity" : 51.0,
+  "windSpeed" : 87,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:29:23",
+  "temperature" : -1.1,
+  "pressure" : 1022.0,
+  "humidity" : 80.0,
+  "windSpeed" : 93,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:29:24",
+  "temperature" : -1.1,
+  "pressure" : 1009.0,
+  "humidity" : 42.0,
+  "windSpeed" : 93,
+  "windDirection" : 0
+}, {
+  "dateTime" : "2022-02-28T06:29:28",
+  "temperature" : -1.1,
+  "pressure" : 1072.0,
+  "humidity" : 56.0,
+  "windSpeed" : 92,
+  "windDirection" : 86
+}, {
+  "dateTime" : "2022-02-28T06:29:30",
+  "temperature" : -1.09,
+  "pressure" : 904.0,
+  "humidity" : 63.0,
+  "windSpeed" : 73,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:29:33",
+  "temperature" : -1.09,
+  "pressure" : 990.0,
+  "humidity" : 35.0,
+  "windSpeed" : 54,
+  "windDirection" : 43
+}, {
+  "dateTime" : "2022-02-28T06:29:37",
+  "temperature" : -1.09,
+  "pressure" : 937.0,
+  "humidity" : 22.0,
+  "windSpeed" : 68,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:29:39",
+  "temperature" : -1.08,
+  "pressure" : 1044.0,
+  "humidity" : 37.0,
+  "windSpeed" : 22,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:29:43",
+  "temperature" : -1.08,
+  "pressure" : 962.0,
+  "humidity" : 15.0,
+  "windSpeed" : 98,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:29:46",
+  "temperature" : -1.07,
+  "pressure" : 986.0,
+  "humidity" : 86.0,
+  "windSpeed" : 66,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:29:51",
+  "temperature" : -1.06,
+  "pressure" : 931.0,
+  "humidity" : 12.0,
+  "windSpeed" : 31,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:29:53",
+  "temperature" : -1.06,
+  "pressure" : 1069.0,
+  "humidity" : 52.0,
+  "windSpeed" : 97,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:29:55",
+  "temperature" : -1.05,
+  "pressure" : 930.0,
+  "humidity" : 51.0,
+  "windSpeed" : 73,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:29:59",
+  "temperature" : -1.05,
+  "pressure" : 907.0,
+  "humidity" : 32.0,
+  "windSpeed" : 54,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:30:01",
+  "temperature" : -1.04,
+  "pressure" : 976.0,
+  "humidity" : 16.0,
+  "windSpeed" : 88,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:30:04",
+  "temperature" : -1.04,
+  "pressure" : 913.0,
+  "humidity" : 67.0,
+  "windSpeed" : 15,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:30:06",
+  "temperature" : -1.03,
+  "pressure" : 948.0,
+  "humidity" : 47.0,
+  "windSpeed" : 27,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:30:09",
+  "temperature" : -1.03,
+  "pressure" : 956.0,
+  "humidity" : 78.0,
+  "windSpeed" : 9,
+  "windDirection" : 24
+}, {
+  "dateTime" : "2022-02-28T06:30:13",
+  "temperature" : -1.02,
+  "pressure" : 1087.0,
+  "humidity" : 69.0,
+  "windSpeed" : 1,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:30:15",
+  "temperature" : -1.02,
+  "pressure" : 1063.0,
+  "humidity" : 57.0,
+  "windSpeed" : 58,
+  "windDirection" : 58
+}, {
+  "dateTime" : "2022-02-28T06:30:17",
+  "temperature" : -1.01,
+  "pressure" : 1025.0,
+  "humidity" : 54.0,
+  "windSpeed" : 21,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:30:18",
+  "temperature" : -1.01,
+  "pressure" : 1070.0,
+  "humidity" : 65.0,
+  "windSpeed" : 69,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:30:20",
+  "temperature" : -1.01,
+  "pressure" : 966.0,
+  "humidity" : 45.0,
+  "windSpeed" : 7,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:30:23",
+  "temperature" : -1.0,
+  "pressure" : 924.0,
+  "humidity" : 34.0,
+  "windSpeed" : 83,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:30:27",
+  "temperature" : -0.99,
+  "pressure" : 1075.0,
+  "humidity" : 51.0,
+  "windSpeed" : 84,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:30:31",
+  "temperature" : -0.99,
+  "pressure" : 933.0,
+  "humidity" : 12.0,
+  "windSpeed" : 36,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:30:36",
+  "temperature" : -0.99,
+  "pressure" : 1053.0,
+  "humidity" : 55.0,
+  "windSpeed" : 86,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:30:40",
+  "temperature" : -0.98,
+  "pressure" : 1006.0,
+  "humidity" : 89.0,
+  "windSpeed" : 69,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:30:44",
+  "temperature" : -0.98,
+  "pressure" : 987.0,
+  "humidity" : 12.0,
+  "windSpeed" : 51,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:30:49",
+  "temperature" : -0.97,
+  "pressure" : 953.0,
+  "humidity" : 64.0,
+  "windSpeed" : 47,
+  "windDirection" : 10
+}, {
+  "dateTime" : "2022-02-28T06:30:52",
+  "temperature" : -0.97,
+  "pressure" : 1025.0,
+  "humidity" : 65.0,
+  "windSpeed" : 61,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:30:53",
+  "temperature" : -0.97,
+  "pressure" : 1070.0,
+  "humidity" : 66.0,
+  "windSpeed" : 49,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:30:55",
+  "temperature" : -0.96,
+  "pressure" : 972.0,
+  "humidity" : 45.0,
+  "windSpeed" : 57,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:31:00",
+  "temperature" : -0.96,
+  "pressure" : 950.0,
+  "humidity" : 32.0,
+  "windSpeed" : 6,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:31:05",
+  "temperature" : -0.95,
+  "pressure" : 1001.0,
+  "humidity" : 12.0,
+  "windSpeed" : 2,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:31:08",
+  "temperature" : -0.94,
+  "pressure" : 1090.0,
+  "humidity" : 50.0,
+  "windSpeed" : 72,
+  "windDirection" : 76
+}, {
+  "dateTime" : "2022-02-28T06:31:12",
+  "temperature" : -0.93,
+  "pressure" : 974.0,
+  "humidity" : 21.0,
+  "windSpeed" : 37,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:31:16",
+  "temperature" : -0.93,
+  "pressure" : 1089.0,
+  "humidity" : 11.0,
+  "windSpeed" : 84,
+  "windDirection" : 86
+}, {
+  "dateTime" : "2022-02-28T06:31:21",
+  "temperature" : -0.93,
+  "pressure" : 926.0,
+  "humidity" : 64.0,
+  "windSpeed" : 67,
+  "windDirection" : 49
+}, {
+  "dateTime" : "2022-02-28T06:31:25",
+  "temperature" : -0.93,
+  "pressure" : 960.0,
+  "humidity" : 69.0,
+  "windSpeed" : 28,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:31:30",
+  "temperature" : -0.92,
+  "pressure" : 1098.0,
+  "humidity" : 26.0,
+  "windSpeed" : 36,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:31:34",
+  "temperature" : -0.91,
+  "pressure" : 1019.0,
+  "humidity" : 49.0,
+  "windSpeed" : 78,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:31:36",
+  "temperature" : -0.91,
+  "pressure" : 1066.0,
+  "humidity" : 71.0,
+  "windSpeed" : 49,
+  "windDirection" : 69
+}, {
+  "dateTime" : "2022-02-28T06:31:39",
+  "temperature" : -0.91,
+  "pressure" : 1048.0,
+  "humidity" : 14.0,
+  "windSpeed" : 61,
+  "windDirection" : 6
+}, {
+  "dateTime" : "2022-02-28T06:31:41",
+  "temperature" : -0.91,
+  "pressure" : 1052.0,
+  "humidity" : 16.0,
+  "windSpeed" : 70,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:31:44",
+  "temperature" : -0.91,
+  "pressure" : 1021.0,
+  "humidity" : 39.0,
+  "windSpeed" : 81,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:31:45",
+  "temperature" : -0.9,
+  "pressure" : 1059.0,
+  "humidity" : 30.0,
+  "windSpeed" : 3,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:31:48",
+  "temperature" : -0.9,
+  "pressure" : 1036.0,
+  "humidity" : 18.0,
+  "windSpeed" : 93,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:31:51",
+  "temperature" : -0.9,
+  "pressure" : 1000.0,
+  "humidity" : 82.0,
+  "windSpeed" : 46,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:31:52",
+  "temperature" : -0.89,
+  "pressure" : 926.0,
+  "humidity" : 17.0,
+  "windSpeed" : 22,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:31:56",
+  "temperature" : -0.89,
+  "pressure" : 1048.0,
+  "humidity" : 40.0,
+  "windSpeed" : 71,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:32:00",
+  "temperature" : -0.88,
+  "pressure" : 926.0,
+  "humidity" : 84.0,
+  "windSpeed" : 42,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:32:03",
+  "temperature" : -0.88,
+  "pressure" : 1043.0,
+  "humidity" : 80.0,
+  "windSpeed" : 46,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:32:06",
+  "temperature" : -0.87,
+  "pressure" : 1058.0,
+  "humidity" : 18.0,
+  "windSpeed" : 8,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:32:08",
+  "temperature" : -0.86,
+  "pressure" : 1046.0,
+  "humidity" : 66.0,
+  "windSpeed" : 7,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:32:09",
+  "temperature" : -0.86,
+  "pressure" : 943.0,
+  "humidity" : 81.0,
+  "windSpeed" : 93,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:32:12",
+  "temperature" : -0.85,
+  "pressure" : 940.0,
+  "humidity" : 89.0,
+  "windSpeed" : 48,
+  "windDirection" : 6
+}, {
+  "dateTime" : "2022-02-28T06:32:14",
+  "temperature" : -0.84,
+  "pressure" : 987.0,
+  "humidity" : 22.0,
+  "windSpeed" : 90,
+  "windDirection" : 85
+}, {
+  "dateTime" : "2022-02-28T06:32:18",
+  "temperature" : -0.83,
+  "pressure" : 961.0,
+  "humidity" : 79.0,
+  "windSpeed" : 40,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:32:21",
+  "temperature" : -0.83,
+  "pressure" : 1005.0,
+  "humidity" : 16.0,
+  "windSpeed" : 66,
+  "windDirection" : 52
+}, {
+  "dateTime" : "2022-02-28T06:32:26",
+  "temperature" : -0.83,
+  "pressure" : 949.0,
+  "humidity" : 27.0,
+  "windSpeed" : 25,
+  "windDirection" : 79
+}, {
+  "dateTime" : "2022-02-28T06:32:30",
+  "temperature" : -0.83,
+  "pressure" : 913.0,
+  "humidity" : 58.0,
+  "windSpeed" : 31,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:32:31",
+  "temperature" : -0.82,
+  "pressure" : 1061.0,
+  "humidity" : 77.0,
+  "windSpeed" : 30,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:32:34",
+  "temperature" : -0.82,
+  "pressure" : 961.0,
+  "humidity" : 50.0,
+  "windSpeed" : 85,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:32:37",
+  "temperature" : -0.81,
+  "pressure" : 955.0,
+  "humidity" : 15.0,
+  "windSpeed" : 88,
+  "windDirection" : 86
+}, {
+  "dateTime" : "2022-02-28T06:32:42",
+  "temperature" : -0.81,
+  "pressure" : 967.0,
+  "humidity" : 82.0,
+  "windSpeed" : 0,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:32:44",
+  "temperature" : -0.81,
+  "pressure" : 1080.0,
+  "humidity" : 20.0,
+  "windSpeed" : 24,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:32:48",
+  "temperature" : -0.8,
+  "pressure" : 930.0,
+  "humidity" : 71.0,
+  "windSpeed" : 5,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:32:51",
+  "temperature" : -0.8,
+  "pressure" : 1029.0,
+  "humidity" : 89.0,
+  "windSpeed" : 87,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:32:55",
+  "temperature" : -0.79,
+  "pressure" : 1014.0,
+  "humidity" : 59.0,
+  "windSpeed" : 9,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:32:58",
+  "temperature" : -0.79,
+  "pressure" : 1002.0,
+  "humidity" : 47.0,
+  "windSpeed" : 52,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:32:59",
+  "temperature" : -0.78,
+  "pressure" : 938.0,
+  "humidity" : 31.0,
+  "windSpeed" : 27,
+  "windDirection" : 60
+}, {
+  "dateTime" : "2022-02-28T06:33:02",
+  "temperature" : -0.78,
+  "pressure" : 977.0,
+  "humidity" : 56.0,
+  "windSpeed" : 28,
+  "windDirection" : 19
+}, {
+  "dateTime" : "2022-02-28T06:33:06",
+  "temperature" : -0.77,
+  "pressure" : 1027.0,
+  "humidity" : 43.0,
+  "windSpeed" : 37,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:33:11",
+  "temperature" : -0.77,
+  "pressure" : 1097.0,
+  "humidity" : 21.0,
+  "windSpeed" : 12,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:33:12",
+  "temperature" : -0.76,
+  "pressure" : 1036.0,
+  "humidity" : 67.0,
+  "windSpeed" : 19,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:33:17",
+  "temperature" : -0.76,
+  "pressure" : 1076.0,
+  "humidity" : 29.0,
+  "windSpeed" : 72,
+  "windDirection" : 16
+}, {
+  "dateTime" : "2022-02-28T06:33:18",
+  "temperature" : -0.76,
+  "pressure" : 974.0,
+  "humidity" : 63.0,
+  "windSpeed" : 46,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:33:20",
+  "temperature" : -0.75,
+  "pressure" : 1084.0,
+  "humidity" : 33.0,
+  "windSpeed" : 65,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:33:22",
+  "temperature" : -0.74,
+  "pressure" : 993.0,
+  "humidity" : 51.0,
+  "windSpeed" : 41,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:33:25",
+  "temperature" : -0.73,
+  "pressure" : 1026.0,
+  "humidity" : 11.0,
+  "windSpeed" : 27,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:33:29",
+  "temperature" : -0.72,
+  "pressure" : 1053.0,
+  "humidity" : 58.0,
+  "windSpeed" : 70,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:33:34",
+  "temperature" : -0.72,
+  "pressure" : 1031.0,
+  "humidity" : 69.0,
+  "windSpeed" : 51,
+  "windDirection" : 86
+}, {
+  "dateTime" : "2022-02-28T06:33:38",
+  "temperature" : -0.72,
+  "pressure" : 913.0,
+  "humidity" : 73.0,
+  "windSpeed" : 61,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:33:42",
+  "temperature" : -0.71,
+  "pressure" : 1019.0,
+  "humidity" : 59.0,
+  "windSpeed" : 9,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:33:47",
+  "temperature" : -0.71,
+  "pressure" : 1056.0,
+  "humidity" : 69.0,
+  "windSpeed" : 58,
+  "windDirection" : 28
+}, {
+  "dateTime" : "2022-02-28T06:33:51",
+  "temperature" : -0.7,
+  "pressure" : 1079.0,
+  "humidity" : 28.0,
+  "windSpeed" : 69,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:33:53",
+  "temperature" : -0.7,
+  "pressure" : 1076.0,
+  "humidity" : 50.0,
+  "windSpeed" : 78,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:33:57",
+  "temperature" : -0.7,
+  "pressure" : 1023.0,
+  "humidity" : 28.0,
+  "windSpeed" : 37,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:34:00",
+  "temperature" : -0.69,
+  "pressure" : 987.0,
+  "humidity" : 77.0,
+  "windSpeed" : 5,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:34:04",
+  "temperature" : -0.69,
+  "pressure" : 929.0,
+  "humidity" : 88.0,
+  "windSpeed" : 40,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:34:07",
+  "temperature" : -0.68,
+  "pressure" : 949.0,
+  "humidity" : 42.0,
+  "windSpeed" : 45,
+  "windDirection" : 80
+}, {
+  "dateTime" : "2022-02-28T06:34:09",
+  "temperature" : -0.68,
+  "pressure" : 908.0,
+  "humidity" : 77.0,
+  "windSpeed" : 20,
+  "windDirection" : 52
+}, {
+  "dateTime" : "2022-02-28T06:34:10",
+  "temperature" : -0.67,
+  "pressure" : 922.0,
+  "humidity" : 69.0,
+  "windSpeed" : 1,
+  "windDirection" : 45
+}, {
+  "dateTime" : "2022-02-28T06:34:13",
+  "temperature" : -0.67,
+  "pressure" : 953.0,
+  "humidity" : 42.0,
+  "windSpeed" : 72,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:34:18",
+  "temperature" : -0.66,
+  "pressure" : 953.0,
+  "humidity" : 32.0,
+  "windSpeed" : 98,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:34:23",
+  "temperature" : -0.66,
+  "pressure" : 1060.0,
+  "humidity" : 47.0,
+  "windSpeed" : 10,
+  "windDirection" : 45
+}, {
+  "dateTime" : "2022-02-28T06:34:25",
+  "temperature" : -0.65,
+  "pressure" : 1034.0,
+  "humidity" : 58.0,
+  "windSpeed" : 44,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:34:27",
+  "temperature" : -0.65,
+  "pressure" : 972.0,
+  "humidity" : 82.0,
+  "windSpeed" : 53,
+  "windDirection" : 43
+}, {
+  "dateTime" : "2022-02-28T06:34:32",
+  "temperature" : -0.64,
+  "pressure" : 904.0,
+  "humidity" : 53.0,
+  "windSpeed" : 8,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:34:36",
+  "temperature" : -0.64,
+  "pressure" : 914.0,
+  "humidity" : 15.0,
+  "windSpeed" : 47,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:34:41",
+  "temperature" : -0.64,
+  "pressure" : 903.0,
+  "humidity" : 56.0,
+  "windSpeed" : 15,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:34:43",
+  "temperature" : -0.63,
+  "pressure" : 971.0,
+  "humidity" : 75.0,
+  "windSpeed" : 63,
+  "windDirection" : 28
+}, {
+  "dateTime" : "2022-02-28T06:34:45",
+  "temperature" : -0.63,
+  "pressure" : 942.0,
+  "humidity" : 12.0,
+  "windSpeed" : 25,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:34:50",
+  "temperature" : -0.62,
+  "pressure" : 1019.0,
+  "humidity" : 36.0,
+  "windSpeed" : 26,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:34:53",
+  "temperature" : -0.62,
+  "pressure" : 908.0,
+  "humidity" : 74.0,
+  "windSpeed" : 18,
+  "windDirection" : 64
+}, {
+  "dateTime" : "2022-02-28T06:34:57",
+  "temperature" : -0.62,
+  "pressure" : 1066.0,
+  "humidity" : 82.0,
+  "windSpeed" : 5,
+  "windDirection" : 19
+}, {
+  "dateTime" : "2022-02-28T06:35:00",
+  "temperature" : -0.61,
+  "pressure" : 1038.0,
+  "humidity" : 65.0,
+  "windSpeed" : 35,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:35:03",
+  "temperature" : -0.6,
+  "pressure" : 950.0,
+  "humidity" : 41.0,
+  "windSpeed" : 65,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:35:04",
+  "temperature" : -0.6,
+  "pressure" : 934.0,
+  "humidity" : 60.0,
+  "windSpeed" : 29,
+  "windDirection" : 33
+}, {
+  "dateTime" : "2022-02-28T06:35:07",
+  "temperature" : -0.59,
+  "pressure" : 985.0,
+  "humidity" : 82.0,
+  "windSpeed" : 45,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:35:12",
+  "temperature" : -0.58,
+  "pressure" : 925.0,
+  "humidity" : 14.0,
+  "windSpeed" : 95,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:35:16",
+  "temperature" : -0.58,
+  "pressure" : 1075.0,
+  "humidity" : 26.0,
+  "windSpeed" : 22,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:35:17",
+  "temperature" : -0.58,
+  "pressure" : 997.0,
+  "humidity" : 67.0,
+  "windSpeed" : 3,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:35:18",
+  "temperature" : -0.57,
+  "pressure" : 1097.0,
+  "humidity" : 20.0,
+  "windSpeed" : 40,
+  "windDirection" : 67
+}, {
+  "dateTime" : "2022-02-28T06:35:20",
+  "temperature" : -0.57,
+  "pressure" : 946.0,
+  "humidity" : 36.0,
+  "windSpeed" : 45,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:35:25",
+  "temperature" : -0.56,
+  "pressure" : 1066.0,
+  "humidity" : 12.0,
+  "windSpeed" : 29,
+  "windDirection" : 65
+}, {
+  "dateTime" : "2022-02-28T06:35:26",
+  "temperature" : -0.56,
+  "pressure" : 952.0,
+  "humidity" : 18.0,
+  "windSpeed" : 69,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:35:27",
+  "temperature" : -0.55,
+  "pressure" : 985.0,
+  "humidity" : 13.0,
+  "windSpeed" : 69,
+  "windDirection" : 52
+}, {
+  "dateTime" : "2022-02-28T06:35:31",
+  "temperature" : -0.55,
+  "pressure" : 927.0,
+  "humidity" : 38.0,
+  "windSpeed" : 32,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:35:36",
+  "temperature" : -0.55,
+  "pressure" : 925.0,
+  "humidity" : 81.0,
+  "windSpeed" : 84,
+  "windDirection" : 76
+}, {
+  "dateTime" : "2022-02-28T06:35:41",
+  "temperature" : -0.54,
+  "pressure" : 1027.0,
+  "humidity" : 45.0,
+  "windSpeed" : 43,
+  "windDirection" : 6
+}, {
+  "dateTime" : "2022-02-28T06:35:42",
+  "temperature" : -0.54,
+  "pressure" : 1025.0,
+  "humidity" : 52.0,
+  "windSpeed" : 39,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:35:44",
+  "temperature" : -0.53,
+  "pressure" : 982.0,
+  "humidity" : 43.0,
+  "windSpeed" : 46,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:35:46",
+  "temperature" : -0.52,
+  "pressure" : 1031.0,
+  "humidity" : 26.0,
+  "windSpeed" : 30,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:35:48",
+  "temperature" : -0.52,
+  "pressure" : 1010.0,
+  "humidity" : 25.0,
+  "windSpeed" : 53,
+  "windDirection" : 16
+}, {
+  "dateTime" : "2022-02-28T06:35:52",
+  "temperature" : -0.51,
+  "pressure" : 901.0,
+  "humidity" : 50.0,
+  "windSpeed" : 53,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:35:56",
+  "temperature" : -0.5,
+  "pressure" : 984.0,
+  "humidity" : 36.0,
+  "windSpeed" : 77,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:36:00",
+  "temperature" : -0.5,
+  "pressure" : 967.0,
+  "humidity" : 21.0,
+  "windSpeed" : 18,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:36:01",
+  "temperature" : -0.5,
+  "pressure" : 1089.0,
+  "humidity" : 16.0,
+  "windSpeed" : 34,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:36:04",
+  "temperature" : -0.49,
+  "pressure" : 1034.0,
+  "humidity" : 86.0,
+  "windSpeed" : 16,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:36:07",
+  "temperature" : -0.48,
+  "pressure" : 1000.0,
+  "humidity" : 47.0,
+  "windSpeed" : 46,
+  "windDirection" : 67
+}, {
+  "dateTime" : "2022-02-28T06:36:09",
+  "temperature" : -0.48,
+  "pressure" : 942.0,
+  "humidity" : 83.0,
+  "windSpeed" : 53,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:36:11",
+  "temperature" : -0.48,
+  "pressure" : 986.0,
+  "humidity" : 22.0,
+  "windSpeed" : 24,
+  "windDirection" : 24
+}, {
+  "dateTime" : "2022-02-28T06:36:16",
+  "temperature" : -0.47,
+  "pressure" : 907.0,
+  "humidity" : 33.0,
+  "windSpeed" : 36,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:36:19",
+  "temperature" : -0.46,
+  "pressure" : 987.0,
+  "humidity" : 68.0,
+  "windSpeed" : 81,
+  "windDirection" : 49
+}, {
+  "dateTime" : "2022-02-28T06:36:21",
+  "temperature" : -0.46,
+  "pressure" : 1069.0,
+  "humidity" : 41.0,
+  "windSpeed" : 10,
+  "windDirection" : 79
+}, {
+  "dateTime" : "2022-02-28T06:36:26",
+  "temperature" : -0.45,
+  "pressure" : 1091.0,
+  "humidity" : 68.0,
+  "windSpeed" : 77,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:36:27",
+  "temperature" : -0.44,
+  "pressure" : 907.0,
+  "humidity" : 46.0,
+  "windSpeed" : 9,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:36:30",
+  "temperature" : -0.44,
+  "pressure" : 1063.0,
+  "humidity" : 82.0,
+  "windSpeed" : 33,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:36:32",
+  "temperature" : -0.43,
+  "pressure" : 926.0,
+  "humidity" : 74.0,
+  "windSpeed" : 59,
+  "windDirection" : 7
+}, {
+  "dateTime" : "2022-02-28T06:36:33",
+  "temperature" : -0.42,
+  "pressure" : 969.0,
+  "humidity" : 49.0,
+  "windSpeed" : 46,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:36:37",
+  "temperature" : -0.42,
+  "pressure" : 1084.0,
+  "humidity" : 83.0,
+  "windSpeed" : 70,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:36:39",
+  "temperature" : -0.42,
+  "pressure" : 1026.0,
+  "humidity" : 66.0,
+  "windSpeed" : 15,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:36:43",
+  "temperature" : -0.41,
+  "pressure" : 963.0,
+  "humidity" : 77.0,
+  "windSpeed" : 22,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:36:45",
+  "temperature" : -0.41,
+  "pressure" : 1079.0,
+  "humidity" : 46.0,
+  "windSpeed" : 74,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:36:49",
+  "temperature" : -0.4,
+  "pressure" : 1020.0,
+  "humidity" : 47.0,
+  "windSpeed" : 60,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:36:54",
+  "temperature" : -0.4,
+  "pressure" : 1039.0,
+  "humidity" : 11.0,
+  "windSpeed" : 7,
+  "windDirection" : 79
+}, {
+  "dateTime" : "2022-02-28T06:36:58",
+  "temperature" : -0.39,
+  "pressure" : 1098.0,
+  "humidity" : 37.0,
+  "windSpeed" : 24,
+  "windDirection" : 31
+}, {
+  "dateTime" : "2022-02-28T06:36:59",
+  "temperature" : -0.38,
+  "pressure" : 1066.0,
+  "humidity" : 50.0,
+  "windSpeed" : 91,
+  "windDirection" : 10
+}, {
+  "dateTime" : "2022-02-28T06:37:03",
+  "temperature" : -0.38,
+  "pressure" : 1060.0,
+  "humidity" : 36.0,
+  "windSpeed" : 11,
+  "windDirection" : 76
+}, {
+  "dateTime" : "2022-02-28T06:37:06",
+  "temperature" : -0.37,
+  "pressure" : 1000.0,
+  "humidity" : 67.0,
+  "windSpeed" : 97,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:37:09",
+  "temperature" : -0.37,
+  "pressure" : 1094.0,
+  "humidity" : 15.0,
+  "windSpeed" : 73,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:37:13",
+  "temperature" : -0.36,
+  "pressure" : 1068.0,
+  "humidity" : 18.0,
+  "windSpeed" : 27,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:37:14",
+  "temperature" : -0.36,
+  "pressure" : 1025.0,
+  "humidity" : 57.0,
+  "windSpeed" : 63,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:37:17",
+  "temperature" : -0.35,
+  "pressure" : 940.0,
+  "humidity" : 17.0,
+  "windSpeed" : 45,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:37:20",
+  "temperature" : -0.34,
+  "pressure" : 972.0,
+  "humidity" : 18.0,
+  "windSpeed" : 49,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:37:24",
+  "temperature" : -0.34,
+  "pressure" : 1081.0,
+  "humidity" : 83.0,
+  "windSpeed" : 47,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:37:26",
+  "temperature" : -0.33,
+  "pressure" : 919.0,
+  "humidity" : 32.0,
+  "windSpeed" : 24,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:37:29",
+  "temperature" : -0.33,
+  "pressure" : 1052.0,
+  "humidity" : 30.0,
+  "windSpeed" : 62,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:37:31",
+  "temperature" : -0.32,
+  "pressure" : 1097.0,
+  "humidity" : 17.0,
+  "windSpeed" : 11,
+  "windDirection" : 60
+}, {
+  "dateTime" : "2022-02-28T06:37:36",
+  "temperature" : -0.32,
+  "pressure" : 1037.0,
+  "humidity" : 44.0,
+  "windSpeed" : 43,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:37:41",
+  "temperature" : -0.31,
+  "pressure" : 1082.0,
+  "humidity" : 32.0,
+  "windSpeed" : 29,
+  "windDirection" : 88
+}, {
+  "dateTime" : "2022-02-28T06:37:46",
+  "temperature" : -0.31,
+  "pressure" : 954.0,
+  "humidity" : 45.0,
+  "windSpeed" : 37,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:37:48",
+  "temperature" : -0.31,
+  "pressure" : 977.0,
+  "humidity" : 41.0,
+  "windSpeed" : 9,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:37:49",
+  "temperature" : -0.3,
+  "pressure" : 995.0,
+  "humidity" : 54.0,
+  "windSpeed" : 78,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:37:52",
+  "temperature" : -0.3,
+  "pressure" : 916.0,
+  "humidity" : 86.0,
+  "windSpeed" : 95,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:37:57",
+  "temperature" : -0.3,
+  "pressure" : 987.0,
+  "humidity" : 50.0,
+  "windSpeed" : 62,
+  "windDirection" : 5
+}, {
+  "dateTime" : "2022-02-28T06:38:02",
+  "temperature" : -0.3,
+  "pressure" : 956.0,
+  "humidity" : 55.0,
+  "windSpeed" : 33,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:38:06",
+  "temperature" : -0.29,
+  "pressure" : 972.0,
+  "humidity" : 64.0,
+  "windSpeed" : 10,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:38:08",
+  "temperature" : -0.28,
+  "pressure" : 943.0,
+  "humidity" : 31.0,
+  "windSpeed" : 58,
+  "windDirection" : 4
+}, {
+  "dateTime" : "2022-02-28T06:38:09",
+  "temperature" : -0.28,
+  "pressure" : 1069.0,
+  "humidity" : 77.0,
+  "windSpeed" : 53,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:38:11",
+  "temperature" : -0.27,
+  "pressure" : 920.0,
+  "humidity" : 33.0,
+  "windSpeed" : 96,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:38:14",
+  "temperature" : -0.26,
+  "pressure" : 1091.0,
+  "humidity" : 25.0,
+  "windSpeed" : 65,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:38:19",
+  "temperature" : -0.26,
+  "pressure" : 953.0,
+  "humidity" : 47.0,
+  "windSpeed" : 74,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:38:22",
+  "temperature" : -0.25,
+  "pressure" : 949.0,
+  "humidity" : 35.0,
+  "windSpeed" : 29,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:38:26",
+  "temperature" : -0.25,
+  "pressure" : 903.0,
+  "humidity" : 26.0,
+  "windSpeed" : 57,
+  "windDirection" : 33
+}, {
+  "dateTime" : "2022-02-28T06:38:30",
+  "temperature" : -0.25,
+  "pressure" : 931.0,
+  "humidity" : 51.0,
+  "windSpeed" : 36,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:38:31",
+  "temperature" : -0.24,
+  "pressure" : 943.0,
+  "humidity" : 68.0,
+  "windSpeed" : 86,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:38:36",
+  "temperature" : -0.23,
+  "pressure" : 975.0,
+  "humidity" : 23.0,
+  "windSpeed" : 40,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:38:41",
+  "temperature" : -0.22,
+  "pressure" : 915.0,
+  "humidity" : 72.0,
+  "windSpeed" : 1,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:38:42",
+  "temperature" : -0.22,
+  "pressure" : 922.0,
+  "humidity" : 49.0,
+  "windSpeed" : 30,
+  "windDirection" : 58
+}, {
+  "dateTime" : "2022-02-28T06:38:45",
+  "temperature" : -0.21,
+  "pressure" : 944.0,
+  "humidity" : 41.0,
+  "windSpeed" : 11,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:38:48",
+  "temperature" : -0.2,
+  "pressure" : 962.0,
+  "humidity" : 42.0,
+  "windSpeed" : 88,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:38:50",
+  "temperature" : -0.2,
+  "pressure" : 1059.0,
+  "humidity" : 66.0,
+  "windSpeed" : 37,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:38:55",
+  "temperature" : -0.19,
+  "pressure" : 1090.0,
+  "humidity" : 29.0,
+  "windSpeed" : 37,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:38:59",
+  "temperature" : -0.19,
+  "pressure" : 1023.0,
+  "humidity" : 19.0,
+  "windSpeed" : 65,
+  "windDirection" : 83
+}, {
+  "dateTime" : "2022-02-28T06:39:00",
+  "temperature" : -0.18,
+  "pressure" : 1003.0,
+  "humidity" : 37.0,
+  "windSpeed" : 6,
+  "windDirection" : 60
+}, {
+  "dateTime" : "2022-02-28T06:39:05",
+  "temperature" : -0.18,
+  "pressure" : 941.0,
+  "humidity" : 24.0,
+  "windSpeed" : 26,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:39:08",
+  "temperature" : -0.17,
+  "pressure" : 907.0,
+  "humidity" : 85.0,
+  "windSpeed" : 11,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:39:09",
+  "temperature" : -0.17,
+  "pressure" : 954.0,
+  "humidity" : 28.0,
+  "windSpeed" : 64,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:39:13",
+  "temperature" : -0.17,
+  "pressure" : 1094.0,
+  "humidity" : 69.0,
+  "windSpeed" : 37,
+  "windDirection" : 52
+}, {
+  "dateTime" : "2022-02-28T06:39:16",
+  "temperature" : -0.16,
+  "pressure" : 1006.0,
+  "humidity" : 65.0,
+  "windSpeed" : 7,
+  "windDirection" : 69
+}, {
+  "dateTime" : "2022-02-28T06:39:18",
+  "temperature" : -0.16,
+  "pressure" : 920.0,
+  "humidity" : 30.0,
+  "windSpeed" : 13,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:39:20",
+  "temperature" : -0.16,
+  "pressure" : 1061.0,
+  "humidity" : 84.0,
+  "windSpeed" : 96,
+  "windDirection" : 73
+}, {
+  "dateTime" : "2022-02-28T06:39:24",
+  "temperature" : -0.16,
+  "pressure" : 910.0,
+  "humidity" : 83.0,
+  "windSpeed" : 7,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:39:28",
+  "temperature" : -0.15,
+  "pressure" : 1003.0,
+  "humidity" : 15.0,
+  "windSpeed" : 87,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:39:29",
+  "temperature" : -0.14,
+  "pressure" : 1034.0,
+  "humidity" : 72.0,
+  "windSpeed" : 11,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:39:32",
+  "temperature" : -0.14,
+  "pressure" : 996.0,
+  "humidity" : 42.0,
+  "windSpeed" : 64,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:39:36",
+  "temperature" : -0.13,
+  "pressure" : 961.0,
+  "humidity" : 41.0,
+  "windSpeed" : 54,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:39:38",
+  "temperature" : -0.12,
+  "pressure" : 902.0,
+  "humidity" : 22.0,
+  "windSpeed" : 13,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:39:41",
+  "temperature" : -0.11,
+  "pressure" : 920.0,
+  "humidity" : 63.0,
+  "windSpeed" : 52,
+  "windDirection" : 81
+}, {
+  "dateTime" : "2022-02-28T06:39:44",
+  "temperature" : -0.11,
+  "pressure" : 1056.0,
+  "humidity" : 15.0,
+  "windSpeed" : 89,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:39:49",
+  "temperature" : -0.11,
+  "pressure" : 1069.0,
+  "humidity" : 11.0,
+  "windSpeed" : 51,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:39:51",
+  "temperature" : -0.1,
+  "pressure" : 1099.0,
+  "humidity" : 61.0,
+  "windSpeed" : 46,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:39:53",
+  "temperature" : -0.09,
+  "pressure" : 912.0,
+  "humidity" : 22.0,
+  "windSpeed" : 42,
+  "windDirection" : 10
+}, {
+  "dateTime" : "2022-02-28T06:39:54",
+  "temperature" : -0.09,
+  "pressure" : 980.0,
+  "humidity" : 42.0,
+  "windSpeed" : 99,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:39:56",
+  "temperature" : -0.08,
+  "pressure" : 1045.0,
+  "humidity" : 18.0,
+  "windSpeed" : 42,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:39:58",
+  "temperature" : -0.07,
+  "pressure" : 909.0,
+  "humidity" : 19.0,
+  "windSpeed" : 86,
+  "windDirection" : 3
+}, {
+  "dateTime" : "2022-02-28T06:39:59",
+  "temperature" : -0.07,
+  "pressure" : 1000.0,
+  "humidity" : 34.0,
+  "windSpeed" : 87,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:40:02",
+  "temperature" : -0.07,
+  "pressure" : 1041.0,
+  "humidity" : 39.0,
+  "windSpeed" : 62,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:40:03",
+  "temperature" : -0.06,
+  "pressure" : 1006.0,
+  "humidity" : 58.0,
+  "windSpeed" : 6,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:40:08",
+  "temperature" : -0.06,
+  "pressure" : 1045.0,
+  "humidity" : 59.0,
+  "windSpeed" : 8,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:40:10",
+  "temperature" : -0.05,
+  "pressure" : 1048.0,
+  "humidity" : 70.0,
+  "windSpeed" : 52,
+  "windDirection" : 88
+}, {
+  "dateTime" : "2022-02-28T06:40:14",
+  "temperature" : -0.04,
+  "pressure" : 931.0,
+  "humidity" : 19.0,
+  "windSpeed" : 61,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:40:18",
+  "temperature" : -0.04,
+  "pressure" : 1077.0,
+  "humidity" : 68.0,
+  "windSpeed" : 4,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:40:23",
+  "temperature" : -0.03,
+  "pressure" : 1058.0,
+  "humidity" : 26.0,
+  "windSpeed" : 2,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:40:24",
+  "temperature" : -0.03,
+  "pressure" : 998.0,
+  "humidity" : 29.0,
+  "windSpeed" : 73,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:40:27",
+  "temperature" : -0.02,
+  "pressure" : 934.0,
+  "humidity" : 26.0,
+  "windSpeed" : 26,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:40:31",
+  "temperature" : -0.02,
+  "pressure" : 1056.0,
+  "humidity" : 16.0,
+  "windSpeed" : 37,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:40:33",
+  "temperature" : -0.02,
+  "pressure" : 1016.0,
+  "humidity" : 37.0,
+  "windSpeed" : 18,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:40:34",
+  "temperature" : -0.01,
+  "pressure" : 1052.0,
+  "humidity" : 80.0,
+  "windSpeed" : 93,
+  "windDirection" : 71
+}, {
+  "dateTime" : "2022-02-28T06:40:38",
+  "temperature" : 0.0,
+  "pressure" : 956.0,
+  "humidity" : 39.0,
+  "windSpeed" : 43,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:40:41",
+  "temperature" : 0.0,
+  "pressure" : 1013.0,
+  "humidity" : 37.0,
+  "windSpeed" : 82,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:40:46",
+  "temperature" : 0.0,
+  "pressure" : 915.0,
+  "humidity" : 43.0,
+  "windSpeed" : 77,
+  "windDirection" : 19
+}, {
+  "dateTime" : "2022-02-28T06:40:51",
+  "temperature" : 0.01,
+  "pressure" : 1085.0,
+  "humidity" : 54.0,
+  "windSpeed" : 13,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:40:53",
+  "temperature" : 0.02,
+  "pressure" : 947.0,
+  "humidity" : 78.0,
+  "windSpeed" : 13,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:40:57",
+  "temperature" : 0.02,
+  "pressure" : 1075.0,
+  "humidity" : 35.0,
+  "windSpeed" : 26,
+  "windDirection" : 33
+}, {
+  "dateTime" : "2022-02-28T06:41:00",
+  "temperature" : 0.02,
+  "pressure" : 1032.0,
+  "humidity" : 18.0,
+  "windSpeed" : 23,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:41:04",
+  "temperature" : 0.02,
+  "pressure" : 1029.0,
+  "humidity" : 52.0,
+  "windSpeed" : 81,
+  "windDirection" : 55
+}, {
+  "dateTime" : "2022-02-28T06:41:09",
+  "temperature" : 0.03,
+  "pressure" : 993.0,
+  "humidity" : 28.0,
+  "windSpeed" : 11,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:41:11",
+  "temperature" : 0.03,
+  "pressure" : 1015.0,
+  "humidity" : 53.0,
+  "windSpeed" : 88,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:41:16",
+  "temperature" : 0.04,
+  "pressure" : 1074.0,
+  "humidity" : 78.0,
+  "windSpeed" : 99,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:41:17",
+  "temperature" : 0.04,
+  "pressure" : 1045.0,
+  "humidity" : 45.0,
+  "windSpeed" : 73,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:41:20",
+  "temperature" : 0.05,
+  "pressure" : 955.0,
+  "humidity" : 56.0,
+  "windSpeed" : 87,
+  "windDirection" : 5
+}, {
+  "dateTime" : "2022-02-28T06:41:22",
+  "temperature" : 0.06,
+  "pressure" : 924.0,
+  "humidity" : 56.0,
+  "windSpeed" : 95,
+  "windDirection" : 86
+}, {
+  "dateTime" : "2022-02-28T06:41:25",
+  "temperature" : 0.06,
+  "pressure" : 1053.0,
+  "humidity" : 82.0,
+  "windSpeed" : 58,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:41:29",
+  "temperature" : 0.07,
+  "pressure" : 1004.0,
+  "humidity" : 49.0,
+  "windSpeed" : 77,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:41:33",
+  "temperature" : 0.07,
+  "pressure" : 1095.0,
+  "humidity" : 81.0,
+  "windSpeed" : 47,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:41:38",
+  "temperature" : 0.08,
+  "pressure" : 1070.0,
+  "humidity" : 53.0,
+  "windSpeed" : 20,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:41:43",
+  "temperature" : 0.08,
+  "pressure" : 1099.0,
+  "humidity" : 35.0,
+  "windSpeed" : 9,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:41:44",
+  "temperature" : 0.08,
+  "pressure" : 1038.0,
+  "humidity" : 59.0,
+  "windSpeed" : 28,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:41:49",
+  "temperature" : 0.09,
+  "pressure" : 930.0,
+  "humidity" : 80.0,
+  "windSpeed" : 44,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:41:53",
+  "temperature" : 0.1,
+  "pressure" : 1089.0,
+  "humidity" : 73.0,
+  "windSpeed" : 3,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:41:55",
+  "temperature" : 0.1,
+  "pressure" : 1056.0,
+  "humidity" : 80.0,
+  "windSpeed" : 81,
+  "windDirection" : 32
+}, {
+  "dateTime" : "2022-02-28T06:41:59",
+  "temperature" : 0.11,
+  "pressure" : 1084.0,
+  "humidity" : 41.0,
+  "windSpeed" : 71,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:42:03",
+  "temperature" : 0.12,
+  "pressure" : 995.0,
+  "humidity" : 44.0,
+  "windSpeed" : 66,
+  "windDirection" : 82
+}, {
+  "dateTime" : "2022-02-28T06:42:08",
+  "temperature" : 0.12,
+  "pressure" : 1086.0,
+  "humidity" : 79.0,
+  "windSpeed" : 35,
+  "windDirection" : 90
+}, {
+  "dateTime" : "2022-02-28T06:42:13",
+  "temperature" : 0.13,
+  "pressure" : 906.0,
+  "humidity" : 41.0,
+  "windSpeed" : 93,
+  "windDirection" : 33
+}, {
+  "dateTime" : "2022-02-28T06:42:14",
+  "temperature" : 0.14,
+  "pressure" : 1056.0,
+  "humidity" : 12.0,
+  "windSpeed" : 86,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:42:18",
+  "temperature" : 0.15,
+  "pressure" : 1084.0,
+  "humidity" : 62.0,
+  "windSpeed" : 0,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:42:20",
+  "temperature" : 0.15,
+  "pressure" : 1000.0,
+  "humidity" : 52.0,
+  "windSpeed" : 33,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:42:21",
+  "temperature" : 0.15,
+  "pressure" : 941.0,
+  "humidity" : 39.0,
+  "windSpeed" : 27,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:42:24",
+  "temperature" : 0.16,
+  "pressure" : 1020.0,
+  "humidity" : 22.0,
+  "windSpeed" : 9,
+  "windDirection" : 70
+}, {
+  "dateTime" : "2022-02-28T06:42:26",
+  "temperature" : 0.16,
+  "pressure" : 932.0,
+  "humidity" : 85.0,
+  "windSpeed" : 51,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:42:30",
+  "temperature" : 0.17,
+  "pressure" : 985.0,
+  "humidity" : 41.0,
+  "windSpeed" : 74,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:42:33",
+  "temperature" : 0.17,
+  "pressure" : 1034.0,
+  "humidity" : 51.0,
+  "windSpeed" : 1,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:42:35",
+  "temperature" : 0.18,
+  "pressure" : 976.0,
+  "humidity" : 56.0,
+  "windSpeed" : 36,
+  "windDirection" : 45
+}, {
+  "dateTime" : "2022-02-28T06:42:40",
+  "temperature" : 0.19,
+  "pressure" : 1047.0,
+  "humidity" : 34.0,
+  "windSpeed" : 8,
+  "windDirection" : 65
+}, {
+  "dateTime" : "2022-02-28T06:42:41",
+  "temperature" : 0.19,
+  "pressure" : 1091.0,
+  "humidity" : 19.0,
+  "windSpeed" : 24,
+  "windDirection" : 73
+}, {
+  "dateTime" : "2022-02-28T06:42:43",
+  "temperature" : 0.2,
+  "pressure" : 1036.0,
+  "humidity" : 44.0,
+  "windSpeed" : 73,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:42:48",
+  "temperature" : 0.21,
+  "pressure" : 1082.0,
+  "humidity" : 83.0,
+  "windSpeed" : 78,
+  "windDirection" : 8
+}, {
+  "dateTime" : "2022-02-28T06:42:53",
+  "temperature" : 0.21,
+  "pressure" : 997.0,
+  "humidity" : 88.0,
+  "windSpeed" : 0,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:42:58",
+  "temperature" : 0.22,
+  "pressure" : 1061.0,
+  "humidity" : 43.0,
+  "windSpeed" : 11,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:43:03",
+  "temperature" : 0.22,
+  "pressure" : 1091.0,
+  "humidity" : 88.0,
+  "windSpeed" : 7,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:43:04",
+  "temperature" : 0.23,
+  "pressure" : 904.0,
+  "humidity" : 42.0,
+  "windSpeed" : 80,
+  "windDirection" : 28
+}, {
+  "dateTime" : "2022-02-28T06:43:09",
+  "temperature" : 0.23,
+  "pressure" : 1040.0,
+  "humidity" : 60.0,
+  "windSpeed" : 38,
+  "windDirection" : 41
+}, {
+  "dateTime" : "2022-02-28T06:43:10",
+  "temperature" : 0.24,
+  "pressure" : 948.0,
+  "humidity" : 36.0,
+  "windSpeed" : 21,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:43:14",
+  "temperature" : 0.24,
+  "pressure" : 1049.0,
+  "humidity" : 73.0,
+  "windSpeed" : 61,
+  "windDirection" : 80
+}, {
+  "dateTime" : "2022-02-28T06:43:19",
+  "temperature" : 0.24,
+  "pressure" : 1097.0,
+  "humidity" : 66.0,
+  "windSpeed" : 62,
+  "windDirection" : 95
+}, {
+  "dateTime" : "2022-02-28T06:43:23",
+  "temperature" : 0.24,
+  "pressure" : 1032.0,
+  "humidity" : 74.0,
+  "windSpeed" : 68,
+  "windDirection" : 55
+}, {
+  "dateTime" : "2022-02-28T06:43:24",
+  "temperature" : 0.25,
+  "pressure" : 1040.0,
+  "humidity" : 26.0,
+  "windSpeed" : 12,
+  "windDirection" : 84
+}, {
+  "dateTime" : "2022-02-28T06:43:27",
+  "temperature" : 0.26,
+  "pressure" : 1050.0,
+  "humidity" : 60.0,
+  "windSpeed" : 53,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:43:32",
+  "temperature" : 0.26,
+  "pressure" : 1030.0,
+  "humidity" : 86.0,
+  "windSpeed" : 55,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:43:34",
+  "temperature" : 0.27,
+  "pressure" : 1081.0,
+  "humidity" : 69.0,
+  "windSpeed" : 52,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:43:36",
+  "temperature" : 0.27,
+  "pressure" : 954.0,
+  "humidity" : 50.0,
+  "windSpeed" : 1,
+  "windDirection" : 73
+}, {
+  "dateTime" : "2022-02-28T06:43:38",
+  "temperature" : 0.28,
+  "pressure" : 908.0,
+  "humidity" : 28.0,
+  "windSpeed" : 4,
+  "windDirection" : 19
+}, {
+  "dateTime" : "2022-02-28T06:43:39",
+  "temperature" : 0.28,
+  "pressure" : 1078.0,
+  "humidity" : 49.0,
+  "windSpeed" : 17,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:43:42",
+  "temperature" : 0.28,
+  "pressure" : 1046.0,
+  "humidity" : 73.0,
+  "windSpeed" : 56,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:43:45",
+  "temperature" : 0.29,
+  "pressure" : 1005.0,
+  "humidity" : 68.0,
+  "windSpeed" : 48,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:43:46",
+  "temperature" : 0.29,
+  "pressure" : 1077.0,
+  "humidity" : 14.0,
+  "windSpeed" : 86,
+  "windDirection" : 5
+}, {
+  "dateTime" : "2022-02-28T06:43:47",
+  "temperature" : 0.3,
+  "pressure" : 1009.0,
+  "humidity" : 76.0,
+  "windSpeed" : 2,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:43:51",
+  "temperature" : 0.31,
+  "pressure" : 1048.0,
+  "humidity" : 41.0,
+  "windSpeed" : 16,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:43:53",
+  "temperature" : 0.32,
+  "pressure" : 959.0,
+  "humidity" : 53.0,
+  "windSpeed" : 32,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:43:58",
+  "temperature" : 0.32,
+  "pressure" : 1012.0,
+  "humidity" : 39.0,
+  "windSpeed" : 19,
+  "windDirection" : 42
+}, {
+  "dateTime" : "2022-02-28T06:43:59",
+  "temperature" : 0.33,
+  "pressure" : 1063.0,
+  "humidity" : 46.0,
+  "windSpeed" : 91,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:44:01",
+  "temperature" : 0.33,
+  "pressure" : 946.0,
+  "humidity" : 37.0,
+  "windSpeed" : 70,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:44:04",
+  "temperature" : 0.34,
+  "pressure" : 1039.0,
+  "humidity" : 57.0,
+  "windSpeed" : 87,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:44:06",
+  "temperature" : 0.35,
+  "pressure" : 979.0,
+  "humidity" : 14.0,
+  "windSpeed" : 26,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:44:09",
+  "temperature" : 0.35,
+  "pressure" : 1032.0,
+  "humidity" : 48.0,
+  "windSpeed" : 48,
+  "windDirection" : 23
+}, {
+  "dateTime" : "2022-02-28T06:44:14",
+  "temperature" : 0.36,
+  "pressure" : 1080.0,
+  "humidity" : 64.0,
+  "windSpeed" : 4,
+  "windDirection" : 20
+}, {
+  "dateTime" : "2022-02-28T06:44:18",
+  "temperature" : 0.36,
+  "pressure" : 943.0,
+  "humidity" : 41.0,
+  "windSpeed" : 75,
+  "windDirection" : 44
+}, {
+  "dateTime" : "2022-02-28T06:44:21",
+  "temperature" : 0.36,
+  "pressure" : 991.0,
+  "humidity" : 56.0,
+  "windSpeed" : 5,
+  "windDirection" : 10
+}, {
+  "dateTime" : "2022-02-28T06:44:24",
+  "temperature" : 0.37,
+  "pressure" : 1009.0,
+  "humidity" : 75.0,
+  "windSpeed" : 20,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:44:29",
+  "temperature" : 0.38,
+  "pressure" : 1062.0,
+  "humidity" : 51.0,
+  "windSpeed" : 83,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:44:34",
+  "temperature" : 0.38,
+  "pressure" : 1045.0,
+  "humidity" : 44.0,
+  "windSpeed" : 81,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:44:35",
+  "temperature" : 0.39,
+  "pressure" : 989.0,
+  "humidity" : 85.0,
+  "windSpeed" : 34,
+  "windDirection" : 52
+}, {
+  "dateTime" : "2022-02-28T06:44:39",
+  "temperature" : 0.39,
+  "pressure" : 971.0,
+  "humidity" : 38.0,
+  "windSpeed" : 65,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:44:42",
+  "temperature" : 0.4,
+  "pressure" : 1077.0,
+  "humidity" : 33.0,
+  "windSpeed" : 79,
+  "windDirection" : 11
+}, {
+  "dateTime" : "2022-02-28T06:44:45",
+  "temperature" : 0.4,
+  "pressure" : 1015.0,
+  "humidity" : 17.0,
+  "windSpeed" : 29,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:44:50",
+  "temperature" : 0.41,
+  "pressure" : 1087.0,
+  "humidity" : 89.0,
+  "windSpeed" : 13,
+  "windDirection" : 2
+}, {
+  "dateTime" : "2022-02-28T06:44:55",
+  "temperature" : 0.42,
+  "pressure" : 1001.0,
+  "humidity" : 42.0,
+  "windSpeed" : 33,
+  "windDirection" : 85
+}, {
+  "dateTime" : "2022-02-28T06:44:57",
+  "temperature" : 0.42,
+  "pressure" : 945.0,
+  "humidity" : 69.0,
+  "windSpeed" : 28,
+  "windDirection" : 70
+}, {
+  "dateTime" : "2022-02-28T06:45:01",
+  "temperature" : 0.42,
+  "pressure" : 975.0,
+  "humidity" : 43.0,
+  "windSpeed" : 30,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:45:03",
+  "temperature" : 0.43,
+  "pressure" : 934.0,
+  "humidity" : 65.0,
+  "windSpeed" : 40,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:45:07",
+  "temperature" : 0.43,
+  "pressure" : 988.0,
+  "humidity" : 17.0,
+  "windSpeed" : 69,
+  "windDirection" : 6
+}, {
+  "dateTime" : "2022-02-28T06:45:09",
+  "temperature" : 0.44,
+  "pressure" : 1075.0,
+  "humidity" : 24.0,
+  "windSpeed" : 70,
+  "windDirection" : 98
+}, {
+  "dateTime" : "2022-02-28T06:45:10",
+  "temperature" : 0.44,
+  "pressure" : 983.0,
+  "humidity" : 15.0,
+  "windSpeed" : 97,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:45:11",
+  "temperature" : 0.45,
+  "pressure" : 1039.0,
+  "humidity" : 89.0,
+  "windSpeed" : 97,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:45:12",
+  "temperature" : 0.45,
+  "pressure" : 974.0,
+  "humidity" : 24.0,
+  "windSpeed" : 64,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:45:15",
+  "temperature" : 0.45,
+  "pressure" : 1010.0,
+  "humidity" : 77.0,
+  "windSpeed" : 28,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:45:17",
+  "temperature" : 0.46,
+  "pressure" : 1038.0,
+  "humidity" : 48.0,
+  "windSpeed" : 94,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:45:18",
+  "temperature" : 0.47,
+  "pressure" : 1026.0,
+  "humidity" : 24.0,
+  "windSpeed" : 53,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:45:20",
+  "temperature" : 0.47,
+  "pressure" : 941.0,
+  "humidity" : 27.0,
+  "windSpeed" : 96,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:45:23",
+  "temperature" : 0.47,
+  "pressure" : 1062.0,
+  "humidity" : 51.0,
+  "windSpeed" : 35,
+  "windDirection" : 73
+}, {
+  "dateTime" : "2022-02-28T06:45:26",
+  "temperature" : 0.48,
+  "pressure" : 980.0,
+  "humidity" : 73.0,
+  "windSpeed" : 9,
+  "windDirection" : 36
+}, {
+  "dateTime" : "2022-02-28T06:45:28",
+  "temperature" : 0.48,
+  "pressure" : 985.0,
+  "humidity" : 70.0,
+  "windSpeed" : 56,
+  "windDirection" : 45
+}, {
+  "dateTime" : "2022-02-28T06:45:33",
+  "temperature" : 0.49,
+  "pressure" : 1051.0,
+  "humidity" : 87.0,
+  "windSpeed" : 91,
+  "windDirection" : 1
+}, {
+  "dateTime" : "2022-02-28T06:45:38",
+  "temperature" : 0.5,
+  "pressure" : 918.0,
+  "humidity" : 41.0,
+  "windSpeed" : 59,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:45:40",
+  "temperature" : 0.5,
+  "pressure" : 1000.0,
+  "humidity" : 35.0,
+  "windSpeed" : 86,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:45:42",
+  "temperature" : 0.5,
+  "pressure" : 909.0,
+  "humidity" : 68.0,
+  "windSpeed" : 6,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:45:44",
+  "temperature" : 0.51,
+  "pressure" : 941.0,
+  "humidity" : 18.0,
+  "windSpeed" : 42,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:45:48",
+  "temperature" : 0.51,
+  "pressure" : 1086.0,
+  "humidity" : 44.0,
+  "windSpeed" : 11,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:45:49",
+  "temperature" : 0.52,
+  "pressure" : 1085.0,
+  "humidity" : 37.0,
+  "windSpeed" : 64,
+  "windDirection" : 28
+}, {
+  "dateTime" : "2022-02-28T06:45:54",
+  "temperature" : 0.52,
+  "pressure" : 971.0,
+  "humidity" : 34.0,
+  "windSpeed" : 55,
+  "windDirection" : 68
+}, {
+  "dateTime" : "2022-02-28T06:45:59",
+  "temperature" : 0.53,
+  "pressure" : 1090.0,
+  "humidity" : 61.0,
+  "windSpeed" : 13,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:46:02",
+  "temperature" : 0.54,
+  "pressure" : 1059.0,
+  "humidity" : 79.0,
+  "windSpeed" : 65,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:46:04",
+  "temperature" : 0.54,
+  "pressure" : 973.0,
+  "humidity" : 56.0,
+  "windSpeed" : 9,
+  "windDirection" : 74
+}, {
+  "dateTime" : "2022-02-28T06:46:06",
+  "temperature" : 0.55,
+  "pressure" : 975.0,
+  "humidity" : 83.0,
+  "windSpeed" : 38,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:46:10",
+  "temperature" : 0.55,
+  "pressure" : 1065.0,
+  "humidity" : 31.0,
+  "windSpeed" : 60,
+  "windDirection" : 42
+}, {
+  "dateTime" : "2022-02-28T06:46:13",
+  "temperature" : 0.56,
+  "pressure" : 901.0,
+  "humidity" : 25.0,
+  "windSpeed" : 99,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:46:14",
+  "temperature" : 0.56,
+  "pressure" : 1079.0,
+  "humidity" : 44.0,
+  "windSpeed" : 34,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:46:19",
+  "temperature" : 0.57,
+  "pressure" : 1059.0,
+  "humidity" : 40.0,
+  "windSpeed" : 48,
+  "windDirection" : 55
+}, {
+  "dateTime" : "2022-02-28T06:46:22",
+  "temperature" : 0.57,
+  "pressure" : 914.0,
+  "humidity" : 23.0,
+  "windSpeed" : 70,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:46:27",
+  "temperature" : 0.57,
+  "pressure" : 987.0,
+  "humidity" : 65.0,
+  "windSpeed" : 98,
+  "windDirection" : 99
+}, {
+  "dateTime" : "2022-02-28T06:46:28",
+  "temperature" : 0.58,
+  "pressure" : 992.0,
+  "humidity" : 35.0,
+  "windSpeed" : 58,
+  "windDirection" : 67
+}, {
+  "dateTime" : "2022-02-28T06:46:33",
+  "temperature" : 0.58,
+  "pressure" : 980.0,
+  "humidity" : 44.0,
+  "windSpeed" : 21,
+  "windDirection" : 21
+}, {
+  "dateTime" : "2022-02-28T06:46:38",
+  "temperature" : 0.59,
+  "pressure" : 997.0,
+  "humidity" : 74.0,
+  "windSpeed" : 64,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:46:41",
+  "temperature" : 0.6,
+  "pressure" : 918.0,
+  "humidity" : 69.0,
+  "windSpeed" : 93,
+  "windDirection" : 92
+}, {
+  "dateTime" : "2022-02-28T06:46:46",
+  "temperature" : 0.6,
+  "pressure" : 902.0,
+  "humidity" : 50.0,
+  "windSpeed" : 68,
+  "windDirection" : 46
+}, {
+  "dateTime" : "2022-02-28T06:46:50",
+  "temperature" : 0.61,
+  "pressure" : 973.0,
+  "humidity" : 76.0,
+  "windSpeed" : 76,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:46:52",
+  "temperature" : 0.62,
+  "pressure" : 1056.0,
+  "humidity" : 71.0,
+  "windSpeed" : 2,
+  "windDirection" : 5
+}, {
+  "dateTime" : "2022-02-28T06:46:56",
+  "temperature" : 0.62,
+  "pressure" : 960.0,
+  "humidity" : 34.0,
+  "windSpeed" : 98,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:46:59",
+  "temperature" : 0.63,
+  "pressure" : 1065.0,
+  "humidity" : 31.0,
+  "windSpeed" : 63,
+  "windDirection" : 52
+}, {
+  "dateTime" : "2022-02-28T06:47:00",
+  "temperature" : 0.63,
+  "pressure" : 984.0,
+  "humidity" : 25.0,
+  "windSpeed" : 11,
+  "windDirection" : 59
+}, {
+  "dateTime" : "2022-02-28T06:47:04",
+  "temperature" : 0.64,
+  "pressure" : 1007.0,
+  "humidity" : 57.0,
+  "windSpeed" : 12,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:47:07",
+  "temperature" : 0.65,
+  "pressure" : 978.0,
+  "humidity" : 16.0,
+  "windSpeed" : 35,
+  "windDirection" : 50
+}, {
+  "dateTime" : "2022-02-28T06:47:10",
+  "temperature" : 0.65,
+  "pressure" : 1094.0,
+  "humidity" : 55.0,
+  "windSpeed" : 80,
+  "windDirection" : 96
+}, {
+  "dateTime" : "2022-02-28T06:47:11",
+  "temperature" : 0.66,
+  "pressure" : 1072.0,
+  "humidity" : 18.0,
+  "windSpeed" : 60,
+  "windDirection" : 66
+}, {
+  "dateTime" : "2022-02-28T06:47:13",
+  "temperature" : 0.66,
+  "pressure" : 1062.0,
+  "humidity" : 17.0,
+  "windSpeed" : 77,
+  "windDirection" : 22
+}, {
+  "dateTime" : "2022-02-28T06:47:15",
+  "temperature" : 0.67,
+  "pressure" : 972.0,
+  "humidity" : 80.0,
+  "windSpeed" : 57,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:47:17",
+  "temperature" : 0.67,
+  "pressure" : 1056.0,
+  "humidity" : 17.0,
+  "windSpeed" : 91,
+  "windDirection" : 39
+}, {
+  "dateTime" : "2022-02-28T06:47:20",
+  "temperature" : 0.68,
+  "pressure" : 946.0,
+  "humidity" : 24.0,
+  "windSpeed" : 4,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:47:24",
+  "temperature" : 0.68,
+  "pressure" : 988.0,
+  "humidity" : 82.0,
+  "windSpeed" : 82,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:47:26",
+  "temperature" : 0.69,
+  "pressure" : 1002.0,
+  "humidity" : 18.0,
+  "windSpeed" : 72,
+  "windDirection" : 37
+}, {
+  "dateTime" : "2022-02-28T06:47:27",
+  "temperature" : 0.69,
+  "pressure" : 921.0,
+  "humidity" : 31.0,
+  "windSpeed" : 76,
+  "windDirection" : 55
+}, {
+  "dateTime" : "2022-02-28T06:47:32",
+  "temperature" : 0.7,
+  "pressure" : 950.0,
+  "humidity" : 62.0,
+  "windSpeed" : 79,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:47:37",
+  "temperature" : 0.7,
+  "pressure" : 1069.0,
+  "humidity" : 35.0,
+  "windSpeed" : 35,
+  "windDirection" : 12
+}, {
+  "dateTime" : "2022-02-28T06:47:38",
+  "temperature" : 0.7,
+  "pressure" : 979.0,
+  "humidity" : 31.0,
+  "windSpeed" : 40,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:47:41",
+  "temperature" : 0.71,
+  "pressure" : 985.0,
+  "humidity" : 74.0,
+  "windSpeed" : 14,
+  "windDirection" : 5
+}, {
+  "dateTime" : "2022-02-28T06:47:44",
+  "temperature" : 0.71,
+  "pressure" : 1060.0,
+  "humidity" : 60.0,
+  "windSpeed" : 60,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:47:45",
+  "temperature" : 0.72,
+  "pressure" : 954.0,
+  "humidity" : 53.0,
+  "windSpeed" : 80,
+  "windDirection" : 75
+}, {
+  "dateTime" : "2022-02-28T06:47:47",
+  "temperature" : 0.72,
+  "pressure" : 940.0,
+  "humidity" : 54.0,
+  "windSpeed" : 36,
+  "windDirection" : 48
+}, {
+  "dateTime" : "2022-02-28T06:47:49",
+  "temperature" : 0.72,
+  "pressure" : 1017.0,
+  "humidity" : 86.0,
+  "windSpeed" : 14,
+  "windDirection" : 42
+}, {
+  "dateTime" : "2022-02-28T06:47:52",
+  "temperature" : 0.73,
+  "pressure" : 903.0,
+  "humidity" : 12.0,
+  "windSpeed" : 32,
+  "windDirection" : 89
+}, {
+  "dateTime" : "2022-02-28T06:47:54",
+  "temperature" : 0.73,
+  "pressure" : 954.0,
+  "humidity" : 50.0,
+  "windSpeed" : 45,
+  "windDirection" : 34
+}, {
+  "dateTime" : "2022-02-28T06:47:59",
+  "temperature" : 0.74,
+  "pressure" : 1020.0,
+  "humidity" : 20.0,
+  "windSpeed" : 53,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:48:00",
+  "temperature" : 0.74,
+  "pressure" : 976.0,
+  "humidity" : 48.0,
+  "windSpeed" : 8,
+  "windDirection" : 25
+}, {
+  "dateTime" : "2022-02-28T06:48:01",
+  "temperature" : 0.75,
+  "pressure" : 1032.0,
+  "humidity" : 11.0,
+  "windSpeed" : 35,
+  "windDirection" : 28
+}, {
+  "dateTime" : "2022-02-28T06:48:06",
+  "temperature" : 0.75,
+  "pressure" : 1013.0,
+  "humidity" : 75.0,
+  "windSpeed" : 41,
+  "windDirection" : 53
+}, {
+  "dateTime" : "2022-02-28T06:48:11",
+  "temperature" : 0.76,
+  "pressure" : 1059.0,
+  "humidity" : 64.0,
+  "windSpeed" : 31,
+  "windDirection" : 12
+}, {
+  "dateTime" : "2022-02-28T06:48:14",
+  "temperature" : 0.76,
+  "pressure" : 1057.0,
+  "humidity" : 73.0,
+  "windSpeed" : 20,
+  "windDirection" : 78
+}, {
+  "dateTime" : "2022-02-28T06:48:17",
+  "temperature" : 0.77,
+  "pressure" : 1045.0,
+  "humidity" : 27.0,
+  "windSpeed" : 93,
+  "windDirection" : 27
+}, {
+  "dateTime" : "2022-02-28T06:48:19",
+  "temperature" : 0.78,
+  "pressure" : 1092.0,
+  "humidity" : 40.0,
+  "windSpeed" : 17,
+  "windDirection" : 89
+}, {
+  "dateTime" : "2022-02-28T06:48:22",
+  "temperature" : 0.78,
+  "pressure" : 1063.0,
+  "humidity" : 57.0,
+  "windSpeed" : 54,
+  "windDirection" : 80
+}, {
+  "dateTime" : "2022-02-28T06:48:24",
+  "temperature" : 0.79,
+  "pressure" : 1082.0,
+  "humidity" : 88.0,
+  "windSpeed" : 70,
+  "windDirection" : 29
+}, {
+  "dateTime" : "2022-02-28T06:48:29",
+  "temperature" : 0.79,
+  "pressure" : 907.0,
+  "humidity" : 53.0,
+  "windSpeed" : 78,
+  "windDirection" : 85
+}, {
+  "dateTime" : "2022-02-28T06:48:34",
+  "temperature" : 0.79,
+  "pressure" : 1005.0,
+  "humidity" : 42.0,
+  "windSpeed" : 5,
+  "windDirection" : 57
+}, {
+  "dateTime" : "2022-02-28T06:48:36",
+  "temperature" : 0.8,
+  "pressure" : 941.0,
+  "humidity" : 20.0,
+  "windSpeed" : 26,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:48:39",
+  "temperature" : 0.81,
+  "pressure" : 995.0,
+  "humidity" : 70.0,
+  "windSpeed" : 49,
+  "windDirection" : 26
+}, {
+  "dateTime" : "2022-02-28T06:48:43",
+  "temperature" : 0.81,
+  "pressure" : 997.0,
+  "humidity" : 44.0,
+  "windSpeed" : 53,
+  "windDirection" : 94
+}, {
+  "dateTime" : "2022-02-28T06:48:45",
+  "temperature" : 0.82,
+  "pressure" : 1022.0,
+  "humidity" : 73.0,
+  "windSpeed" : 37,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:48:46",
+  "temperature" : 0.83,
+  "pressure" : 940.0,
+  "humidity" : 80.0,
+  "windSpeed" : 46,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:48:51",
+  "temperature" : 0.83,
+  "pressure" : 911.0,
+  "humidity" : 70.0,
+  "windSpeed" : 58,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:48:56",
+  "temperature" : 0.83,
+  "pressure" : 953.0,
+  "humidity" : 14.0,
+  "windSpeed" : 44,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:48:58",
+  "temperature" : 0.84,
+  "pressure" : 1007.0,
+  "humidity" : 40.0,
+  "windSpeed" : 61,
+  "windDirection" : 5
+}, {
+  "dateTime" : "2022-02-28T06:49:02",
+  "temperature" : 0.84,
+  "pressure" : 935.0,
+  "humidity" : 46.0,
+  "windSpeed" : 23,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:49:04",
+  "temperature" : 0.84,
+  "pressure" : 1027.0,
+  "humidity" : 39.0,
+  "windSpeed" : 93,
+  "windDirection" : 35
+}, {
+  "dateTime" : "2022-02-28T06:49:07",
+  "temperature" : 0.84,
+  "pressure" : 995.0,
+  "humidity" : 16.0,
+  "windSpeed" : 44,
+  "windDirection" : 97
+}, {
+  "dateTime" : "2022-02-28T06:49:09",
+  "temperature" : 0.85,
+  "pressure" : 990.0,
+  "humidity" : 29.0,
+  "windSpeed" : 0,
+  "windDirection" : 49
+}, {
+  "dateTime" : "2022-02-28T06:49:10",
+  "temperature" : 0.85,
+  "pressure" : 962.0,
+  "humidity" : 23.0,
+  "windSpeed" : 97,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:49:15",
+  "temperature" : 0.85,
+  "pressure" : 1010.0,
+  "humidity" : 21.0,
+  "windSpeed" : 30,
+  "windDirection" : 15
+}, {
+  "dateTime" : "2022-02-28T06:49:19",
+  "temperature" : 0.86,
+  "pressure" : 970.0,
+  "humidity" : 30.0,
+  "windSpeed" : 56,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:49:21",
+  "temperature" : 0.86,
+  "pressure" : 911.0,
+  "humidity" : 36.0,
+  "windSpeed" : 31,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:49:23",
+  "temperature" : 0.86,
+  "pressure" : 917.0,
+  "humidity" : 42.0,
+  "windSpeed" : 83,
+  "windDirection" : 72
+}, {
+  "dateTime" : "2022-02-28T06:49:28",
+  "temperature" : 0.86,
+  "pressure" : 1046.0,
+  "humidity" : 63.0,
+  "windSpeed" : 16,
+  "windDirection" : 45
+}, {
+  "dateTime" : "2022-02-28T06:49:30",
+  "temperature" : 0.86,
+  "pressure" : 1073.0,
+  "humidity" : 87.0,
+  "windSpeed" : 59,
+  "windDirection" : 89
+}, {
+  "dateTime" : "2022-02-28T06:49:31",
+  "temperature" : 0.87,
+  "pressure" : 993.0,
+  "humidity" : 56.0,
+  "windSpeed" : 22,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:49:33",
+  "temperature" : 0.87,
+  "pressure" : 991.0,
+  "humidity" : 35.0,
+  "windSpeed" : 79,
+  "windDirection" : 30
+}, {
+  "dateTime" : "2022-02-28T06:49:37",
+  "temperature" : 0.87,
+  "pressure" : 1075.0,
+  "humidity" : 35.0,
+  "windSpeed" : 53,
+  "windDirection" : 9
+}, {
+  "dateTime" : "2022-02-28T06:49:42",
+  "temperature" : 0.88,
+  "pressure" : 1014.0,
+  "humidity" : 48.0,
+  "windSpeed" : 52,
+  "windDirection" : 66
+}, {
+  "dateTime" : "2022-02-28T06:49:46",
+  "temperature" : 0.89,
+  "pressure" : 919.0,
+  "humidity" : 62.0,
+  "windSpeed" : 41,
+  "windDirection" : 70
+}, {
+  "dateTime" : "2022-02-28T06:49:48",
+  "temperature" : 0.89,
+  "pressure" : 913.0,
+  "humidity" : 31.0,
+  "windSpeed" : 7,
+  "windDirection" : 62
+}, {
+  "dateTime" : "2022-02-28T06:49:49",
+  "temperature" : 0.89,
+  "pressure" : 930.0,
+  "humidity" : 18.0,
+  "windSpeed" : 31,
+  "windDirection" : 63
+}, {
+  "dateTime" : "2022-02-28T06:49:53",
+  "temperature" : 0.9,
+  "pressure" : 1034.0,
+  "humidity" : 72.0,
+  "windSpeed" : 96,
+  "windDirection" : 18
+}, {
+  "dateTime" : "2022-02-28T06:49:56",
+  "temperature" : 0.91,
+  "pressure" : 1054.0,
+  "humidity" : 51.0,
+  "windSpeed" : 59,
+  "windDirection" : 91
+}, {
+  "dateTime" : "2022-02-28T06:49:57",
+  "temperature" : 0.91,
+  "pressure" : 1089.0,
+  "humidity" : 82.0,
+  "windSpeed" : 52,
+  "windDirection" : 19
+}, {
+  "dateTime" : "2022-02-28T06:50:02",
+  "temperature" : 0.92,
+  "pressure" : 991.0,
+  "humidity" : 70.0,
+  "windSpeed" : 22,
+  "windDirection" : 52
+}, {
+  "dateTime" : "2022-02-28T06:50:07",
+  "temperature" : 0.92,
+  "pressure" : 952.0,
+  "humidity" : 64.0,
+  "windSpeed" : 19,
+  "windDirection" : 13
+}, {
+  "dateTime" : "2022-02-28T06:50:09",
+  "temperature" : 0.93,
+  "pressure" : 1098.0,
+  "humidity" : 38.0,
+  "windSpeed" : 41,
+  "windDirection" : 40
+}, {
+  "dateTime" : "2022-02-28T06:50:11",
+  "temperature" : 0.93,
+  "pressure" : 957.0,
+  "humidity" : 15.0,
+  "windSpeed" : 42,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:50:14",
+  "temperature" : 0.94,
+  "pressure" : 933.0,
+  "humidity" : 44.0,
+  "windSpeed" : 16,
+  "windDirection" : 38
+}, {
+  "dateTime" : "2022-02-28T06:50:16",
+  "temperature" : 0.95,
+  "pressure" : 1044.0,
+  "humidity" : 63.0,
+  "windSpeed" : 13,
+  "windDirection" : 67
+}, {
+  "dateTime" : "2022-02-28T06:50:18",
+  "temperature" : 0.95,
+  "pressure" : 1069.0,
+  "humidity" : 36.0,
+  "windSpeed" : 27,
+  "windDirection" : 77
+}, {
+  "dateTime" : "2022-02-28T06:50:20",
+  "temperature" : 0.96,
+  "pressure" : 962.0,
+  "humidity" : 66.0,
+  "windSpeed" : 24,
+  "windDirection" : 61
+}, {
+  "dateTime" : "2022-02-28T06:50:21",
+  "temperature" : 0.97,
+  "pressure" : 927.0,
+  "humidity" : 52.0,
+  "windSpeed" : 99,
+  "windDirection" : 51
+}, {
+  "dateTime" : "2022-02-28T06:50:22",
+  "temperature" : 0.97,
+  "pressure" : 1030.0,
+  "humidity" : 50.0,
+  "windSpeed" : 9,
+  "windDirection" : 56
+}, {
+  "dateTime" : "2022-02-28T06:50:24",
+  "temperature" : 0.98,
+  "pressure" : 925.0,
+  "humidity" : 12.0,
+  "windSpeed" : 89,
+  "windDirection" : 54
+}, {
+  "dateTime" : "2022-02-28T06:50:29",
+  "temperature" : 0.98,
+  "pressure" : 1013.0,
+  "humidity" : 60.0,
+  "windSpeed" : 88,
+  "windDirection" : 17
+}, {
+  "dateTime" : "2022-02-28T06:50:33",
+  "temperature" : 0.99,
+  "pressure" : 1061.0,
+  "humidity" : 55.0,
+  "windSpeed" : 57,
+  "windDirection" : 14
+}, {
+  "dateTime" : "2022-02-28T06:50:38",
+  "temperature" : 1.0,
+  "pressure" : 1055.0,
+  "humidity" : 60.0,
+  "windSpeed" : 88,
+  "windDirection" : 93
+}, {
+  "dateTime" : "2022-02-28T06:50:40",
+  "temperature" : 1.0,
+  "pressure" : 951.0,
+  "humidity" : 20.0,
+  "windSpeed" : 99,
+  "windDirection" : 76
+}, {
+  "dateTime" : "2022-02-28T06:50:42",
+  "temperature" : 1.0,
+  "pressure" : 1000.0,
+  "humidity" : 80.0,
+  "windSpeed" : 72,
+  "windDirection" : 47
+}, {
+  "dateTime" : "2022-02-28T06:50:46",
+  "temperature" : 1.01,
+  "pressure" : 990.0,
+  "humidity" : 47.0,
+  "windSpeed" : 47,
+  "windDirection" : 87
+}, {
+  "dateTime" : "2022-02-28T06:50:47",
+  "temperature" : 1.01,
+  "pressure" : 922.0,
+  "humidity" : 50.0,
+  "windSpeed" : 62,
+  "windDirection" : 81
+} ]
