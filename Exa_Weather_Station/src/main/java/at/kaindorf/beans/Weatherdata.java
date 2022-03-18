@@ -1,5 +1,7 @@
 package at.kaindorf.beans;
 
+import at.kaindorf.json.WeatherDeserializer;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,5 +18,6 @@ public class Weatherdata {
     private float humidity;
     private int windSpeed;
     private int windDirection;
+    @JsonDeserialize(using = WeatherDeserializer.class)
     private LocalDateTime timeData;
 }
