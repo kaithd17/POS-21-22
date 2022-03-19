@@ -1,4 +1,7 @@
 package at.kaindorf.observer;
 
-public class WeatherDataObserver {
+import at.kaindorf.beans.Weatherdata;
+
+public interface WeatherDataObserver {
+    void update(Weatherdata weatherData);
 }

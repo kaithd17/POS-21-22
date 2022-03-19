@@ -19,5 +19,5 @@ public class Weatherdata {
     private int windSpeed;
     private int windDirection;
     @JsonDeserialize(using = WeatherDeserializer.class)
-    private LocalDateTime timeData;
+    private LocalDateTime dateTime;
 }
