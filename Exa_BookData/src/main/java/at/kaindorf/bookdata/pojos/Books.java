@@ -15,7 +15,7 @@ import java.util.List;
 @XmlRootElement(name = "books")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Books {
-    @XmlElementWrapper(name = "publisherList")
+    @XmlElementWrapper(name = "publisherlist")
     @XmlElement(name = "publisher")
     private List<Publisher> publishers = new ArrayList<>();
 }
