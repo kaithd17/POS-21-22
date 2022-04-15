@@ -16,5 +16,5 @@ public class MyPath {
     }
     private MyPath() {}
 
-    public static List<Path> xmlFileList = new ArrayList<>();
+    public List<Path> xmlFileList = new ArrayList<>();
 }

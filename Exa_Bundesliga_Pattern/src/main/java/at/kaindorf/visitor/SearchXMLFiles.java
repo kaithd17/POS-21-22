@@ -7,7 +7,11 @@ import java.nio.file.Paths;
 public class SearchXMLFiles {
     private int directories;
     private int files;
-    private static final Path workingDirectory = Paths.get(System.getProperty("user.dir"), "src", "main", "resources", "data");
+    private Path workingDirectory;
+
+    public void setWorkingDirectory(Path workingDirectory) {
+        this.workingDirectory = workingDirectory;
+    }
 
     private void traverse(File startDir, IDirectoryVisitor visitor) {
         if (!startDir.isDirectory()) {
@@ -39,7 +43,7 @@ public class SearchXMLFiles {
     public void getXmlFiles() {
         SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
         searchXMLFiles.traverse(workingDirectory.toFile(), new DirectoryXMLFileVisitor());
-        System.out.println(MyPath.xmlFileList);
+        System.out.println(MyPath.getInstance().xmlFileList);
     }
 
     public static void main(String[] args) {

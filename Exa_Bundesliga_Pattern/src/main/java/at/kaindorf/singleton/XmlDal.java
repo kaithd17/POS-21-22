@@ -22,7 +22,6 @@ public class XmlDal {
 
     //Path
     private static final Path PATH = Paths.get(System.getProperty("user.dir"), "src", "main", "resources", "data", "bundesliga2122.xml");
-    private static final Path PATH2 = Paths.get(System.getProperty("user.dir"), "src", "main", "resources", "data", "Runde1", "Spiel_1_1.xml");
 
     public Tournament loadTournament() {
         Tournament tournament;
@@ -30,9 +29,9 @@ public class XmlDal {
         return tournament;
     }
 
-    public Game loadGame() {
+    public Game loadGame(Path path) {
         Game game;
-        game = JAXB.unmarshal(PATH2.toFile(), Game.class);
+        game = JAXB.unmarshal(path.toFile(), Game.class);
         return game;
     }
 }
