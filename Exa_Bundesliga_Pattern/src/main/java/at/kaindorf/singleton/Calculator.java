@@ -56,8 +56,7 @@ public class Calculator {
 
         //Create team objects and set the team name
         teamNames.forEach(t -> {
-            Team team = new Team("", 0, 0, 0, 0, 0, 0, 0, 0, 0);
-            team.setName(t);
+            Team team = new Team(t, 0, 0, 0, 0, 0, 0, 0, 0, 0);
             teams.add(team);
         });
 
@@ -101,7 +100,7 @@ public class Calculator {
                 }
             });
         });
-        teams.sort(Comparator.comparing(Team::getPts).reversed());
+        teams.sort(Comparator.comparing(Team::getPts).thenComparing(Team::getGd).reversed());
         //Set Position
         for (int i = 0; i < teams.size(); i++) {
             teams.get(i).setPosition(i + 1);
@@ -116,7 +115,7 @@ public class Calculator {
         searchXMLFiles.getXmlFiles();
         Calculator.getInstance().addDataFromXmlFiles();
         List<Team> teams = Calculator.getInstance().generateTable();
-        System.out.println(teams);
+        teams.forEach(System.out::println);
     }
 
 

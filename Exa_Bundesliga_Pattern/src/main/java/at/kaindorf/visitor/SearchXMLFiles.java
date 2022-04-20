@@ -36,19 +36,16 @@ public class SearchXMLFiles {
 
         directories = directorySizeVisitor.getDirs();
         files = directorySizeVisitor.getXmlFiles();
-        System.out.println("Number of directories: " + directories);
-        System.out.println("Number of files: " + files);
     }
 
     public void getXmlFiles() {
         SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
         searchXMLFiles.traverse(workingDirectory.toFile(), new DirectoryXMLFileVisitor());
-        System.out.println(MyPath.getInstance().xmlFileList);
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
         searchXMLFiles.searchXmlFiles();
         searchXMLFiles.getXmlFiles();
-    }
+    }*/
 }
