@@ -21,6 +21,7 @@ public class DirectorySizeVisitor implements IDirectoryVisitor{
 
     @Override
     public void visitFile(Path file) {
-        xmlFiles++;
+        if(file.toString().contains(".xml"))
+            xmlFiles++;
     }
 }

@@ -38,14 +38,32 @@ public class Calculator {
         MyPath.getInstance().xmlFileList.forEach(p -> {
             gameList.add(XmlDal.getInstance().loadGame(p));
         });
-
     }
 
     public List<Game> getAllGamesByTeamName(String teamName) {
         List<Game> matches = gameList.stream()
-                .filter(game -> game.getTeam1().equals(teamName) || game.getTeam2().equals(teamName)).distinct()
+                .filter(game -> game.getTeam1().equals(teamName) || game.getTeam2().equals(teamName))
                 .collect(Collectors.toList());
         return matches;
+    }
+
+    public void removeDuplicates1() {
+        int counter = 0;
+        List<Game> removeList = new ArrayList<>(gameList);
+        while (counter < removeList.size()) {
+            Game game = gameList.get(counter);
+            for (int i = (counter + 1); i < removeList.size(); i++) {
+                if (game.equals(removeList.get(i))) {
+                    removeList.remove(removeList.get(i));
+                }
+            }
+            counter++;
+        }
+        gameList = removeList;
+    }
+
+    public void removeDuplicates2() {
+        gameList = gameList.stream().distinct().collect(Collectors.toList());
     }
 
     public List<Team> generateTable() {
@@ -114,6 +132,7 @@ public class Calculator {
         searchXMLFiles.searchXmlFiles();
         searchXMLFiles.getXmlFiles();
         Calculator.getInstance().addDataFromXmlFiles();
+        Calculator.getInstance().removeDuplicates1();
         List<Team> teams = Calculator.getInstance().generateTable();
         teams.forEach(System.out::println);
     }

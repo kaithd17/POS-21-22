@@ -42,10 +42,4 @@ public class SearchXMLFiles {
         SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
         searchXMLFiles.traverse(workingDirectory.toFile(), new DirectoryXMLFileVisitor());
     }
-
-    /*public static void main(String[] args) {
-        SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
-        searchXMLFiles.searchXmlFiles();
-        searchXMLFiles.getXmlFiles();
-    }*/
 }
