@@ -14,6 +14,7 @@ public class Console implements IObserver {
         } else {
             System.out.println("\tTeam\t\t\t\tSp\tT\tPt");
             data.forEach(team -> {
+                //String.format -24s
                 System.out.println(team.getPosition() + " " + team.getName() + " \t" + team.getPlayed() + " " + team.getGd() + " " + team.getPts());
             });
         }
