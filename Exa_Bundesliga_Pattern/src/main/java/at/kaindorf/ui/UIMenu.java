@@ -6,14 +6,16 @@ import at.kaindorf.observer.Subject;
 import at.kaindorf.pojos.Game;
 import at.kaindorf.singleton.Calculator;
 import at.kaindorf.singleton.XmlDal;
+import at.kaindorf.visitor.MyPath;
+import at.kaindorf.visitor.SearchXMLFiles;
 
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class UIMenu extends Subject {
     private static UIMenu concreteSubject = new UIMenu();
-    private List<Game> games = new ArrayList<>();
 
     public static void main(String[] args) {
         Console console = new Console();
@@ -32,15 +34,47 @@ public class UIMenu extends Subject {
             Scanner scan = new Scanner(System.in);
 
             number = scan.nextInt();
-            XmlDal xmlDal = XmlDal.getInstance();
-            Calculator calculator = Calculator.getInstance();
             System.out.println("-------------------------------------------------");
 
+            switch (number) {
+                case 0:
+                    concreteSubject.unregister(console);
+                    concreteSubject.unregister(html);
+                    break;
+
+                case 1:
+                    Calculator.getInstance().addDataFromTournamentObject();
+                    concreteSubject.notifyObservers();
+                    break;
+
+                case 2:
+                    MyPath.getInstance().xmlFileList.clear();
+                    SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
+                    searchXMLFiles.setWorkingDirectory(Paths.get(args[0]));
+                    searchXMLFiles.searchXmlFiles();
+                    searchXMLFiles.getXmlFiles();
+                    Calculator.getInstance().addDataFromXmlFiles();
+                    concreteSubject.notifyObservers();
+                    break;
+
+                case 3:
+                    Calculator.getInstance().removeDuplicates1();
+                    concreteSubject.notifyObservers();
+                    break;
+
+                case 4:
+                    Calculator.getInstance().removeDuplicates2();
+                    concreteSubject.notifyObservers();
+                    break;
+                default:
+                    break;
+            }
+            System.out.println("-------------------------------------------------");
         } while (number != 0);
     }
 
     @Override
     public void notifyObservers() {
-        concreteSubject.observers.forEach(o -> o.update(games.toString()));
+        concreteSubject.observers.forEach(o -> o.update(Calculator.getInstance().generateTable()));
     }
 }

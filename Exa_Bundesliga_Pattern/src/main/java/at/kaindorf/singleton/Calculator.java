@@ -30,11 +30,13 @@ public class Calculator {
     private List<Game> gameList = new ArrayList<>();
 
     public void addDataFromTournamentObject() {
+        gameList.clear();
         Tournament tournament = XmlDal.getInstance().loadTournament();
         gameList.addAll(tournament.getGames());
     }
 
     public void addDataFromXmlFiles() {
+        gameList.clear();
         MyPath.getInstance().xmlFileList.forEach(p -> {
             gameList.add(XmlDal.getInstance().loadGame(p));
         });
@@ -125,17 +127,5 @@ public class Calculator {
         }
         return teams;
     }
-
-    public static void main(String[] args) {
-        SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
-        searchXMLFiles.setWorkingDirectory(Paths.get(args[0]));
-        searchXMLFiles.searchXmlFiles();
-        searchXMLFiles.getXmlFiles();
-        Calculator.getInstance().addDataFromXmlFiles();
-        Calculator.getInstance().removeDuplicates1();
-        List<Team> teams = Calculator.getInstance().generateTable();
-        teams.forEach(System.out::println);
-    }
-
 
 }

@@ -30,16 +30,14 @@ public class SearchXMLFiles {
     }
 
     public void searchXmlFiles() {
-        SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
         DirectorySizeVisitor directorySizeVisitor = new DirectorySizeVisitor();
-        searchXMLFiles.traverse(workingDirectory.toFile(), directorySizeVisitor);
+        traverse(workingDirectory.toFile(), directorySizeVisitor);
 
         directories = directorySizeVisitor.getDirs();
         files = directorySizeVisitor.getXmlFiles();
     }
 
     public void getXmlFiles() {
-        SearchXMLFiles searchXMLFiles = new SearchXMLFiles();
-        searchXMLFiles.traverse(workingDirectory.toFile(), new DirectoryXMLFileVisitor());
+        traverse(workingDirectory.toFile(), new DirectoryXMLFileVisitor());
     }
 }
