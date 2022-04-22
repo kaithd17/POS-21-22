@@ -15,7 +15,7 @@ public class DirectoryXMLFileVisitor implements IDirectoryVisitor{
 
     @Override
     public void visitFile(Path file) {
-        if (file.toString().contains(".xml") && !(file.toString().contains("bundesliga2122.xml"))) {
+        if (file.toString().contains(".xml") && (file.toString().contains("Spiel"))) {
             MyPath.getInstance().xmlFileList.add(file);
         }
     }
