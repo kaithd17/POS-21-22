@@ -9,7 +9,7 @@
         <class>at.kaindorf.beans.Classname</class>
         <class>at.kaindorf.beans.Room</class>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/classdb"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5433/classdb"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="postgres"/>

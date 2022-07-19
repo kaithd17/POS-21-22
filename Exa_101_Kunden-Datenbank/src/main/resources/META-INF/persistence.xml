@@ -9,7 +9,7 @@
         <class>at.kaindorf.pojos.Country</class>
         <class>at.kaindorf.pojos.Customer</class>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/customerdb"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5433/customerdb"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="postgres"/>

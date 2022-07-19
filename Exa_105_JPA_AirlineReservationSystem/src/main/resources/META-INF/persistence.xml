@@ -11,7 +11,7 @@
         <class>at.kaindorf.airline.pojos.Airport</class>
         <class>at.kaindorf.airline.pojos.Flight</class>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/airsys"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5433/airsys"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="postgres"/>

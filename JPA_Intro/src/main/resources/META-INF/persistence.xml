@@ -11,7 +11,7 @@
         <class>at.kaindorf.intro.pojos.Team</class>
         <class>at.kaindorf.intro.pojos.Player</class>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/testdb"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5433/testdb"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="postgres"/>
